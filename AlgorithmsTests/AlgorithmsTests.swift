@@ -19,5 +19,11 @@ class AlgorithmsTests: XCTestCase {
         let output = gs.gradingStudents(grades: input)
         XCTAssertEqual(output, expectedOutput)
     }
+    
+    func testCountApplesAndOranges() throws {
+        let ao = AppleAndOrange()
+        let output = ao.countApplesAndOranges(s: 7, t: 10, a: 4, b: 12, apples: [2, 3, -4], oranges: [3, -2, -4])
+        XCTAssertEqual(output, [1, 2])
+    }
 
 }

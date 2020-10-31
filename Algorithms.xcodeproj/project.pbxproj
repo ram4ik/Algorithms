@@ -13,6 +13,7 @@
 		1DBB78AD254DF37000DD4CAA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DBB78AC254DF37000DD4CAA /* Preview Assets.xcassets */; };
 		1DBB78B7254DF3EA00DD4CAA /* GradingStudent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBB78B6254DF3EA00DD4CAA /* GradingStudent.swift */; };
 		1DBB78C0254DF60F00DD4CAA /* AlgorithmsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBB78BF254DF60F00DD4CAA /* AlgorithmsTests.swift */; };
+		1DBB78CA254E02B600DD4CAA /* AppleAndOrange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBB78C9254E02B600DD4CAA /* AppleAndOrange.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		1DBB78BD254DF60F00DD4CAA /* AlgorithmsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgorithmsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DBB78BF254DF60F00DD4CAA /* AlgorithmsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmsTests.swift; sourceTree = "<group>"; };
 		1DBB78C1254DF60F00DD4CAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DBB78C9254E02B600DD4CAA /* AppleAndOrange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleAndOrange.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				1DBB78B6254DF3EA00DD4CAA /* GradingStudent.swift */,
+				1DBB78C9254E02B600DD4CAA /* AppleAndOrange.swift */,
 			);
 			path = Hackerank;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DBB78CA254E02B600DD4CAA /* AppleAndOrange.swift in Sources */,
 				1DBB78A8254DF36B00DD4CAA /* ContentView.swift in Sources */,
 				1DBB78B7254DF3EA00DD4CAA /* GradingStudent.swift in Sources */,
 				1DBB78A6254DF36B00DD4CAA /* AlgorithmsApp.swift in Sources */,
