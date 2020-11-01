@@ -30,5 +30,11 @@ class AlgorithmsTests: XCTestCase {
         let nlj = NumberLineJumps()
         XCTAssertEqual(nlj.kangaroo(x1: 0, v1: 3, x2: 4, v2: 2), "YES")
     }
+    
+    func testGetTotal() throws {
+        let bts = BetweenTwoSets()
+        XCTAssertEqual(2, bts.getTotal(a: [2, 6], b: [24, 36]))
+        XCTAssertEqual(3, bts.getTotal(a: [2, 4], b: [16, 32, 96]))
+    }
 
 }
