@@ -36,5 +36,14 @@ class AlgorithmsTests: XCTestCase {
         XCTAssertEqual(2, bts.getTotal(a: [2, 6], b: [24, 36]))
         XCTAssertEqual(3, bts.getTotal(a: [2, 4], b: [16, 32, 96]))
     }
+    
+    func testBreakingTheRecords() throws {
+        let btr = BreakingTheRecords()
+        
+        let input = [10, 5, 20, 20, 4, 5, 2, 25, 1]
+        let output = [2, 4]
+        
+        XCTAssertEqual(btr.breakingRecords(scores: input), output)
+    }
 
 }
