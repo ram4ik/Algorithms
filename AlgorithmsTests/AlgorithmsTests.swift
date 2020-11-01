@@ -25,5 +25,10 @@ class AlgorithmsTests: XCTestCase {
         let output = ao.countApplesAndOranges(s: 7, t: 10, a: 4, b: 12, apples: [2, 3, -4], oranges: [3, -2, -4])
         XCTAssertEqual(output, [1, 2])
     }
+    
+    func testKangaroo() throws {
+        let nlj = NumberLineJumps()
+        XCTAssertEqual(nlj.kangaroo(x1: 0, v1: 3, x2: 4, v2: 2), "YES")
+    }
 
 }
