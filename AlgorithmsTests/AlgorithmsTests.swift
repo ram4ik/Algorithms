@@ -45,5 +45,13 @@ class AlgorithmsTests: XCTestCase {
         
         XCTAssertEqual(btr.breakingRecords(scores: input), output)
     }
+    
+    func testMigratoryBirds() throws {
+        let mb = MigratoryBirds()
+        let input = [1, 4, 4, 5, 3]
+        let output = 4
+        
+        XCTAssertEqual(mb.migratoryBirds(arr: input), output)
+    }
 
 }
