@@ -53,5 +53,16 @@ class AlgorithmsTests: XCTestCase {
         
         XCTAssertEqual(mb.migratoryBirds(arr: input), output)
     }
+    
+    func testDayOfTheProgrammer() throws {
+        let dotp = DayOfTheProgrammer()
+        
+        XCTAssertEqual(dotp.dayOfProgrammer(year: 2016), "12.09.2016")
+        XCTAssertEqual(dotp.dayOfProgrammer(year: 2017), "13.09.2017")
+        XCTAssertEqual(dotp.dayOfProgrammer(year: 2018), "13.09.2018")
+        
+        XCTAssertEqual(dotp.dayOfProgrammer(year: 2020), "12.09.2020")
+        XCTAssertEqual(dotp.dayOfProgrammer(year: 2021), "13.09.2021")
+    }
 
 }
