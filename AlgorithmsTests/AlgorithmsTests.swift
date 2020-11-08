@@ -64,5 +64,11 @@ class AlgorithmsTests: XCTestCase {
         XCTAssertEqual(dotp.dayOfProgrammer(year: 2020), "12.09.2020")
         XCTAssertEqual(dotp.dayOfProgrammer(year: 2021), "13.09.2021")
     }
-
+    
+    func testBillDivision() throws {
+        let bd = BillDivision()
+        
+        XCTAssertEqual(bd.bonAppetit(bill: [4, 1, 5, 9], k: 3, b: 12), "7")
+        XCTAssertEqual(bd.bonAppetit(bill: [3, 10, 2, 9], k: 1, b: 7), "Bon Appetit")
+    }
 }
