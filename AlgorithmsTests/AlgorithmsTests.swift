@@ -71,4 +71,12 @@ class AlgorithmsTests: XCTestCase {
         XCTAssertEqual(bd.bonAppetit(bill: [4, 1, 5, 9], k: 3, b: 12), "7")
         XCTAssertEqual(bd.bonAppetit(bill: [3, 10, 2, 9], k: 1, b: 7), "Bon Appetit")
     }
+    
+    func testCatsAndMouse() throws {
+        let cam = CatsAndMouse()
+        
+        XCTAssertEqual(cam.catAndMouse(x: 2, y: 5, z: 4), "Cat B")
+        XCTAssertEqual(cam.catAndMouse(x: 1, y: 2, z: 3), "Cat B")
+        XCTAssertEqual(cam.catAndMouse(x: 1, y: 3, z: 2), "Mouse C")
+    }
 }
