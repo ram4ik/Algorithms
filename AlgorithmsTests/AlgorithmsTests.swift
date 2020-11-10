@@ -79,4 +79,15 @@ class AlgorithmsTests: XCTestCase {
         XCTAssertEqual(cam.catAndMouse(x: 1, y: 2, z: 3), "Cat B")
         XCTAssertEqual(cam.catAndMouse(x: 1, y: 3, z: 2), "Mouse C")
     }
+    
+    func testHurdleRace() throws {
+        let hr = HurdleRace()
+        
+        XCTAssertEqual(hr.hurdleRace(k: 1, height: [1, 2, 3, 3, 2]), 2)
+        XCTAssertEqual(hr.hurdleRace(k: 5, height: [1, 6, 3, 5, 2]), 1)
+        XCTAssertEqual(hr.hurdleRace(k: 4, height: [1, 6, 3, 5, 2]), 2)
+        
+        XCTAssertEqual(hr.hurdleRace(k: 2, height: [2, 5, 4, 5, 2]), 3)
+        XCTAssertEqual(hr.hurdleRace(k: 3, height: [2, 5, 4, 5, 2]), 2)
+    }
 }
