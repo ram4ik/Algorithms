@@ -22,6 +22,7 @@
 		1DBB78CE254EA2F000DD4CAA /* NumberLineJumps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBB78CD254EA2F000DD4CAA /* NumberLineJumps.swift */; };
 		1DBB78D2254F190500DD4CAA /* BetweenTwoSets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBB78D1254F190500DD4CAA /* BetweenTwoSets.swift */; };
 		1DBB78D6254F3B4700DD4CAA /* BreakingTheRecords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBB78D5254F3B4700DD4CAA /* BreakingTheRecords.swift */; };
+		1DE140BC255C55E700C415E6 /* FindDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE140BB255C55E700C415E6 /* FindDigits.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		1DBB78CD254EA2F000DD4CAA /* NumberLineJumps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberLineJumps.swift; sourceTree = "<group>"; };
 		1DBB78D1254F190500DD4CAA /* BetweenTwoSets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetweenTwoSets.swift; sourceTree = "<group>"; };
 		1DBB78D5254F3B4700DD4CAA /* BreakingTheRecords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakingTheRecords.swift; sourceTree = "<group>"; };
+		1DE140BB255C55E700C415E6 /* FindDigits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindDigits.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 				1D11DEBA25582239008C0695 /* BillDivision.swift */,
 				1DB46B602559C6F1006B83B9 /* CatsAndMouse.swift */,
 				1D672B57255A7BEF007F998D /* HurdleRace.swift */,
+				1DE140BB255C55E700C415E6 /* FindDigits.swift */,
 			);
 			path = Hackerank;
 			sourceTree = "<group>";
@@ -250,6 +253,7 @@
 				1DB46B612559C6F1006B83B9 /* CatsAndMouse.swift in Sources */,
 				1D672B58255A7BEF007F998D /* HurdleRace.swift in Sources */,
 				1DBB78CE254EA2F000DD4CAA /* NumberLineJumps.swift in Sources */,
+				1DE140BC255C55E700C415E6 /* FindDigits.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

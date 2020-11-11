@@ -90,4 +90,12 @@ class AlgorithmsTests: XCTestCase {
         XCTAssertEqual(hr.hurdleRace(k: 2, height: [2, 5, 4, 5, 2]), 3)
         XCTAssertEqual(hr.hurdleRace(k: 3, height: [2, 5, 4, 5, 2]), 2)
     }
+    
+    func testFindDigit() throws {
+        let fd = FindDigit()
+        
+        XCTAssertEqual(fd.findDigit(n: 2), 1)
+        XCTAssertEqual(fd.findDigit(n: 12), 2)
+        XCTAssertEqual(fd.findDigit(n: 1012), 3)
+    }
 }
