@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1D11DEBB25582239008C0695 /* BillDivision.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D11DEBA25582239008C0695 /* BillDivision.swift */; };
 		1D1CE77025547A5600DB4287 /* DayOfTheProgrammer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1CE76F25547A5600DB4287 /* DayOfTheProgrammer.swift */; };
+		1D358619255CFB2800D9ED64 /* ViralAdvertising.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D358618255CFB2800D9ED64 /* ViralAdvertising.swift */; };
 		1D653DB72552A26A008397A4 /* MigratoryBirds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D653DB62552A26A008397A4 /* MigratoryBirds.swift */; };
 		1D672B58255A7BEF007F998D /* HurdleRace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D672B57255A7BEF007F998D /* HurdleRace.swift */; };
 		1DB46B612559C6F1006B83B9 /* CatsAndMouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB46B602559C6F1006B83B9 /* CatsAndMouse.swift */; };
@@ -38,6 +39,7 @@
 /* Begin PBXFileReference section */
 		1D11DEBA25582239008C0695 /* BillDivision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillDivision.swift; sourceTree = "<group>"; };
 		1D1CE76F25547A5600DB4287 /* DayOfTheProgrammer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayOfTheProgrammer.swift; sourceTree = "<group>"; };
+		1D358618255CFB2800D9ED64 /* ViralAdvertising.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViralAdvertising.swift; sourceTree = "<group>"; };
 		1D653DB62552A26A008397A4 /* MigratoryBirds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigratoryBirds.swift; sourceTree = "<group>"; };
 		1D672B57255A7BEF007F998D /* HurdleRace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HurdleRace.swift; sourceTree = "<group>"; };
 		1DB46B602559C6F1006B83B9 /* CatsAndMouse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsAndMouse.swift; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 				1DB46B602559C6F1006B83B9 /* CatsAndMouse.swift */,
 				1D672B57255A7BEF007F998D /* HurdleRace.swift */,
 				1DE140BB255C55E700C415E6 /* FindDigits.swift */,
+				1D358618255CFB2800D9ED64 /* ViralAdvertising.swift */,
 			);
 			path = Hackerank;
 			sourceTree = "<group>";
@@ -248,6 +251,7 @@
 				1DBB78A8254DF36B00DD4CAA /* ContentView.swift in Sources */,
 				1DBB78D2254F190500DD4CAA /* BetweenTwoSets.swift in Sources */,
 				1DBB78B7254DF3EA00DD4CAA /* GradingStudent.swift in Sources */,
+				1D358619255CFB2800D9ED64 /* ViralAdvertising.swift in Sources */,
 				1DBB78D6254F3B4700DD4CAA /* BreakingTheRecords.swift in Sources */,
 				1DBB78A6254DF36B00DD4CAA /* AlgorithmsApp.swift in Sources */,
 				1DB46B612559C6F1006B83B9 /* CatsAndMouse.swift in Sources */,

@@ -98,4 +98,14 @@ class AlgorithmsTests: XCTestCase {
         XCTAssertEqual(fd.findDigit(n: 12), 2)
         XCTAssertEqual(fd.findDigit(n: 1012), 3)
     }
+    
+    func testViralAdvertising() throws {
+        let va = ViralAdvertising()
+        
+        XCTAssertEqual(va.viralAvertising(n: 1), 2)
+        XCTAssertEqual(va.viralAvertising(n: 2), 5)
+        XCTAssertEqual(va.viralAvertising(n: 3), 9)
+        XCTAssertEqual(va.viralAvertising(n: 4), 15)
+        XCTAssertEqual(va.viralAvertising(n: 5), 24)
+    }
 }
