@@ -108,4 +108,11 @@ class AlgorithmsTests: XCTestCase {
         XCTAssertEqual(va.viralAvertising(n: 4), 15)
         XCTAssertEqual(va.viralAvertising(n: 5), 24)
     }
+    
+    func testTaumAndBDay() throws {
+        
+        let tbd = TaumAndBDay()
+        
+        XCTAssertEqual(tbd.taumBday(b: 5, w: 10, bc: 10, wc: 1, z: 1), 65)
+    }
 }

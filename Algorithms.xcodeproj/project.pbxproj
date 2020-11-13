@@ -24,6 +24,7 @@
 		1DBB78D2254F190500DD4CAA /* BetweenTwoSets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBB78D1254F190500DD4CAA /* BetweenTwoSets.swift */; };
 		1DBB78D6254F3B4700DD4CAA /* BreakingTheRecords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBB78D5254F3B4700DD4CAA /* BreakingTheRecords.swift */; };
 		1DE140BC255C55E700C415E6 /* FindDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE140BB255C55E700C415E6 /* FindDigits.swift */; };
+		958B036B255EA7B7005B4538 /* TaumAndBDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958B036A255EA7B7005B4538 /* TaumAndBDay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		1DBB78D1254F190500DD4CAA /* BetweenTwoSets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetweenTwoSets.swift; sourceTree = "<group>"; };
 		1DBB78D5254F3B4700DD4CAA /* BreakingTheRecords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakingTheRecords.swift; sourceTree = "<group>"; };
 		1DE140BB255C55E700C415E6 /* FindDigits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindDigits.swift; sourceTree = "<group>"; };
+		958B036A255EA7B7005B4538 /* TaumAndBDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaumAndBDay.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 				1D672B57255A7BEF007F998D /* HurdleRace.swift */,
 				1DE140BB255C55E700C415E6 /* FindDigits.swift */,
 				1D358618255CFB2800D9ED64 /* ViralAdvertising.swift */,
+				958B036A255EA7B7005B4538 /* TaumAndBDay.swift */,
 			);
 			path = Hackerank;
 			sourceTree = "<group>";
@@ -252,6 +255,7 @@
 				1DBB78D2254F190500DD4CAA /* BetweenTwoSets.swift in Sources */,
 				1DBB78B7254DF3EA00DD4CAA /* GradingStudent.swift in Sources */,
 				1D358619255CFB2800D9ED64 /* ViralAdvertising.swift in Sources */,
+				958B036B255EA7B7005B4538 /* TaumAndBDay.swift in Sources */,
 				1DBB78D6254F3B4700DD4CAA /* BreakingTheRecords.swift in Sources */,
 				1DBB78A6254DF36B00DD4CAA /* AlgorithmsApp.swift in Sources */,
 				1DB46B612559C6F1006B83B9 /* CatsAndMouse.swift in Sources */,
