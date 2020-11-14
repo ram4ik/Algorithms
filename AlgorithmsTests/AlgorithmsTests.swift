@@ -115,4 +115,13 @@ class AlgorithmsTests: XCTestCase {
         
         XCTAssertEqual(tbd.taumBday(b: 5, w: 10, bc: 10, wc: 1, z: 1), 65)
     }
+    
+    func testUtopianTree() throws {
+        let ut = UtopianTree()
+        
+        XCTAssertEqual(ut.utopianTree(n: 3), 6)
+        XCTAssertEqual(ut.utopianTree(n: 1), 2)
+        XCTAssertEqual(ut.utopianTree(n: 4), 7)
+        XCTAssertEqual(ut.utopianTree(n: 0), 1)
+    }
 }

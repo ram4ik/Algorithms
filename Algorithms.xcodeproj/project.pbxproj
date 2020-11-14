@@ -12,6 +12,7 @@
 		1D358619255CFB2800D9ED64 /* ViralAdvertising.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D358618255CFB2800D9ED64 /* ViralAdvertising.swift */; };
 		1D653DB72552A26A008397A4 /* MigratoryBirds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D653DB62552A26A008397A4 /* MigratoryBirds.swift */; };
 		1D672B58255A7BEF007F998D /* HurdleRace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D672B57255A7BEF007F998D /* HurdleRace.swift */; };
+		1D9BAA64256074FD00527E66 /* UtopianTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9BAA63256074FD00527E66 /* UtopianTree.swift */; };
 		1DB46B612559C6F1006B83B9 /* CatsAndMouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB46B602559C6F1006B83B9 /* CatsAndMouse.swift */; };
 		1DBB78A6254DF36B00DD4CAA /* AlgorithmsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBB78A5254DF36B00DD4CAA /* AlgorithmsApp.swift */; };
 		1DBB78A8254DF36B00DD4CAA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBB78A7254DF36B00DD4CAA /* ContentView.swift */; };
@@ -43,6 +44,7 @@
 		1D358618255CFB2800D9ED64 /* ViralAdvertising.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViralAdvertising.swift; sourceTree = "<group>"; };
 		1D653DB62552A26A008397A4 /* MigratoryBirds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigratoryBirds.swift; sourceTree = "<group>"; };
 		1D672B57255A7BEF007F998D /* HurdleRace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HurdleRace.swift; sourceTree = "<group>"; };
+		1D9BAA63256074FD00527E66 /* UtopianTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtopianTree.swift; sourceTree = "<group>"; };
 		1DB46B602559C6F1006B83B9 /* CatsAndMouse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsAndMouse.swift; sourceTree = "<group>"; };
 		1DBB78A2254DF36B00DD4CAA /* Algorithms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algorithms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DBB78A5254DF36B00DD4CAA /* AlgorithmsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmsApp.swift; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 				1DE140BB255C55E700C415E6 /* FindDigits.swift */,
 				1D358618255CFB2800D9ED64 /* ViralAdvertising.swift */,
 				958B036A255EA7B7005B4538 /* TaumAndBDay.swift */,
+				1D9BAA63256074FD00527E66 /* UtopianTree.swift */,
 			);
 			path = Hackerank;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 				1DBB78D6254F3B4700DD4CAA /* BreakingTheRecords.swift in Sources */,
 				1DBB78A6254DF36B00DD4CAA /* AlgorithmsApp.swift in Sources */,
 				1DB46B612559C6F1006B83B9 /* CatsAndMouse.swift in Sources */,
+				1D9BAA64256074FD00527E66 /* UtopianTree.swift in Sources */,
 				1D672B58255A7BEF007F998D /* HurdleRace.swift in Sources */,
 				1DBB78CE254EA2F000DD4CAA /* NumberLineJumps.swift in Sources */,
 				1DE140BC255C55E700C415E6 /* FindDigits.swift in Sources */,
