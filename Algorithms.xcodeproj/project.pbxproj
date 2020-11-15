@@ -25,6 +25,7 @@
 		1DBB78D2254F190500DD4CAA /* BetweenTwoSets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBB78D1254F190500DD4CAA /* BetweenTwoSets.swift */; };
 		1DBB78D6254F3B4700DD4CAA /* BreakingTheRecords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBB78D5254F3B4700DD4CAA /* BreakingTheRecords.swift */; };
 		1DE140BC255C55E700C415E6 /* FindDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE140BB255C55E700C415E6 /* FindDigits.swift */; };
+		1DEC8FF4256177FE0023A1E9 /* ModifiedKaprekarNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEC8FF3256177FE0023A1E9 /* ModifiedKaprekarNumbers.swift */; };
 		958B036B255EA7B7005B4538 /* TaumAndBDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958B036A255EA7B7005B4538 /* TaumAndBDay.swift */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +62,7 @@
 		1DBB78D1254F190500DD4CAA /* BetweenTwoSets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetweenTwoSets.swift; sourceTree = "<group>"; };
 		1DBB78D5254F3B4700DD4CAA /* BreakingTheRecords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakingTheRecords.swift; sourceTree = "<group>"; };
 		1DE140BB255C55E700C415E6 /* FindDigits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindDigits.swift; sourceTree = "<group>"; };
+		1DEC8FF3256177FE0023A1E9 /* ModifiedKaprekarNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifiedKaprekarNumbers.swift; sourceTree = "<group>"; };
 		958B036A255EA7B7005B4538 /* TaumAndBDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaumAndBDay.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -138,6 +140,7 @@
 				1D358618255CFB2800D9ED64 /* ViralAdvertising.swift */,
 				958B036A255EA7B7005B4538 /* TaumAndBDay.swift */,
 				1D9BAA63256074FD00527E66 /* UtopianTree.swift */,
+				1DEC8FF3256177FE0023A1E9 /* ModifiedKaprekarNumbers.swift */,
 			);
 			path = Hackerank;
 			sourceTree = "<group>";
@@ -250,6 +253,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DEC8FF4256177FE0023A1E9 /* ModifiedKaprekarNumbers.swift in Sources */,
 				1DBB78CA254E02B600DD4CAA /* AppleAndOrange.swift in Sources */,
 				1D11DEBB25582239008C0695 /* BillDivision.swift in Sources */,
 				1D653DB72552A26A008397A4 /* MigratoryBirds.swift in Sources */,

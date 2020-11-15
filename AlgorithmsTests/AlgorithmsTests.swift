@@ -10,7 +10,7 @@ import XCTest
 
 class AlgorithmsTests: XCTestCase {
  
-    func testGradingStudents() throws {
+    func testGradingStudents() {
         let input = [4, 73, 67, 38, 33]
         let expectedOutput = [4, 75, 67, 40, 33]
         
@@ -20,24 +20,24 @@ class AlgorithmsTests: XCTestCase {
         XCTAssertEqual(output, expectedOutput)
     }
     
-    func testCountApplesAndOranges() throws {
+    func testCountApplesAndOranges() {
         let ao = AppleAndOrange()
         let output = ao.countApplesAndOranges(s: 7, t: 10, a: 4, b: 12, apples: [2, 3, -4], oranges: [3, -2, -4])
         XCTAssertEqual(output, [1, 2])
     }
     
-    func testKangaroo() throws {
+    func testKangaroo() {
         let nlj = NumberLineJumps()
         XCTAssertEqual(nlj.kangaroo(x1: 0, v1: 3, x2: 4, v2: 2), "YES")
     }
     
-    func testGetTotal() throws {
+    func testGetTotal() {
         let bts = BetweenTwoSets()
         XCTAssertEqual(2, bts.getTotal(a: [2, 6], b: [24, 36]))
         XCTAssertEqual(3, bts.getTotal(a: [2, 4], b: [16, 32, 96]))
     }
     
-    func testBreakingTheRecords() throws {
+    func testBreakingTheRecords() {
         let btr = BreakingTheRecords()
         
         let input = [10, 5, 20, 20, 4, 5, 2, 25, 1]
@@ -46,7 +46,7 @@ class AlgorithmsTests: XCTestCase {
         XCTAssertEqual(btr.breakingRecords(scores: input), output)
     }
     
-    func testMigratoryBirds() throws {
+    func testMigratoryBirds() {
         let mb = MigratoryBirds()
         let input = [1, 4, 4, 5, 3]
         let output = 4
@@ -54,7 +54,7 @@ class AlgorithmsTests: XCTestCase {
         XCTAssertEqual(mb.migratoryBirds(arr: input), output)
     }
     
-    func testDayOfTheProgrammer() throws {
+    func testDayOfTheProgrammer() {
         let dotp = DayOfTheProgrammer()
         
         XCTAssertEqual(dotp.dayOfProgrammer(year: 2016), "12.09.2016")
@@ -65,14 +65,14 @@ class AlgorithmsTests: XCTestCase {
         XCTAssertEqual(dotp.dayOfProgrammer(year: 2021), "13.09.2021")
     }
     
-    func testBillDivision() throws {
+    func testBillDivision() {
         let bd = BillDivision()
         
         XCTAssertEqual(bd.bonAppetit(bill: [4, 1, 5, 9], k: 3, b: 12), "7")
         XCTAssertEqual(bd.bonAppetit(bill: [3, 10, 2, 9], k: 1, b: 7), "Bon Appetit")
     }
     
-    func testCatsAndMouse() throws {
+    func testCatsAndMouse() {
         let cam = CatsAndMouse()
         
         XCTAssertEqual(cam.catAndMouse(x: 2, y: 5, z: 4), "Cat B")
@@ -80,7 +80,7 @@ class AlgorithmsTests: XCTestCase {
         XCTAssertEqual(cam.catAndMouse(x: 1, y: 3, z: 2), "Mouse C")
     }
     
-    func testHurdleRace() throws {
+    func testHurdleRace() {
         let hr = HurdleRace()
         
         XCTAssertEqual(hr.hurdleRace(k: 1, height: [1, 2, 3, 3, 2]), 2)
@@ -91,7 +91,7 @@ class AlgorithmsTests: XCTestCase {
         XCTAssertEqual(hr.hurdleRace(k: 3, height: [2, 5, 4, 5, 2]), 2)
     }
     
-    func testFindDigit() throws {
+    func testFindDigit() {
         let fd = FindDigit()
         
         XCTAssertEqual(fd.findDigit(n: 2), 1)
@@ -99,7 +99,7 @@ class AlgorithmsTests: XCTestCase {
         XCTAssertEqual(fd.findDigit(n: 1012), 3)
     }
     
-    func testViralAdvertising() throws {
+    func testViralAdvertising() {
         let va = ViralAdvertising()
         
         XCTAssertEqual(va.viralAvertising(n: 1), 2)
@@ -109,19 +109,26 @@ class AlgorithmsTests: XCTestCase {
         XCTAssertEqual(va.viralAvertising(n: 5), 24)
     }
     
-    func testTaumAndBDay() throws {
+    func testTaumAndBDay() {
         
         let tbd = TaumAndBDay()
         
         XCTAssertEqual(tbd.taumBday(b: 5, w: 10, bc: 10, wc: 1, z: 1), 65)
     }
     
-    func testUtopianTree() throws {
+    func testUtopianTree() {
         let ut = UtopianTree()
         
         XCTAssertEqual(ut.utopianTree(n: 3), 6)
         XCTAssertEqual(ut.utopianTree(n: 1), 2)
         XCTAssertEqual(ut.utopianTree(n: 4), 7)
         XCTAssertEqual(ut.utopianTree(n: 0), 1)
+    }
+    
+    func testModifiedKaprekarNumbers() {
+        let mkn = ModifiedKaprekarNumbers()
+        
+        XCTAssertEqual(mkn.kaprekarNumbers(p: 1, q: 100), [1, 9, 45, 55, 99])
+        
     }
 }
