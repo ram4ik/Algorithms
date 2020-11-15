@@ -131,4 +131,11 @@ class AlgorithmsTests: XCTestCase {
         XCTAssertEqual(mkn.kaprekarNumbers(p: 1, q: 100), [1, 9, 45, 55, 99])
         
     }
+    
+    func testBeautifulTriplets() {
+        
+        let bt = BeautifulTriplets()
+        
+        XCTAssertEqual(bt.beautifulTriplets(d: 3, arr: [1, 2, 4, 5, 7, 8, 10]), 3)
+    }
 }
