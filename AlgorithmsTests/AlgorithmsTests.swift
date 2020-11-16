@@ -138,4 +138,11 @@ class AlgorithmsTests: XCTestCase {
         
         XCTAssertEqual(bt.beautifulTriplets(d: 3, arr: [1, 2, 4, 5, 7, 8, 10]), 3)
     }
+    
+    func testEqualizeTheArray() {
+        
+        let eta = EqualizeTheArray()
+        
+        XCTAssertEqual(eta.equalizeArray(arr: [3, 3, 2, 1, 3]), 2)
+    }
 }
