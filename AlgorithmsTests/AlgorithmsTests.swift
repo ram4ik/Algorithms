@@ -145,4 +145,11 @@ class AlgorithmsTests: XCTestCase {
         
         XCTAssertEqual(eta.equalizeArray(arr: [3, 3, 2, 1, 3]), 2)
     }
+    
+    func testHalloweenSale() {
+        
+        let hs = HalloweenSale()
+        
+        XCTAssertEqual(hs.howManyGames(p: 20, d: 3, m: 6, s: 80), 6)
+    }
 }
