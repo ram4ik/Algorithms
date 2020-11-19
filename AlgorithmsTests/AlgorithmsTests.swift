@@ -152,4 +152,13 @@ class AlgorithmsTests: XCTestCase {
         
         XCTAssertEqual(hs.howManyGames(p: 20, d: 3, m: 6, s: 80), 6)
     }
+    
+    func testChocolateFeast() {
+        
+        let cf = ChocolateFeast()
+        
+        XCTAssertEqual(cf.chocolateFeast(n: 10, c: 2, m: 5), 6)
+        XCTAssertEqual(cf.chocolateFeast(n: 12, c: 4, m: 4), 3)
+        XCTAssertEqual(cf.chocolateFeast(n: 6, c: 2, m: 2), 5)
+    }
 }
