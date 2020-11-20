@@ -161,4 +161,11 @@ class AlgorithmsTests: XCTestCase {
         XCTAssertEqual(cf.chocolateFeast(n: 12, c: 4, m: 4), 3)
         XCTAssertEqual(cf.chocolateFeast(n: 6, c: 2, m: 2), 5)
     }
+    
+    func testMinimumDistance() {
+        
+        let md = MinimumDistance()
+        
+        XCTAssertEqual(md.minimumDistance(a: [7, 1, 3, 4, 1, 7]), 3)
+    }
 }
