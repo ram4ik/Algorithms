@@ -168,4 +168,10 @@ class AlgorithmsTests: XCTestCase {
         
         XCTAssertEqual(md.minimumDistance(a: [7, 1, 3, 4, 1, 7]), 3)
     }
+    
+    func testServiceLane() {
+        
+        let sl = ServiceLane()
+        XCTAssertEqual(sl.serviceLane(n: 5, width: [2, 3, 1, 2, 3, 2, 3, 3], cases: [[0, 3], [4, 6], [6, 7], [3, 5], [0, 7]]), [1, 2, 3, 2, 1])
+    }
 }
