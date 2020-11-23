@@ -32,6 +32,7 @@
 		1DE74B79256ACC5700313838 /* CutSticks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE74B78256ACC5700313838 /* CutSticks.swift */; };
 		1DEC8FF4256177FE0023A1E9 /* ModifiedKaprekarNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEC8FF3256177FE0023A1E9 /* ModifiedKaprekarNumbers.swift */; };
 		9515CF3825666A310061796F /* ChocolateFeast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9515CF3725666A310061796F /* ChocolateFeast.swift */; };
+		9586FFE4256BEC210060DC91 /* LibraryFine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9586FFE3256BEC210060DC91 /* LibraryFine.swift */; };
 		958B036B255EA7B7005B4538 /* TaumAndBDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958B036A255EA7B7005B4538 /* TaumAndBDay.swift */; };
 		95E50367256518E700DDD45F /* HalloweenSale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E50366256518E700DDD45F /* HalloweenSale.swift */; };
 /* End PBXBuildFile section */
@@ -76,6 +77,7 @@
 		1DE74B78256ACC5700313838 /* CutSticks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CutSticks.swift; sourceTree = "<group>"; };
 		1DEC8FF3256177FE0023A1E9 /* ModifiedKaprekarNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifiedKaprekarNumbers.swift; sourceTree = "<group>"; };
 		9515CF3725666A310061796F /* ChocolateFeast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChocolateFeast.swift; sourceTree = "<group>"; };
+		9586FFE3256BEC210060DC91 /* LibraryFine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryFine.swift; sourceTree = "<group>"; };
 		958B036A255EA7B7005B4538 /* TaumAndBDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaumAndBDay.swift; sourceTree = "<group>"; };
 		95E50366256518E700DDD45F /* HalloweenSale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalloweenSale.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -162,6 +164,7 @@
 				1D3BC1FB2568441400E53B15 /* MinimumDistance.swift */,
 				1D265A5D2569C2BE0073C85E /* ServiceLane.swift */,
 				1DE74B78256ACC5700313838 /* CutSticks.swift */,
+				9586FFE3256BEC210060DC91 /* LibraryFine.swift */,
 			);
 			path = Hackerank;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 				1D672B58255A7BEF007F998D /* HurdleRace.swift in Sources */,
 				1DBB78CE254EA2F000DD4CAA /* NumberLineJumps.swift in Sources */,
 				1D265A5E2569C2BE0073C85E /* ServiceLane.swift in Sources */,
+				9586FFE4256BEC210060DC91 /* LibraryFine.swift in Sources */,
 				1D3BC1FC2568441400E53B15 /* MinimumDistance.swift in Sources */,
 				95E50367256518E700DDD45F /* HalloweenSale.swift in Sources */,
 				1DE140BC255C55E700C415E6 /* FindDigits.swift in Sources */,

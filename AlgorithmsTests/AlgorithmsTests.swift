@@ -180,4 +180,10 @@ class AlgorithmsTests: XCTestCase {
         
         XCTAssertEqual(cs.cutTheSticks(arr: [5, 4, 4, 2, 2, 8]), [6, 4, 2, 1])
     }
+    
+    func testLibraryFine() {
+        let lf = LibraryFine()
+        
+        XCTAssertEqual(lf.libraryFine(d1: 9, m1: 6, y1: 2015, d2: 6, m2: 6, y2: 2015), 45)
+    }
 }
