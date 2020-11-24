@@ -186,4 +186,11 @@ class AlgorithmsTests: XCTestCase {
         
         XCTAssertEqual(lf.libraryFine(d1: 9, m1: 6, y1: 2015, d2: 6, m2: 6, y2: 2015), 45)
     }
+    
+    func testSherlockAndSquare() {
+        let sas = SherlockAndSquare()
+        
+        XCTAssertEqual(sas.squares(a: 3, b: 9), 3)
+        XCTAssertEqual(sas.squares(a: 17, b: 24), 4)
+    }
 }
