@@ -32,6 +32,7 @@
 		1DE74B79256ACC5700313838 /* CutSticks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE74B78256ACC5700313838 /* CutSticks.swift */; };
 		1DEC8FF4256177FE0023A1E9 /* ModifiedKaprekarNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEC8FF3256177FE0023A1E9 /* ModifiedKaprekarNumbers.swift */; };
 		9515CF3825666A310061796F /* ChocolateFeast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9515CF3725666A310061796F /* ChocolateFeast.swift */; };
+		9585F318256E3D14007E9250 /* JumpingOnTheCloudsRevisited.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9585F317256E3D14007E9250 /* JumpingOnTheCloudsRevisited.swift */; };
 		95860012256CF3060060DC91 /* SherlockAndSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95860011256CF3060060DC91 /* SherlockAndSquare.swift */; };
 		9586FFE4256BEC210060DC91 /* LibraryFine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9586FFE3256BEC210060DC91 /* LibraryFine.swift */; };
 		958B036B255EA7B7005B4538 /* TaumAndBDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958B036A255EA7B7005B4538 /* TaumAndBDay.swift */; };
@@ -78,6 +79,7 @@
 		1DE74B78256ACC5700313838 /* CutSticks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CutSticks.swift; sourceTree = "<group>"; };
 		1DEC8FF3256177FE0023A1E9 /* ModifiedKaprekarNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifiedKaprekarNumbers.swift; sourceTree = "<group>"; };
 		9515CF3725666A310061796F /* ChocolateFeast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChocolateFeast.swift; sourceTree = "<group>"; };
+		9585F317256E3D14007E9250 /* JumpingOnTheCloudsRevisited.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpingOnTheCloudsRevisited.swift; sourceTree = "<group>"; };
 		95860011256CF3060060DC91 /* SherlockAndSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SherlockAndSquare.swift; sourceTree = "<group>"; };
 		9586FFE3256BEC210060DC91 /* LibraryFine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryFine.swift; sourceTree = "<group>"; };
 		958B036A255EA7B7005B4538 /* TaumAndBDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaumAndBDay.swift; sourceTree = "<group>"; };
@@ -168,6 +170,7 @@
 				1DE74B78256ACC5700313838 /* CutSticks.swift */,
 				9586FFE3256BEC210060DC91 /* LibraryFine.swift */,
 				95860011256CF3060060DC91 /* SherlockAndSquare.swift */,
+				9585F317256E3D14007E9250 /* JumpingOnTheCloudsRevisited.swift */,
 			);
 			path = Hackerank;
 			sourceTree = "<group>";
@@ -293,6 +296,7 @@
 				1D91F98D256317A200A0CB73 /* EqualizeTheArray.swift in Sources */,
 				1DBB78D6254F3B4700DD4CAA /* BreakingTheRecords.swift in Sources */,
 				1DBB78A6254DF36B00DD4CAA /* AlgorithmsApp.swift in Sources */,
+				9585F318256E3D14007E9250 /* JumpingOnTheCloudsRevisited.swift in Sources */,
 				95860012256CF3060060DC91 /* SherlockAndSquare.swift in Sources */,
 				1DB46B612559C6F1006B83B9 /* CatsAndMouse.swift in Sources */,
 				1D9BAA64256074FD00527E66 /* UtopianTree.swift in Sources */,

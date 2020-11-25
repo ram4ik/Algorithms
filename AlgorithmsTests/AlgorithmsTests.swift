@@ -193,4 +193,13 @@ class AlgorithmsTests: XCTestCase {
         XCTAssertEqual(sas.squares(a: 3, b: 9), 3)
         XCTAssertEqual(sas.squares(a: 17, b: 24), 4)
     }
+    
+    func testJumpingOnTheCloudsRevisited() {
+        
+        let jotcr = JumpingOnTheCloudsRevisited()
+        
+        XCTAssertEqual(jotcr.jumpingOnClouds(c: [1, 1, 1, 0, 1, 1, 0, 0, 0, 0], k: 10), 97)
+        XCTAssertEqual(jotcr.jumpingOnClouds(c: [1, 1, 1, 0, 1, 1, 0, 0, 0, 0], k: 3), 80)
+        XCTAssertEqual(jotcr.jumpingOnClouds(c: [1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 1, 1, 1, 1], k: 16), 97)
+    }
 }
