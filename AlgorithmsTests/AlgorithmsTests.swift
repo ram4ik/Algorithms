@@ -202,4 +202,11 @@ class AlgorithmsTests: XCTestCase {
         XCTAssertEqual(jotcr.jumpingOnClouds(c: [1, 1, 1, 0, 1, 1, 0, 0, 0, 0], k: 3), 80)
         XCTAssertEqual(jotcr.jumpingOnClouds(c: [1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 1, 1, 1, 1], k: 16), 97)
     }
+    
+    func testSaveThePrisoner() {
+        let stp = SaveThePrisoner()
+        
+        XCTAssertEqual(stp.saveThePrisoner(n: 5, m: 2, s: 1), 2)
+        XCTAssertEqual(stp.saveThePrisoner(n: 5, m: 2, s: 2), 3)
+    }
 }
