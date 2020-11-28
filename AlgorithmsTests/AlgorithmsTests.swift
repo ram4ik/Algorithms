@@ -209,4 +209,10 @@ class AlgorithmsTests: XCTestCase {
         XCTAssertEqual(stp.saveThePrisoner(n: 5, m: 2, s: 1), 2)
         XCTAssertEqual(stp.saveThePrisoner(n: 5, m: 2, s: 2), 3)
     }
+    
+    func testBeautifulDaysAtTheMovies() {
+        let bd = BeautifulDaysAtTheMovies()
+        
+        XCTAssertEqual(bd.beautifulDays(i: 20, j: 23, k: 6), 2)
+    }
 }

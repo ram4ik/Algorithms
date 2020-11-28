@@ -32,6 +32,7 @@
 		1DE74B79256ACC5700313838 /* CutSticks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE74B78256ACC5700313838 /* CutSticks.swift */; };
 		1DEC8FF4256177FE0023A1E9 /* ModifiedKaprekarNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEC8FF3256177FE0023A1E9 /* ModifiedKaprekarNumbers.swift */; };
 		1DF44EBF2570263000232DD4 /* SaveThePrisoner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF44EBE2570263000232DD4 /* SaveThePrisoner.swift */; };
+		1DF44EFB25725FA900232DD4 /* BeautifulDaysAtTheMovies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF44EFA25725FA900232DD4 /* BeautifulDaysAtTheMovies.swift */; };
 		9515CF3825666A310061796F /* ChocolateFeast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9515CF3725666A310061796F /* ChocolateFeast.swift */; };
 		9585F318256E3D14007E9250 /* JumpingOnTheCloudsRevisited.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9585F317256E3D14007E9250 /* JumpingOnTheCloudsRevisited.swift */; };
 		95860012256CF3060060DC91 /* SherlockAndSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95860011256CF3060060DC91 /* SherlockAndSquare.swift */; };
@@ -80,6 +81,7 @@
 		1DE74B78256ACC5700313838 /* CutSticks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CutSticks.swift; sourceTree = "<group>"; };
 		1DEC8FF3256177FE0023A1E9 /* ModifiedKaprekarNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifiedKaprekarNumbers.swift; sourceTree = "<group>"; };
 		1DF44EBE2570263000232DD4 /* SaveThePrisoner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveThePrisoner.swift; sourceTree = "<group>"; };
+		1DF44EFA25725FA900232DD4 /* BeautifulDaysAtTheMovies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeautifulDaysAtTheMovies.swift; sourceTree = "<group>"; };
 		9515CF3725666A310061796F /* ChocolateFeast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChocolateFeast.swift; sourceTree = "<group>"; };
 		9585F317256E3D14007E9250 /* JumpingOnTheCloudsRevisited.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpingOnTheCloudsRevisited.swift; sourceTree = "<group>"; };
 		95860011256CF3060060DC91 /* SherlockAndSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SherlockAndSquare.swift; sourceTree = "<group>"; };
@@ -174,6 +176,7 @@
 				95860011256CF3060060DC91 /* SherlockAndSquare.swift */,
 				9585F317256E3D14007E9250 /* JumpingOnTheCloudsRevisited.swift */,
 				1DF44EBE2570263000232DD4 /* SaveThePrisoner.swift */,
+				1DF44EFA25725FA900232DD4 /* BeautifulDaysAtTheMovies.swift */,
 			);
 			path = Hackerank;
 			sourceTree = "<group>";
@@ -304,6 +307,7 @@
 				1DB46B612559C6F1006B83B9 /* CatsAndMouse.swift in Sources */,
 				1D9BAA64256074FD00527E66 /* UtopianTree.swift in Sources */,
 				1DE74B79256ACC5700313838 /* CutSticks.swift in Sources */,
+				1DF44EFB25725FA900232DD4 /* BeautifulDaysAtTheMovies.swift in Sources */,
 				1DF44EBF2570263000232DD4 /* SaveThePrisoner.swift in Sources */,
 				1DB426742561C20800647529 /* BeautifulTriplets.swift in Sources */,
 				9515CF3825666A310061796F /* ChocolateFeast.swift in Sources */,
