@@ -215,4 +215,13 @@ class AlgorithmsTests: XCTestCase {
         
         XCTAssertEqual(bd.beautifulDays(i: 20, j: 23, k: 6), 2)
     }
+    
+    func testAngryProfessor() {
+        let ap = AngryProfessor()
+        
+        XCTAssertEqual(ap.angryProfessor(k: 4, a: [-1, -3, 4, 2]), "Yes")
+        XCTAssertEqual(ap.angryProfessor(k: 3, a: [-1, -3, 4, 2]), "Yes")
+        XCTAssertEqual(ap.angryProfessor(k: 4, a: [0, -1, 2, 1]), "Yes")
+        XCTAssertEqual(ap.angryProfessor(k: 2, a: [0, -1, 2, 1]), "No")
+    }
 }
