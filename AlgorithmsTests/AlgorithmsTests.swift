@@ -224,4 +224,14 @@ class AlgorithmsTests: XCTestCase {
         XCTAssertEqual(ap.angryProfessor(k: 4, a: [0, -1, 2, 1]), "Yes")
         XCTAssertEqual(ap.angryProfessor(k: 2, a: [0, -1, 2, 1]), "No")
     }
+    
+    func testFlatlandSpaceStations() {
+        let fss = FlatlandSpaceStations()
+        
+        XCTAssertEqual(fss.flatlandSpaceStations(n: 5, c: [0, 4]), 0)
+        XCTAssertEqual(fss.flatlandSpaceStations(n: 2, c: [0, 4]), 0)
+        
+        XCTAssertEqual(fss.flatlandSpaceStations(n: 4, c: [5, 2]), 2)
+        XCTAssertEqual(fss.flatlandSpaceStations(n: 0, c: [5, 2]), 2)
+    }
 }

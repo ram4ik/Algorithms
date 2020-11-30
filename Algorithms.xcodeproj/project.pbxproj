@@ -40,6 +40,7 @@
 		9586FFE4256BEC210060DC91 /* LibraryFine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9586FFE3256BEC210060DC91 /* LibraryFine.swift */; };
 		958B036B255EA7B7005B4538 /* TaumAndBDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958B036A255EA7B7005B4538 /* TaumAndBDay.swift */; };
 		95E50367256518E700DDD45F /* HalloweenSale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E50366256518E700DDD45F /* HalloweenSale.swift */; };
+		95EB4E782574F6F300DD32BA /* FlatlandSpaceStations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EB4E772574F6F300DD32BA /* FlatlandSpaceStations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +91,7 @@
 		9586FFE3256BEC210060DC91 /* LibraryFine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryFine.swift; sourceTree = "<group>"; };
 		958B036A255EA7B7005B4538 /* TaumAndBDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaumAndBDay.swift; sourceTree = "<group>"; };
 		95E50366256518E700DDD45F /* HalloweenSale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalloweenSale.swift; sourceTree = "<group>"; };
+		95EB4E772574F6F300DD32BA /* FlatlandSpaceStations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlatlandSpaceStations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +182,7 @@
 				1DF44EBE2570263000232DD4 /* SaveThePrisoner.swift */,
 				1DF44EFA25725FA900232DD4 /* BeautifulDaysAtTheMovies.swift */,
 				1DD954E82573BD1D0096FB3B /* AngryProfessor .swift */,
+				95EB4E772574F6F300DD32BA /* FlatlandSpaceStations.swift */,
 			);
 			path = Hackerank;
 			sourceTree = "<group>";
@@ -300,6 +303,7 @@
 				1DBB78A8254DF36B00DD4CAA /* ContentView.swift in Sources */,
 				1DBB78D2254F190500DD4CAA /* BetweenTwoSets.swift in Sources */,
 				1DBB78B7254DF3EA00DD4CAA /* GradingStudent.swift in Sources */,
+				95EB4E782574F6F300DD32BA /* FlatlandSpaceStations.swift in Sources */,
 				1D358619255CFB2800D9ED64 /* ViralAdvertising.swift in Sources */,
 				958B036B255EA7B7005B4538 /* TaumAndBDay.swift in Sources */,
 				1DD954E92573BD1D0096FB3B /* AngryProfessor .swift in Sources */,
