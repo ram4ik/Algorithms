@@ -234,4 +234,10 @@ class AlgorithmsTests: XCTestCase {
         XCTAssertEqual(fss.flatlandSpaceStations(n: 4, c: [5, 2]), 2)
         XCTAssertEqual(fss.flatlandSpaceStations(n: 0, c: [5, 2]), 2)
     }
+    
+    func testDesignerPDFViewer() {
+        let dpdfv = DesignerPDFViewer()
+        
+        XCTAssertEqual(dpdfv.designerPdfView(h: [1,3,1,3,1,4,1,3,2,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5], word: "abc"), 9)
+    }
 }
