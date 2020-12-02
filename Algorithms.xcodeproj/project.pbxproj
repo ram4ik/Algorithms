@@ -40,6 +40,7 @@
 		95860012256CF3060060DC91 /* SherlockAndSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95860011256CF3060060DC91 /* SherlockAndSquare.swift */; };
 		9586FFE4256BEC210060DC91 /* LibraryFine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9586FFE3256BEC210060DC91 /* LibraryFine.swift */; };
 		958B036B255EA7B7005B4538 /* TaumAndBDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958B036A255EA7B7005B4538 /* TaumAndBDay.swift */; };
+		95A222942577810A002FCA87 /* PickingNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A222932577810A002FCA87 /* PickingNumbers.swift */; };
 		95E50367256518E700DDD45F /* HalloweenSale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E50366256518E700DDD45F /* HalloweenSale.swift */; };
 		95EB4E782574F6F300DD32BA /* FlatlandSpaceStations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EB4E772574F6F300DD32BA /* FlatlandSpaceStations.swift */; };
 /* End PBXBuildFile section */
@@ -92,6 +93,7 @@
 		95860011256CF3060060DC91 /* SherlockAndSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SherlockAndSquare.swift; sourceTree = "<group>"; };
 		9586FFE3256BEC210060DC91 /* LibraryFine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryFine.swift; sourceTree = "<group>"; };
 		958B036A255EA7B7005B4538 /* TaumAndBDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaumAndBDay.swift; sourceTree = "<group>"; };
+		95A222932577810A002FCA87 /* PickingNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickingNumbers.swift; sourceTree = "<group>"; };
 		95E50366256518E700DDD45F /* HalloweenSale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalloweenSale.swift; sourceTree = "<group>"; };
 		95EB4E772574F6F300DD32BA /* FlatlandSpaceStations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlatlandSpaceStations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -186,6 +188,7 @@
 				1DD954E82573BD1D0096FB3B /* AngryProfessor .swift */,
 				95EB4E772574F6F300DD32BA /* FlatlandSpaceStations.swift */,
 				1D4FABFA25763FBD0031C94D /* DesignerPDFViewer.swift */,
+				95A222932577810A002FCA87 /* PickingNumbers.swift */,
 			);
 			path = Hackerank;
 			sourceTree = "<group>";
@@ -309,6 +312,7 @@
 				95EB4E782574F6F300DD32BA /* FlatlandSpaceStations.swift in Sources */,
 				1D358619255CFB2800D9ED64 /* ViralAdvertising.swift in Sources */,
 				958B036B255EA7B7005B4538 /* TaumAndBDay.swift in Sources */,
+				95A222942577810A002FCA87 /* PickingNumbers.swift in Sources */,
 				1DD954E92573BD1D0096FB3B /* AngryProfessor .swift in Sources */,
 				1D91F98D256317A200A0CB73 /* EqualizeTheArray.swift in Sources */,
 				1DBB78D6254F3B4700DD4CAA /* BreakingTheRecords.swift in Sources */,

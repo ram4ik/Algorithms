@@ -240,4 +240,11 @@ class AlgorithmsTests: XCTestCase {
         
         XCTAssertEqual(dpdfv.designerPdfView(h: [1,3,1,3,1,4,1,3,2,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5], word: "abc"), 9)
     }
+    
+    func testPickingNumbers() {
+        
+        let pn = PickingNumbers()
+        
+        XCTAssertEqual(pn.pickingNumbers(a: [4, 6, 5, 3, 3, 1]), 3)
+    }
 }
