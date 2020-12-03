@@ -247,4 +247,16 @@ class AlgorithmsTests: XCTestCase {
         
         XCTAssertEqual(pn.pickingNumbers(a: [4, 6, 5, 3, 3, 1]), 3)
     }
+    
+    func testElectronicsShop() {
+        
+        let es = ElectronicsShop()
+        
+        XCTAssertEqual(es.getMoneySpent(keyboards: [5, 1, 1], drives: [4], b: 5), 5)
+        XCTAssertEqual(es.getMoneySpent(keyboards: [5, 1], drives: [1], b: 4), 2)
+        
+        XCTAssertEqual(es.getMoneySpent(keyboards: [10, 2, 3], drives: [3, 1], b: 5), 5)
+        XCTAssertEqual(es.getMoneySpent(keyboards: [10, 2, 3], drives: [3, 1], b: 2), -1)
+        XCTAssertEqual(es.getMoneySpent(keyboards: [10, 2, 3], drives: [3, 1], b: 8), 6)
+    }
 }
