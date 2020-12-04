@@ -259,4 +259,12 @@ class AlgorithmsTests: XCTestCase {
         XCTAssertEqual(es.getMoneySpent(keyboards: [10, 2, 3], drives: [3, 1], b: 2), -1)
         XCTAssertEqual(es.getMoneySpent(keyboards: [10, 2, 3], drives: [3, 1], b: 8), 6)
     }
+    
+    func testDrawingBook() {
+        
+        let db = DrawingBook()
+        
+        XCTAssertEqual(db.pageCount(n: 6, p: 2), 1)
+        XCTAssertEqual(db.pageCount(n: 6, p: 5), 1)
+    }
 }
