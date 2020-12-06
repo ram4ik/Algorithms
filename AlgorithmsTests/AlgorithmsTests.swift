@@ -268,6 +268,11 @@ class AlgorithmsTests: XCTestCase {
         XCTAssertEqual(db.pageCount(n: 6, p: 5), 1)
     }
     
+    func testCircularArrayRotation() {
+        
+        let car = CircularArrayRotation()
+        
+        XCTAssertEqual(car.circularArrayRotation(a: [3, 2, 3], k: 2, queries: [1, 2, 3]), [3, 3, 2])
     func testSequenceEquation() {
         let se = SequenceEquation()
         

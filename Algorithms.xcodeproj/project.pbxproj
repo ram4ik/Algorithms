@@ -12,6 +12,7 @@
 		1D265A5E2569C2BE0073C85E /* ServiceLane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D265A5D2569C2BE0073C85E /* ServiceLane.swift */; };
 		1D358619255CFB2800D9ED64 /* ViralAdvertising.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D358618255CFB2800D9ED64 /* ViralAdvertising.swift */; };
 		1D3BC1FC2568441400E53B15 /* MinimumDistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3BC1FB2568441400E53B15 /* MinimumDistance.swift */; };
+		1D46CB81257B6FFA001EE09A /* CircularArrayRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D46CB80257B6FF9001EE09A /* CircularArrayRotation.swift */; };
 		1D4FABFB25763FBD0031C94D /* DesignerPDFViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4FABFA25763FBD0031C94D /* DesignerPDFViewer.swift */; };
 		1D653DB72552A26A008397A4 /* MigratoryBirds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D653DB62552A26A008397A4 /* MigratoryBirds.swift */; };
 		1D672B58255A7BEF007F998D /* HurdleRace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D672B57255A7BEF007F998D /* HurdleRace.swift */; };
@@ -64,6 +65,7 @@
 		1D265A5D2569C2BE0073C85E /* ServiceLane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceLane.swift; sourceTree = "<group>"; };
 		1D358618255CFB2800D9ED64 /* ViralAdvertising.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViralAdvertising.swift; sourceTree = "<group>"; };
 		1D3BC1FB2568441400E53B15 /* MinimumDistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumDistance.swift; sourceTree = "<group>"; };
+		1D46CB80257B6FF9001EE09A /* CircularArrayRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularArrayRotation.swift; sourceTree = "<group>"; };
 		1D4FABFA25763FBD0031C94D /* DesignerPDFViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignerPDFViewer.swift; sourceTree = "<group>"; };
 		1D653DB62552A26A008397A4 /* MigratoryBirds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigratoryBirds.swift; sourceTree = "<group>"; };
 		1D672B57255A7BEF007F998D /* HurdleRace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HurdleRace.swift; sourceTree = "<group>"; };
@@ -197,6 +199,7 @@
 				95A222932577810A002FCA87 /* PickingNumbers.swift */,
 				95A222A02578FD3E002FCA87 /* ElectronicsShop.swift */,
 				95A222C5257A2AEC002FCA87 /* DrawingBook.swift */,
+				1D46CB80257B6FF9001EE09A /* CircularArrayRotation.swift */,
 				95A222C9257CC33D002FCA87 /* SequenceEquation.swift */,
 			);
 			path = Hackerank;
@@ -328,6 +331,7 @@
 				95A222A12578FD3E002FCA87 /* ElectronicsShop.swift in Sources */,
 				95A222C6257A2AEC002FCA87 /* DrawingBook.swift in Sources */,
 				1DBB78A6254DF36B00DD4CAA /* AlgorithmsApp.swift in Sources */,
+				1D46CB81257B6FFA001EE09A /* CircularArrayRotation.swift in Sources */,
 				1D4FABFB25763FBD0031C94D /* DesignerPDFViewer.swift in Sources */,
 				9585F318256E3D14007E9250 /* JumpingOnTheCloudsRevisited.swift in Sources */,
 				95860012256CF3060060DC91 /* SherlockAndSquare.swift in Sources */,
