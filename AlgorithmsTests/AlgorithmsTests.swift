@@ -273,6 +273,8 @@ class AlgorithmsTests: XCTestCase {
         let car = CircularArrayRotation()
         
         XCTAssertEqual(car.circularArrayRotation(a: [3, 2, 3], k: 2, queries: [1, 2, 3]), [3, 3, 2])
+    }
+        
     func testSequenceEquation() {
         let se = SequenceEquation()
         
