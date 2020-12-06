@@ -43,6 +43,7 @@
 		95A222942577810A002FCA87 /* PickingNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A222932577810A002FCA87 /* PickingNumbers.swift */; };
 		95A222A12578FD3E002FCA87 /* ElectronicsShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A222A02578FD3E002FCA87 /* ElectronicsShop.swift */; };
 		95A222C6257A2AEC002FCA87 /* DrawingBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A222C5257A2AEC002FCA87 /* DrawingBook.swift */; };
+		95A222CA257CC33D002FCA87 /* SequenceEquation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A222C9257CC33D002FCA87 /* SequenceEquation.swift */; };
 		95E50367256518E700DDD45F /* HalloweenSale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E50366256518E700DDD45F /* HalloweenSale.swift */; };
 		95EB4E782574F6F300DD32BA /* FlatlandSpaceStations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EB4E772574F6F300DD32BA /* FlatlandSpaceStations.swift */; };
 /* End PBXBuildFile section */
@@ -98,6 +99,7 @@
 		95A222932577810A002FCA87 /* PickingNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickingNumbers.swift; sourceTree = "<group>"; };
 		95A222A02578FD3E002FCA87 /* ElectronicsShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectronicsShop.swift; sourceTree = "<group>"; };
 		95A222C5257A2AEC002FCA87 /* DrawingBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingBook.swift; sourceTree = "<group>"; };
+		95A222C9257CC33D002FCA87 /* SequenceEquation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceEquation.swift; sourceTree = "<group>"; };
 		95E50366256518E700DDD45F /* HalloweenSale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalloweenSale.swift; sourceTree = "<group>"; };
 		95EB4E772574F6F300DD32BA /* FlatlandSpaceStations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlatlandSpaceStations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -195,6 +197,7 @@
 				95A222932577810A002FCA87 /* PickingNumbers.swift */,
 				95A222A02578FD3E002FCA87 /* ElectronicsShop.swift */,
 				95A222C5257A2AEC002FCA87 /* DrawingBook.swift */,
+				95A222C9257CC33D002FCA87 /* SequenceEquation.swift */,
 			);
 			path = Hackerank;
 			sourceTree = "<group>";
@@ -331,6 +334,7 @@
 				1DB46B612559C6F1006B83B9 /* CatsAndMouse.swift in Sources */,
 				1D9BAA64256074FD00527E66 /* UtopianTree.swift in Sources */,
 				1DE74B79256ACC5700313838 /* CutSticks.swift in Sources */,
+				95A222CA257CC33D002FCA87 /* SequenceEquation.swift in Sources */,
 				1DF44EFB25725FA900232DD4 /* BeautifulDaysAtTheMovies.swift in Sources */,
 				1DF44EBF2570263000232DD4 /* SaveThePrisoner.swift in Sources */,
 				1DB426742561C20800647529 /* BeautifulTriplets.swift in Sources */,

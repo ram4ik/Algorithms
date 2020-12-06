@@ -267,4 +267,11 @@ class AlgorithmsTests: XCTestCase {
         XCTAssertEqual(db.pageCount(n: 6, p: 2), 1)
         XCTAssertEqual(db.pageCount(n: 6, p: 5), 1)
     }
+    
+    func testSequenceEquation() {
+        let se = SequenceEquation()
+        
+        XCTAssertEqual(se.permutationEquation(p: [2, 3, 1]), [2, 3, 1])
+        XCTAssertEqual(se.permutationEquation(p: [4, 3, 5, 1, 2]), [1, 3, 5, 4, 2])
+    }
 }
