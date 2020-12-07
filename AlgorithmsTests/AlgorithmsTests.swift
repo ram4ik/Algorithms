@@ -281,4 +281,10 @@ class AlgorithmsTests: XCTestCase {
         XCTAssertEqual(se.permutationEquation(p: [2, 3, 1]), [2, 3, 1])
         XCTAssertEqual(se.permutationEquation(p: [4, 3, 5, 1, 2]), [1, 3, 5, 4, 2])
     }
+    
+    func testAppendAndDelete() {
+        let aad = AppendAndDelete()
+        
+        XCTAssertEqual(aad.appendAndDelete(s: "hackerhappy", t: "hackerrank", k: 9), "Yes")
+    }
 }
