@@ -287,4 +287,21 @@ class AlgorithmsTests: XCTestCase {
         
         XCTAssertEqual(aad.appendAndDelete(s: "hackerhappy", t: "hackerrank", k: 9), "Yes")
     }
+    
+    func testQueueUsingStack() {
+        let elements = [2, 3, 1, 4, 5, 7, 6, 9, 8]
+        var newArray = [Int]()
+        
+        let queue = QueueUsingStack()
+        for item in elements {
+            queue.engueue(data: item)
+        }
+        var val = queue.dequeue()
+        while val != -1 {
+            newArray.append(val)
+            val = queue.dequeue()
+        }
+        
+        XCTAssertEqual(elements, newArray)
+    }
 }
