@@ -56,5 +56,28 @@ class TestCodingExercises: XCTestCase {
         ]
         XCTAssertEqual(ttt.whoWon(gameThree), "X")
     }
+    
+    func testTallestSkyscraper() {
+        
+        let ts = TallestSkyscraper()
+        
+        let cityOne = [
+            [0, 1, 0, 0, 0],
+            [0, 1, 0, 0, 1],
+            [0, 1, 0, 0, 1],
+            [0, 1, 1, 0, 1],
+            [1, 1, 1, 0, 1],
+        ]
+        XCTAssertEqual(ts.tallestSkyscraper(cityOne), 5)
+        
+        let cityTwo = [
+            [0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 1],
+            [0, 1, 0, 0, 1],
+            [1, 1, 1, 0, 1],
+            [1, 1, 1, 0, 1],
+        ]
+        XCTAssertEqual(ts.tallestSkyscraper(cityTwo), 4)
+    }
 
 }
