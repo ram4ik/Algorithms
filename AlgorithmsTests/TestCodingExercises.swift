@@ -21,5 +21,14 @@ class TestCodingExercises: XCTestCase {
         XCTAssertEqual(sor.waysToClimb(5), 8)
         XCTAssertEqual(sor.waysToClimb(6), 13)
     }
+    
+    func testWhichNumbersIsNotLikeTheOthers() {
+        
+        let wninlto = WhichNumbersIsNotLikeTheOthers()
+        
+        XCTAssertEqual(wninlto.unique([3, 3, 3, 3, 3, 7, 3, 3]), 7)
+        XCTAssertEqual(wninlto.unique([0, 0, 0, 0.77, 0, 0, 0]), 0.77)
+        XCTAssertEqual(wninlto.unique([0, 1, 1, 1, 1, 1, 1, 1, 1]), 0)
+    }
 
 }
