@@ -30,5 +30,31 @@ class TestCodingExercises: XCTestCase {
         XCTAssertEqual(wninlto.unique([0, 0, 0, 0.77, 0, 0, 0]), 0.77)
         XCTAssertEqual(wninlto.unique([0, 1, 1, 1, 1, 1, 1, 1, 1]), 0)
     }
+    
+    func testTicTakToe() {
+        
+        let ttt = TicTakToe()
+        
+        let gameOne = [
+            ["O", "X", "O"],
+            ["X", "X", "O"],
+            ["O", "X", "X"]
+        ]
+        XCTAssertEqual(ttt.whoWon(gameOne), "X")
+        
+        let gameTWO = [
+            ["O", "X", "X"],
+            ["X", "O", "O"],
+            ["O", "X", "O"]
+        ]
+        XCTAssertEqual(ttt.whoWon(gameTWO), "O")
+        
+        let gameThree = [
+            ["O", "X", "O"],
+            ["X", "O", "O"],
+            ["X", "X", "X"]
+        ]
+        XCTAssertEqual(ttt.whoWon(gameThree), "X")
+    }
 
 }
