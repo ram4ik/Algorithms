@@ -104,4 +104,14 @@ class TestCodingExercises: XCTestCase {
         XCTAssertEqual(sp.sockPairs("ABABC"), 2)
         XCTAssertEqual(sp.sockPairs("CABBACCC"), 4)
     }
+    
+    func testLeftSideRightSide() {
+        
+        let lsrs = LeftSideRightSide()
+        
+        XCTAssertEqual(lsrs.leftSide([5, 2, 1, 4, 8, 7]), [0, 0, 0, 2, 4, 4])
+        XCTAssertEqual(lsrs.rightSide([5, 2, 1, 4, 8, 7]), [3, 1, 0, 0, 1, 0])
+        XCTAssertEqual(lsrs.leftSide([1, 2, 3, -1]), [0, 1, 2, 0])
+        XCTAssertEqual(lsrs.rightSide([1, 2, 3, -1]), [1, 1, 1, 0])
+    }
 }

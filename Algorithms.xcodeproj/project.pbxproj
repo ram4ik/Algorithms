@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1D11DEBB25582239008C0695 /* BillDivision.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D11DEBA25582239008C0695 /* BillDivision.swift */; };
 		1D12575B25A5EDCD008A2262 /* SockPairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D12575A25A5EDCD008A2262 /* SockPairs.swift */; };
+		1D12575F25A651A5008A2262 /* LeftSideRightSide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D12575E25A651A5008A2262 /* LeftSideRightSide.swift */; };
 		1D1CE77025547A5600DB4287 /* DayOfTheProgrammer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1CE76F25547A5600DB4287 /* DayOfTheProgrammer.swift */; };
 		1D265A5E2569C2BE0073C85E /* ServiceLane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D265A5D2569C2BE0073C85E /* ServiceLane.swift */; };
 		1D28450F25A4E9770086C2ED /* WhichNumbersIsNotLikeTheOthers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D28450E25A4E9770086C2ED /* WhichNumbersIsNotLikeTheOthers.swift */; };
@@ -72,6 +73,7 @@
 /* Begin PBXFileReference section */
 		1D11DEBA25582239008C0695 /* BillDivision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillDivision.swift; sourceTree = "<group>"; };
 		1D12575A25A5EDCD008A2262 /* SockPairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SockPairs.swift; sourceTree = "<group>"; };
+		1D12575E25A651A5008A2262 /* LeftSideRightSide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSideRightSide.swift; sourceTree = "<group>"; };
 		1D1CE76F25547A5600DB4287 /* DayOfTheProgrammer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayOfTheProgrammer.swift; sourceTree = "<group>"; };
 		1D265A5D2569C2BE0073C85E /* ServiceLane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceLane.swift; sourceTree = "<group>"; };
 		1D28450E25A4E9770086C2ED /* WhichNumbersIsNotLikeTheOthers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhichNumbersIsNotLikeTheOthers.swift; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 				1D28451A25A591700086C2ED /* FindTheMissingLetter.swift */,
 				1D28451E25A598740086C2ED /* ProductOfAllOtherNumbers.swift */,
 				1D12575A25A5EDCD008A2262 /* SockPairs.swift */,
+				1D12575E25A651A5008A2262 /* LeftSideRightSide.swift */,
 			);
 			path = CodingExercises;
 			sourceTree = "<group>";
@@ -381,6 +384,7 @@
 				9585F318256E3D14007E9250 /* JumpingOnTheCloudsRevisited.swift in Sources */,
 				95860012256CF3060060DC91 /* SherlockAndSquare.swift in Sources */,
 				1DB46B612559C6F1006B83B9 /* CatsAndMouse.swift in Sources */,
+				1D12575F25A651A5008A2262 /* LeftSideRightSide.swift in Sources */,
 				1D28451725A4F8700086C2ED /* TallestSkyscraper.swift in Sources */,
 				1D28451B25A591700086C2ED /* FindTheMissingLetter.swift in Sources */,
 				1D9BAA64256074FD00527E66 /* UtopianTree.swift in Sources */,
