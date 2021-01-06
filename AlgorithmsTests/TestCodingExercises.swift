@@ -87,4 +87,12 @@ class TestCodingExercises: XCTestCase {
         XCTAssertEqual(ftml.missingLetter(["a", "b", "c", "e", "f"]), "d")
         XCTAssertEqual(ftml.missingLetter(["M", "O", "P"]), "N")
     }
+    
+    func testProductOfAllOtherNumbers() {
+        
+        let poaon = ProductOfAllOtherNumbers()
+        
+        XCTAssertEqual(poaon.getProducts([1, 7, 3, 4]), [84, 12, 28, 21])
+        XCTAssertEqual(poaon.getProducts([1, 2, 3, 0, 5]), [0, 0, 0, 30, 0])
+    }
 }
