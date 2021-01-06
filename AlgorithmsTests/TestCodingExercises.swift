@@ -95,4 +95,13 @@ class TestCodingExercises: XCTestCase {
         XCTAssertEqual(poaon.getProducts([1, 7, 3, 4]), [84, 12, 28, 21])
         XCTAssertEqual(poaon.getProducts([1, 2, 3, 0, 5]), [0, 0, 0, 30, 0])
     }
+    
+    func testSockPairs() {
+        
+        let sp = SockPairs()
+        
+        XCTAssertEqual(sp.sockPairs("AA"), 1)
+        XCTAssertEqual(sp.sockPairs("ABABC"), 2)
+        XCTAssertEqual(sp.sockPairs("CABBACCC"), 4)
+    }
 }
