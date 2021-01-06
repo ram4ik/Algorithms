@@ -80,4 +80,11 @@ class TestCodingExercises: XCTestCase {
         XCTAssertEqual(ts.tallestSkyscraper(cityTwo), 4)
     }
 
+    func testFindTheMissingLetter() {
+        
+        let ftml = FindTheMissingLetter()
+        
+        XCTAssertEqual(ftml.missingLetter(["a", "b", "c", "e", "f"]), "d")
+        XCTAssertEqual(ftml.missingLetter(["M", "O", "P"]), "N")
+    }
 }
