@@ -114,4 +114,14 @@ class TestCodingExercises: XCTestCase {
         XCTAssertEqual(lsrs.leftSide([1, 2, 3, -1]), [0, 1, 2, 0])
         XCTAssertEqual(lsrs.rightSide([1, 2, 3, -1]), [1, 1, 1, 0])
     }
+    
+    func testClosestPalindromeNumber() {
+        
+        let cpn = ClosestPalindromeNumber()
+        
+        XCTAssertEqual(cpn.closestPalindrome(887), 888)
+        XCTAssertEqual(cpn.closestPalindrome(100), 99)
+        XCTAssertEqual(cpn.closestPalindrome(888), 888)
+        XCTAssertEqual(cpn.closestPalindrome(27), 22)
+    }
 }
