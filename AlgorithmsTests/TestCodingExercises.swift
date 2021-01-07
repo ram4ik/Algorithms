@@ -222,4 +222,12 @@ class TestCodingExercises: XCTestCase {
         XCTAssertEqual([1,2,3,4].strictly(above: 1), [2,3,4])
         XCTAssertEqual([1,2,3,4].strictly(below: 2), [1])
     }
+    
+    func testLeastCommonMultiple() {
+        let lcm = LeastCommonMultiple()
+        
+        XCTAssertEqual(lcm.lcm(9, 18), 18)
+        XCTAssertEqual(lcm.lcm(8, 5), 40)
+        XCTAssertEqual(lcm.lcm(17, 11), 187)
+    }
 }
