@@ -157,4 +157,13 @@ class TestCodingExercises: XCTestCase {
         XCTAssertEqual(np.nextPrime(24), 29)
         XCTAssertEqual(np.nextPrime(11), 11)
     }
+    
+    func testMakingProgress() {
+        
+        let mp = MakingProgress()
+        
+        XCTAssertEqual(mp.progressDays([3,4,1,2]), 2)
+        XCTAssertEqual(mp.progressDays([9,11,12,9,10]), 3)
+        XCTAssertEqual(mp.progressDays([6,5,4,3,2,9]), 1)
+    }
 }
