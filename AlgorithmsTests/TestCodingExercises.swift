@@ -166,4 +166,13 @@ class TestCodingExercises: XCTestCase {
         XCTAssertEqual(mp.progressDays([9,11,12,9,10]), 3)
         XCTAssertEqual(mp.progressDays([6,5,4,3,2,9]), 1)
     }
+    
+    func testPersistentLittleBugger() {
+        
+        let plb = PersistentLittleBugger()
+        
+        XCTAssertEqual(plb.bugger(39), 3)
+        XCTAssertEqual(plb.bugger(999), 4)
+        XCTAssertEqual(plb.bugger(4), 0)
+    }
 }
