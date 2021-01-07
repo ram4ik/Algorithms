@@ -213,4 +213,13 @@ class TestCodingExercises: XCTestCase {
         XCTAssertEqual(dd.digitDistance(121, 599), 19)
         XCTAssertEqual(dd.digitDistance(12, 12), 0)
     }
+    
+    func testExtendingTheArrayPrototype() {
+        
+        XCTAssertEqual([1,2,3].squared, [1,4,9])
+        XCTAssertEqual([1,2,3].cubed, [1,8,27])
+        XCTAssertEqual([1,2,3,4].divisible(by: 2), [2,4])
+        XCTAssertEqual([1,2,3,4].strictly(above: 1), [2,3,4])
+        XCTAssertEqual([1,2,3,4].strictly(below: 2), [1])
+    }
 }
