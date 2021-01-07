@@ -148,4 +148,13 @@ class TestCodingExercises: XCTestCase {
         XCTAssertEqual(mtte.moveToEnd([1,3,2,4,4,1], 1), [3,2,4,4,1,1])
         XCTAssertEqual(mtte.moveToEnd([7,8,9,1,2,3,4], 9), [7,8,1,2,3,4,9])
     }
+    
+    func testNextPrime() {
+        
+        let np = NextPrime()
+        
+        XCTAssertEqual(np.nextPrime(12), 13)
+        XCTAssertEqual(np.nextPrime(24), 29)
+        XCTAssertEqual(np.nextPrime(11), 11)
+    }
 }
