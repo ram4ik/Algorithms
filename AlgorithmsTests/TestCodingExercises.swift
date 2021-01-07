@@ -224,6 +224,7 @@ class TestCodingExercises: XCTestCase {
     }
     
     func testLeastCommonMultiple() {
+        
         let lcm = LeastCommonMultiple()
         
         XCTAssertEqual(lcm.lcm(9, 18), 18)
