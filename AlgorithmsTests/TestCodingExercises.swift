@@ -140,4 +140,12 @@ class TestCodingExercises: XCTestCase {
         XCTAssertEqual(oued.evenOddTransform([0, 0, 0], 10), [-20, -20, -20])
         XCTAssertEqual(oued.evenOddTransform([1, 2, 3], 1), [3, 0, 5])
     }
+    
+    func testMovingToTheEnd() {
+        
+        let mtte = MovingToTheEnd()
+        
+        XCTAssertEqual(mtte.moveToEnd([1,3,2,4,4,1], 1), [3,2,4,4,1,1])
+        XCTAssertEqual(mtte.moveToEnd([7,8,9,1,2,3,4], 9), [7,8,1,2,3,4,9])
+    }
 }
