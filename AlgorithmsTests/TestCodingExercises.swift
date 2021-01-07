@@ -131,4 +131,13 @@ class TestCodingExercises: XCTestCase {
         
         XCTAssertEqual(em.encodeMorse("CHANGE YOURSELF!"), "-.-. .... .- -. --. .   -.-- --- ..- .-. ... . .-.. ..-. -.-.--")
     }
+    
+    func testOddUpEvenDown() {
+        
+        let oued = OddUpEvenDown()
+        
+        XCTAssertEqual(oued.evenOddTransform([3, 4, 9], 3), [9, -2, 15])
+        XCTAssertEqual(oued.evenOddTransform([0, 0, 0], 10), [-20, -20, -20])
+        XCTAssertEqual(oued.evenOddTransform([1, 2, 3], 1), [3, 0, 5])
+    }
 }
