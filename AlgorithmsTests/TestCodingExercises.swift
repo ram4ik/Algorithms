@@ -193,4 +193,15 @@ class TestCodingExercises: XCTestCase {
         XCTAssertEqual(tvoab.totalVolume([2,2,2],[2,1,1]), 10)
         XCTAssertEqual(tvoab.totalVolume([1,1,1]), 1)
     }
+    
+    func testIntegerDigitsCount() {
+        
+        let idc = IntegerDigitsCount()
+        
+        XCTAssertEqual(idc.count(318), 3)
+        XCTAssertEqual(idc.count(-92563), 5)
+        XCTAssertEqual(idc.count(4666), 4)
+        XCTAssertEqual(idc.count(-314890), 6)
+        XCTAssertEqual(idc.count(654321), 6)
+    }
 }

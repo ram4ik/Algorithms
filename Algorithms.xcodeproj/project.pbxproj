@@ -19,6 +19,7 @@
 		1D12577B25A6FDC0008A2262 /* PersistentLittleBugger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D12577A25A6FDC0008A2262 /* PersistentLittleBugger.swift */; };
 		1D12577F25A704C8008A2262 /* EvenOddPartition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D12577E25A704C8008A2262 /* EvenOddPartition.swift */; };
 		1D12578325A7066E008A2262 /* TotalVolumeOfAllBoxes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D12578225A7066E008A2262 /* TotalVolumeOfAllBoxes.swift */; };
+		1D12578725A70785008A2262 /* IntegerDigitsCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D12578625A70785008A2262 /* IntegerDigitsCount.swift */; };
 		1D1CE77025547A5600DB4287 /* DayOfTheProgrammer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1CE76F25547A5600DB4287 /* DayOfTheProgrammer.swift */; };
 		1D265A5E2569C2BE0073C85E /* ServiceLane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D265A5D2569C2BE0073C85E /* ServiceLane.swift */; };
 		1D28450F25A4E9770086C2ED /* WhichNumbersIsNotLikeTheOthers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D28450E25A4E9770086C2ED /* WhichNumbersIsNotLikeTheOthers.swift */; };
@@ -92,6 +93,7 @@
 		1D12577A25A6FDC0008A2262 /* PersistentLittleBugger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentLittleBugger.swift; sourceTree = "<group>"; };
 		1D12577E25A704C8008A2262 /* EvenOddPartition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvenOddPartition.swift; sourceTree = "<group>"; };
 		1D12578225A7066E008A2262 /* TotalVolumeOfAllBoxes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalVolumeOfAllBoxes.swift; sourceTree = "<group>"; };
+		1D12578625A70785008A2262 /* IntegerDigitsCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegerDigitsCount.swift; sourceTree = "<group>"; };
 		1D1CE76F25547A5600DB4287 /* DayOfTheProgrammer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayOfTheProgrammer.swift; sourceTree = "<group>"; };
 		1D265A5D2569C2BE0073C85E /* ServiceLane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceLane.swift; sourceTree = "<group>"; };
 		1D28450E25A4E9770086C2ED /* WhichNumbersIsNotLikeTheOthers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhichNumbersIsNotLikeTheOthers.swift; sourceTree = "<group>"; };
@@ -184,6 +186,7 @@
 				1D12577A25A6FDC0008A2262 /* PersistentLittleBugger.swift */,
 				1D12577E25A704C8008A2262 /* EvenOddPartition.swift */,
 				1D12578225A7066E008A2262 /* TotalVolumeOfAllBoxes.swift */,
+				1D12578625A70785008A2262 /* IntegerDigitsCount.swift */,
 			);
 			path = CodingExercises;
 			sourceTree = "<group>";
@@ -388,6 +391,7 @@
 				1DBB78CA254E02B600DD4CAA /* AppleAndOrange.swift in Sources */,
 				1D11DEBB25582239008C0695 /* BillDivision.swift in Sources */,
 				1D653DB72552A26A008397A4 /* MigratoryBirds.swift in Sources */,
+				1D12578725A70785008A2262 /* IntegerDigitsCount.swift in Sources */,
 				1D1CE77025547A5600DB4287 /* DayOfTheProgrammer.swift in Sources */,
 				1DBB78A8254DF36B00DD4CAA /* ContentView.swift in Sources */,
 				9522EBEB2588DC4100E5C4C1 /* QueueUsingStack.swift in Sources */,
