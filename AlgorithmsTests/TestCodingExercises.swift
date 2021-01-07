@@ -184,4 +184,13 @@ class TestCodingExercises: XCTestCase {
         XCTAssertEqual(eop.evenOddPartition([1,0,1,0,1,0]), [[0,0,0],[1,1,1]])
         XCTAssertEqual(eop.evenOddPartition([1,3,5,7,9]), [[],[1,3,5,7,9]])
     }
+    
+    func testTotalVolumeOfAllBoxes() {
+        
+        let tvoab = TotalVolumeOfAllBoxes()
+        
+        XCTAssertEqual(tvoab.totalVolume([4,2,4],[3,3,3],[1,1,2],[2,1,1]), 63)
+        XCTAssertEqual(tvoab.totalVolume([2,2,2],[2,1,1]), 10)
+        XCTAssertEqual(tvoab.totalVolume([1,1,1]), 1)
+    }
 }
