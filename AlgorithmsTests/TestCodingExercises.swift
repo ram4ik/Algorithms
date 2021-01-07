@@ -175,4 +175,13 @@ class TestCodingExercises: XCTestCase {
         XCTAssertEqual(plb.bugger(999), 4)
         XCTAssertEqual(plb.bugger(4), 0)
     }
+    
+    func testEvenOddPartition() {
+        
+        let eop = EvenOddPartition()
+        
+        XCTAssertEqual(eop.evenOddPartition([5,8,9,2,0]), [[8,2,0],[5,9]])
+        XCTAssertEqual(eop.evenOddPartition([1,0,1,0,1,0]), [[0,0,0],[1,1,1]])
+        XCTAssertEqual(eop.evenOddPartition([1,3,5,7,9]), [[],[1,3,5,7,9]])
+    }
 }
