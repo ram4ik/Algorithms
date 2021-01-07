@@ -124,4 +124,11 @@ class TestCodingExercises: XCTestCase {
         XCTAssertEqual(cpn.closestPalindrome(888), 888)
         XCTAssertEqual(cpn.closestPalindrome(27), 22)
     }
+    
+    func testEncodeMorse() {
+        
+        let em = EncodeMorse()
+        
+        XCTAssertEqual(em.encodeMorse("CHANGE YOURSELF!"), "-.-. .... .- -. --. .   -.-- --- ..- .-. ... . .-.. ..-. -.-.--")
+    }
 }
