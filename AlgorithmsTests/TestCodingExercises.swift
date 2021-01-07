@@ -204,4 +204,13 @@ class TestCodingExercises: XCTestCase {
         XCTAssertEqual(idc.count(-314890), 6)
         XCTAssertEqual(idc.count(654321), 6)
     }
+    
+    func testDigitDistance() {
+        
+        let dd = DigitDistance()
+        
+        XCTAssertEqual(dd.digitDistance(234, 489), 12)
+        XCTAssertEqual(dd.digitDistance(121, 599), 19)
+        XCTAssertEqual(dd.digitDistance(12, 12), 0)
+    }
 }
