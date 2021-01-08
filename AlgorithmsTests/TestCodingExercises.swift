@@ -231,4 +231,13 @@ class TestCodingExercises: XCTestCase {
         XCTAssertEqual(lcm.lcm(8, 5), 40)
         XCTAssertEqual(lcm.lcm(17, 11), 187)
     }
+    
+    func testCountOnesInBinaryRepresentationOfInteger() {
+        
+        let cob = CountOnesInBinaryRepresentationOfInteger()
+        
+        //XCTAssertEqual(cob.countOnes(0), 0)
+        //XCTAssertEqual(cob.countOnes(100), 3)
+        XCTAssertEqual(cob.countOnes(999), 8)
+    }
 }
