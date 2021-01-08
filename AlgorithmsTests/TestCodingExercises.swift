@@ -247,4 +247,12 @@ class TestCodingExercises: XCTestCase {
         
         XCTAssertEqual(rl.doubleChar("SwiftUI"), "SSwwiiffttUUII")
     }
+    
+    func testLargestSwap() {
+        
+        let ls = LargestSwap()
+        
+        XCTAssertEqual(ls.largestSwap(27), false)
+        XCTAssertEqual(ls.largestSwap(93), true)
+    }
 }
