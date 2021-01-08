@@ -39,6 +39,7 @@
 		1D4FABFB25763FBD0031C94D /* DesignerPDFViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4FABFA25763FBD0031C94D /* DesignerPDFViewer.swift */; };
 		1D653DB72552A26A008397A4 /* MigratoryBirds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D653DB62552A26A008397A4 /* MigratoryBirds.swift */; };
 		1D672B58255A7BEF007F998D /* HurdleRace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D672B57255A7BEF007F998D /* HurdleRace.swift */; };
+		1D784C5125A8CA5F0038EA3A /* RepeatingLetters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D784C5025A8CA5F0038EA3A /* RepeatingLetters.swift */; };
 		1D89614C257E1C2000A1BC77 /* AppendAndDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D89614B257E1C2000A1BC77 /* AppendAndDelete.swift */; };
 		1D91F98D256317A200A0CB73 /* EqualizeTheArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D91F98C256317A200A0CB73 /* EqualizeTheArray.swift */; };
 		1D9BAA64256074FD00527E66 /* UtopianTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9BAA63256074FD00527E66 /* UtopianTree.swift */; };
@@ -117,6 +118,7 @@
 		1D4FABFA25763FBD0031C94D /* DesignerPDFViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignerPDFViewer.swift; sourceTree = "<group>"; };
 		1D653DB62552A26A008397A4 /* MigratoryBirds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigratoryBirds.swift; sourceTree = "<group>"; };
 		1D672B57255A7BEF007F998D /* HurdleRace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HurdleRace.swift; sourceTree = "<group>"; };
+		1D784C5025A8CA5F0038EA3A /* RepeatingLetters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatingLetters.swift; sourceTree = "<group>"; };
 		1D89614B257E1C2000A1BC77 /* AppendAndDelete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppendAndDelete.swift; sourceTree = "<group>"; };
 		1D91F98C256317A200A0CB73 /* EqualizeTheArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EqualizeTheArray.swift; sourceTree = "<group>"; };
 		1D9BAA63256074FD00527E66 /* UtopianTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtopianTree.swift; sourceTree = "<group>"; };
@@ -199,6 +201,7 @@
 				1D12578E25A70D4B008A2262 /* ExtendingTheArrayPrototype.swift */,
 				1D12579225A70EFD008A2262 /* LeastCommonMultiple.swift */,
 				1D12579625A88883008A2262 /* CountOnesInBinaryRepresentationOfInteger.swift */,
+				1D784C5025A8CA5F0038EA3A /* RepeatingLetters.swift */,
 			);
 			path = CodingExercises;
 			sourceTree = "<group>";
@@ -439,6 +442,7 @@
 				1D12575F25A651A5008A2262 /* LeftSideRightSide.swift in Sources */,
 				1D28451725A4F8700086C2ED /* TallestSkyscraper.swift in Sources */,
 				1D28451B25A591700086C2ED /* FindTheMissingLetter.swift in Sources */,
+				1D784C5125A8CA5F0038EA3A /* RepeatingLetters.swift in Sources */,
 				1D9BAA64256074FD00527E66 /* UtopianTree.swift in Sources */,
 				1DE74B79256ACC5700313838 /* CutSticks.swift in Sources */,
 				95A222CA257CC33D002FCA87 /* SequenceEquation.swift in Sources */,

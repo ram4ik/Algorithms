@@ -240,4 +240,11 @@ class TestCodingExercises: XCTestCase {
         //XCTAssertEqual(cob.countOnes(100), 3)
         XCTAssertEqual(cob.countOnes(999), 8)
     }
+    
+    func testRepeatingLetters() {
+        
+        let rl = RepeatingLetters()
+        
+        XCTAssertEqual(rl.doubleChar("SwiftUI"), "SSwwiiffttUUII")
+    }
 }
