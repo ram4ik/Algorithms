@@ -338,4 +338,14 @@ class TestCodingExercises: XCTestCase {
         XCTAssertEqual(fti.find_index(["a", "g", "y", "d"], "d"), 3)
         XCTAssertEqual(fti.find_index(["Orange", "Banana", "Apple", "Grape"], "Apple"), 2)
     }
+    
+    func testIsTheWordSingularOrPlural() {
+        
+        let itwsop  = IsTheWordSingularOrPlural()
+        
+        XCTAssertEqual(itwsop.isPlural("changes"), true)
+        XCTAssertEqual(itwsop.isPlural("chnage"), false)
+        XCTAssertEqual(itwsop.isPlural("dudes"), true)
+        XCTAssertEqual(itwsop.isPlural("magic"), false)
+    }
 }
