@@ -320,4 +320,13 @@ class TestCodingExercises: XCTestCase {
         XCTAssertEqual(pg.profitableGamble(0.9, 1, 2), false)
         XCTAssertEqual(pg.profitableGamble(0.9, 3, 2), true)
     }
+    
+    func testMovieThreatreAdmittance() {
+        
+        let mta = MovieThreatreAdmittance()
+        
+        XCTAssertEqual(mta.acceptIntoMovie(14, true), true)
+        XCTAssertEqual(mta.acceptIntoMovie(14, false), false)
+        XCTAssertEqual(mta.acceptIntoMovie(16, false), true)
+    }
 }
