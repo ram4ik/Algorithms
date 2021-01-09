@@ -274,4 +274,12 @@ class TestCodingExercises: XCTestCase {
         XCTAssertEqual(crs.chatroomStatus(["Jan", "Marika"]), "Jan and Marika online")
         XCTAssertEqual(crs.chatroomStatus(["Ana", "Oli", "Pem", "Anu", "Sirja"]), "Ana, Oli and 3 more online")
     }
+    
+    func testVowelReplacer() {
+        
+        let vr = VowelReplacer()
+        
+        XCTAssertEqual(vr.replaceVowels("Swift", "*"), "Sw*ft")
+        XCTAssertEqual(vr.replaceVowels("apollo", "@"), "@p@ll@")
+    }
 }

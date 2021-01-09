@@ -44,6 +44,7 @@
 		1D784C5925A8D54C0038EA3A /* Other.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D784C5825A8D54C0038EA3A /* Other.swift */; };
 		1D784C9A25A997C00038EA3A /* CumulativeArraySum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D784C9925A997C00038EA3A /* CumulativeArraySum.swift */; };
 		1D784C9E25A999340038EA3A /* ChatRoomStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D784C9D25A999340038EA3A /* ChatRoomStatus.swift */; };
+		1D784CA225A99FDB0038EA3A /* VowelReplacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D784CA125A99FDB0038EA3A /* VowelReplacer.swift */; };
 		1D89614C257E1C2000A1BC77 /* AppendAndDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D89614B257E1C2000A1BC77 /* AppendAndDelete.swift */; };
 		1D91F98D256317A200A0CB73 /* EqualizeTheArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D91F98C256317A200A0CB73 /* EqualizeTheArray.swift */; };
 		1D9BAA64256074FD00527E66 /* UtopianTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9BAA63256074FD00527E66 /* UtopianTree.swift */; };
@@ -127,6 +128,7 @@
 		1D784C5825A8D54C0038EA3A /* Other.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Other.swift; sourceTree = "<group>"; };
 		1D784C9925A997C00038EA3A /* CumulativeArraySum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CumulativeArraySum.swift; sourceTree = "<group>"; };
 		1D784C9D25A999340038EA3A /* ChatRoomStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomStatus.swift; sourceTree = "<group>"; };
+		1D784CA125A99FDB0038EA3A /* VowelReplacer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VowelReplacer.swift; sourceTree = "<group>"; };
 		1D89614B257E1C2000A1BC77 /* AppendAndDelete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppendAndDelete.swift; sourceTree = "<group>"; };
 		1D91F98C256317A200A0CB73 /* EqualizeTheArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EqualizeTheArray.swift; sourceTree = "<group>"; };
 		1D9BAA63256074FD00527E66 /* UtopianTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtopianTree.swift; sourceTree = "<group>"; };
@@ -214,6 +216,7 @@
 				1D784C5825A8D54C0038EA3A /* Other.swift */,
 				1D784C9925A997C00038EA3A /* CumulativeArraySum.swift */,
 				1D784C9D25A999340038EA3A /* ChatRoomStatus.swift */,
+				1D784CA125A99FDB0038EA3A /* VowelReplacer.swift */,
 			);
 			path = CodingExercises;
 			sourceTree = "<group>";
@@ -454,6 +457,7 @@
 				1D784C5525A8CBE60038EA3A /* LargestSwap.swift in Sources */,
 				95860012256CF3060060DC91 /* SherlockAndSquare.swift in Sources */,
 				1D784C5925A8D54C0038EA3A /* Other.swift in Sources */,
+				1D784CA225A99FDB0038EA3A /* VowelReplacer.swift in Sources */,
 				1DB46B612559C6F1006B83B9 /* CatsAndMouse.swift in Sources */,
 				1D12575F25A651A5008A2262 /* LeftSideRightSide.swift in Sources */,
 				1D28451725A4F8700086C2ED /* TallestSkyscraper.swift in Sources */,
