@@ -301,4 +301,14 @@ class TestCodingExercises: XCTestCase {
         XCTAssertEqual(psp.squarePatch(2), resultForTwo)
         XCTAssertEqual(psp.squarePatch(3), resultForThree)
     }
+    
+    func testHurdleJump() {
+        
+        let hj = HurdleJump()
+        
+        XCTAssertEqual(hj.hurdleJump([1,2,3,4,5], 5), true)
+        XCTAssertEqual(hj.hurdleJump([5,5,3,4,5], 3), false)
+        XCTAssertEqual(hj.hurdleJump([5,4,4,6], 10), true)
+        XCTAssertEqual(hj.hurdleJump([1,2,1], 1), false)
+    }
 }

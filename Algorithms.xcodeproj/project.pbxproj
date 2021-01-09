@@ -46,6 +46,7 @@
 		1D784C9E25A999340038EA3A /* ChatRoomStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D784C9D25A999340038EA3A /* ChatRoomStatus.swift */; };
 		1D784CA225A99FDB0038EA3A /* VowelReplacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D784CA125A99FDB0038EA3A /* VowelReplacer.swift */; };
 		1D784CA625A9AC670038EA3A /* PerfectSquarePatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D784CA525A9AC670038EA3A /* PerfectSquarePatch.swift */; };
+		1D784CAA25A9ADC70038EA3A /* HurdleJump.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D784CA925A9ADC70038EA3A /* HurdleJump.swift */; };
 		1D89614C257E1C2000A1BC77 /* AppendAndDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D89614B257E1C2000A1BC77 /* AppendAndDelete.swift */; };
 		1D91F98D256317A200A0CB73 /* EqualizeTheArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D91F98C256317A200A0CB73 /* EqualizeTheArray.swift */; };
 		1D9BAA64256074FD00527E66 /* UtopianTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9BAA63256074FD00527E66 /* UtopianTree.swift */; };
@@ -131,6 +132,7 @@
 		1D784C9D25A999340038EA3A /* ChatRoomStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomStatus.swift; sourceTree = "<group>"; };
 		1D784CA125A99FDB0038EA3A /* VowelReplacer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VowelReplacer.swift; sourceTree = "<group>"; };
 		1D784CA525A9AC670038EA3A /* PerfectSquarePatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfectSquarePatch.swift; sourceTree = "<group>"; };
+		1D784CA925A9ADC70038EA3A /* HurdleJump.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HurdleJump.swift; sourceTree = "<group>"; };
 		1D89614B257E1C2000A1BC77 /* AppendAndDelete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppendAndDelete.swift; sourceTree = "<group>"; };
 		1D91F98C256317A200A0CB73 /* EqualizeTheArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EqualizeTheArray.swift; sourceTree = "<group>"; };
 		1D9BAA63256074FD00527E66 /* UtopianTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtopianTree.swift; sourceTree = "<group>"; };
@@ -220,6 +222,7 @@
 				1D784C9D25A999340038EA3A /* ChatRoomStatus.swift */,
 				1D784CA125A99FDB0038EA3A /* VowelReplacer.swift */,
 				1D784CA525A9AC670038EA3A /* PerfectSquarePatch.swift */,
+				1D784CA925A9ADC70038EA3A /* HurdleJump.swift */,
 			);
 			path = CodingExercises;
 			sourceTree = "<group>";
@@ -443,6 +446,7 @@
 				958B036B255EA7B7005B4538 /* TaumAndBDay.swift in Sources */,
 				1D12578F25A70D4B008A2262 /* ExtendingTheArrayPrototype.swift in Sources */,
 				95A222942577810A002FCA87 /* PickingNumbers.swift in Sources */,
+				1D784CAA25A9ADC70038EA3A /* HurdleJump.swift in Sources */,
 				1DD954E92573BD1D0096FB3B /* AngryProfessor .swift in Sources */,
 				1D91F98D256317A200A0CB73 /* EqualizeTheArray.swift in Sources */,
 				1DBB78D6254F3B4700DD4CAA /* BreakingTheRecords.swift in Sources */,
