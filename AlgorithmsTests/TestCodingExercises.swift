@@ -311,4 +311,13 @@ class TestCodingExercises: XCTestCase {
         XCTAssertEqual(hj.hurdleJump([5,4,4,6], 10), true)
         XCTAssertEqual(hj.hurdleJump([1,2,1], 1), false)
     }
+    
+    func testProfitableGamble() {
+        
+        let pg = ProfitableGamble()
+        
+        XCTAssertEqual(pg.profitableGamble(0.2, 50, 9), true)
+        XCTAssertEqual(pg.profitableGamble(0.9, 1, 2), false)
+        XCTAssertEqual(pg.profitableGamble(0.9, 3, 2), true)
+    }
 }
