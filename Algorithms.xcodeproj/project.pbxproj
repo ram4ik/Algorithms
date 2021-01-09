@@ -49,6 +49,7 @@
 		1D784CAA25A9ADC70038EA3A /* HurdleJump.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D784CA925A9ADC70038EA3A /* HurdleJump.swift */; };
 		1D784CAE25A9AF3E0038EA3A /* ProfitableGamble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D784CAD25A9AF3E0038EA3A /* ProfitableGamble.swift */; };
 		1D784CB225A9DD010038EA3A /* MovieThreatreAdmittance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D784CB125A9DD010038EA3A /* MovieThreatreAdmittance.swift */; };
+		1D784CB625AA28CB0038EA3A /* FindTheIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D784CB525AA28CB0038EA3A /* FindTheIndex.swift */; };
 		1D89614C257E1C2000A1BC77 /* AppendAndDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D89614B257E1C2000A1BC77 /* AppendAndDelete.swift */; };
 		1D91F98D256317A200A0CB73 /* EqualizeTheArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D91F98C256317A200A0CB73 /* EqualizeTheArray.swift */; };
 		1D9BAA64256074FD00527E66 /* UtopianTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9BAA63256074FD00527E66 /* UtopianTree.swift */; };
@@ -137,6 +138,7 @@
 		1D784CA925A9ADC70038EA3A /* HurdleJump.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HurdleJump.swift; sourceTree = "<group>"; };
 		1D784CAD25A9AF3E0038EA3A /* ProfitableGamble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfitableGamble.swift; sourceTree = "<group>"; };
 		1D784CB125A9DD010038EA3A /* MovieThreatreAdmittance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieThreatreAdmittance.swift; sourceTree = "<group>"; };
+		1D784CB525AA28CB0038EA3A /* FindTheIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindTheIndex.swift; sourceTree = "<group>"; };
 		1D89614B257E1C2000A1BC77 /* AppendAndDelete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppendAndDelete.swift; sourceTree = "<group>"; };
 		1D91F98C256317A200A0CB73 /* EqualizeTheArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EqualizeTheArray.swift; sourceTree = "<group>"; };
 		1D9BAA63256074FD00527E66 /* UtopianTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtopianTree.swift; sourceTree = "<group>"; };
@@ -229,6 +231,7 @@
 				1D784CA925A9ADC70038EA3A /* HurdleJump.swift */,
 				1D784CAD25A9AF3E0038EA3A /* ProfitableGamble.swift */,
 				1D784CB125A9DD010038EA3A /* MovieThreatreAdmittance.swift */,
+				1D784CB525AA28CB0038EA3A /* FindTheIndex.swift */,
 			);
 			path = CodingExercises;
 			sourceTree = "<group>";
@@ -497,6 +500,7 @@
 				1D12577F25A704C8008A2262 /* EvenOddPartition.swift in Sources */,
 				95E50367256518E700DDD45F /* HalloweenSale.swift in Sources */,
 				1DE140BC255C55E700C415E6 /* FindDigits.swift in Sources */,
+				1D784CB625AA28CB0038EA3A /* FindTheIndex.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

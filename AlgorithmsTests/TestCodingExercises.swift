@@ -329,4 +329,13 @@ class TestCodingExercises: XCTestCase {
         XCTAssertEqual(mta.acceptIntoMovie(14, false), false)
         XCTAssertEqual(mta.acceptIntoMovie(16, false), true)
     }
+    
+    func testFindTheIndex() {
+        
+        let fti = FindTheIndex()
+        
+        XCTAssertEqual(fti.find_index(["Red", "blue", "Green", "Blue"], "blue"), 1)
+        XCTAssertEqual(fti.find_index(["a", "g", "y", "d"], "d"), 3)
+        XCTAssertEqual(fti.find_index(["Orange", "Banana", "Apple", "Grape"], "Apple"), 2)
+    }
 }
