@@ -282,4 +282,23 @@ class TestCodingExercises: XCTestCase {
         XCTAssertEqual(vr.replaceVowels("Swift", "*"), "Sw*ft")
         XCTAssertEqual(vr.replaceVowels("apollo", "@"), "@p@ll@")
     }
+    
+    func testPerfectSquarePatch() {
+        
+        let psp = PerfectSquarePatch()
+        
+        let resultForTwo = [
+            [2, 2],
+            [2, 2]
+        ]
+        
+        let resultForThree = [
+            [3, 3, 3],
+            [3, 3, 3],
+            [3, 3, 3]
+        ]
+        
+        XCTAssertEqual(psp.squarePatch(2), resultForTwo)
+        XCTAssertEqual(psp.squarePatch(3), resultForThree)
+    }
 }
