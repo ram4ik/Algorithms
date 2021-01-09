@@ -51,6 +51,7 @@
 		1D784CB225A9DD010038EA3A /* MovieThreatreAdmittance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D784CB125A9DD010038EA3A /* MovieThreatreAdmittance.swift */; };
 		1D784CB625AA28CB0038EA3A /* FindTheIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D784CB525AA28CB0038EA3A /* FindTheIndex.swift */; };
 		1D784CBA25AA2ADC0038EA3A /* IsTheWordSingularOrPlural.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D784CB925AA2ADC0038EA3A /* IsTheWordSingularOrPlural.swift */; };
+		1D784CBE25AA347F0038EA3A /* AllOccurrencesOfAnElementInAnArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D784CBD25AA347F0038EA3A /* AllOccurrencesOfAnElementInAnArray.swift */; };
 		1D89614C257E1C2000A1BC77 /* AppendAndDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D89614B257E1C2000A1BC77 /* AppendAndDelete.swift */; };
 		1D91F98D256317A200A0CB73 /* EqualizeTheArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D91F98C256317A200A0CB73 /* EqualizeTheArray.swift */; };
 		1D9BAA64256074FD00527E66 /* UtopianTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9BAA63256074FD00527E66 /* UtopianTree.swift */; };
@@ -141,6 +142,7 @@
 		1D784CB125A9DD010038EA3A /* MovieThreatreAdmittance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieThreatreAdmittance.swift; sourceTree = "<group>"; };
 		1D784CB525AA28CB0038EA3A /* FindTheIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindTheIndex.swift; sourceTree = "<group>"; };
 		1D784CB925AA2ADC0038EA3A /* IsTheWordSingularOrPlural.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsTheWordSingularOrPlural.swift; sourceTree = "<group>"; };
+		1D784CBD25AA347F0038EA3A /* AllOccurrencesOfAnElementInAnArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllOccurrencesOfAnElementInAnArray.swift; sourceTree = "<group>"; };
 		1D89614B257E1C2000A1BC77 /* AppendAndDelete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppendAndDelete.swift; sourceTree = "<group>"; };
 		1D91F98C256317A200A0CB73 /* EqualizeTheArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EqualizeTheArray.swift; sourceTree = "<group>"; };
 		1D9BAA63256074FD00527E66 /* UtopianTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtopianTree.swift; sourceTree = "<group>"; };
@@ -235,6 +237,7 @@
 				1D784CB125A9DD010038EA3A /* MovieThreatreAdmittance.swift */,
 				1D784CB525AA28CB0038EA3A /* FindTheIndex.swift */,
 				1D784CB925AA2ADC0038EA3A /* IsTheWordSingularOrPlural.swift */,
+				1D784CBD25AA347F0038EA3A /* AllOccurrencesOfAnElementInAnArray.swift */,
 			);
 			path = CodingExercises;
 			sourceTree = "<group>";
@@ -465,6 +468,7 @@
 				95A222A12578FD3E002FCA87 /* ElectronicsShop.swift in Sources */,
 				1D28451325A4EDD00086C2ED /* TicTakToe.swift in Sources */,
 				95A222C6257A2AEC002FCA87 /* DrawingBook.swift in Sources */,
+				1D784CBE25AA347F0038EA3A /* AllOccurrencesOfAnElementInAnArray.swift in Sources */,
 				1D28451F25A598740086C2ED /* ProductOfAllOtherNumbers.swift in Sources */,
 				1D28450F25A4E9770086C2ED /* WhichNumbersIsNotLikeTheOthers.swift in Sources */,
 				1D12577325A6ED0E008A2262 /* NextPrime.swift in Sources */,

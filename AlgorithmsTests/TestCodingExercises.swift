@@ -348,4 +348,13 @@ class TestCodingExercises: XCTestCase {
         XCTAssertEqual(itwsop.isPlural("dudes"), true)
         XCTAssertEqual(itwsop.isPlural("magic"), false)
     }
+    
+    func testAllOccurrencesOfAnElementInAnArray() {
+        
+        let ao = AllOccurrencesOfAnElementInAnArray()
+        
+        XCTAssertEqual(ao.getIndices([1,5,5,2,7], 7), [4])
+        XCTAssertEqual(ao.getIndices([1,5,5,2,7], 5), [1,2])
+        XCTAssertEqual(ao.getIndices([1,5,5,2,7], 8), [])
+    }
 }
