@@ -264,4 +264,14 @@ class TestCodingExercises: XCTestCase {
         XCTAssertEqual(cas.cumulativeSum([1,-2,3]), [1,-1,2])
         XCTAssertEqual(cas.cumulativeSum([3,3,-2,408,3,3]), [3,6,4,412,415,418])
     }
+    
+    func testChatRoomStatus() {
+        
+        let crs = ChatRoomStatus()
+        
+        XCTAssertEqual(crs.chatroomStatus([]), "no one online")
+        XCTAssertEqual(crs.chatroomStatus(["Marie"]), "Marie online")
+        XCTAssertEqual(crs.chatroomStatus(["Jan", "Marika"]), "Jan and Marika online")
+        XCTAssertEqual(crs.chatroomStatus(["Ana", "Oli", "Pem", "Anu", "Sirja"]), "Ana, Oli and 3 more online")
+    }
 }
