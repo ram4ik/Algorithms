@@ -255,4 +255,13 @@ class TestCodingExercises: XCTestCase {
         XCTAssertEqual(ls.largestSwap(27), false)
         XCTAssertEqual(ls.largestSwap(93), true)
     }
+    
+    func testCumulativeArraySum() {
+        
+        let cas = CumulativeArraySum()
+        
+        XCTAssertEqual(cas.cumulativeSum([1,2,3]), [1,3,6])
+        XCTAssertEqual(cas.cumulativeSum([1,-2,3]), [1,-1,2])
+        XCTAssertEqual(cas.cumulativeSum([3,3,-2,408,3,3]), [3,6,4,412,415,418])
+    }
 }
