@@ -364,4 +364,19 @@ class TestCodingExercises: XCTestCase {
         
         XCTAssertEqual(nd.nDifferences([5,1,9,3,4,0]), -80)
     }
+    
+    func testArrayOfMultiples() {
+        
+        let aom = ArrayOfMultiples()
+        
+        XCTAssertEqual(aom.arrayOfMultiples(7, 5), [7,14,21,28,35])
+    }
+    
+    func testFilterOutStringFromAnArray() {
+        
+        let f = FilterOutStringFromAnArray()
+        
+        XCTAssertEqual(f.filterArray([1,2,"a","b"]), [1,2])
+        XCTAssertEqual(f.filterArray([1,2,"asd","42",123]), [1,2,123])
+    }
 }
