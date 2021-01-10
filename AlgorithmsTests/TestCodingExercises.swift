@@ -357,4 +357,11 @@ class TestCodingExercises: XCTestCase {
         XCTAssertEqual(ao.getIndices([1,5,5,2,7], 5), [1,2])
         XCTAssertEqual(ao.getIndices([1,5,5,2,7], 8), [])
     }
+    
+    func testNDifference() {
+        
+        let nd = NDifference()
+        
+        XCTAssertEqual(nd.nDifferences([5,1,9,3,4,0]), -80)
+    }
 }
