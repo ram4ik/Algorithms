@@ -59,4 +59,14 @@ class TestAlgorithmsDesign: XCTestCase {
         XCTAssertEqual(me.majority([3,2,3,2,2]), 2)
         XCTAssertEqual(me.majority([2,2,1,1,1,1,2,2,2]), 2)
     }
+    
+    func testMajorityElementTwo() {
+        
+        let met = MajorityElementTwo()
+        
+        XCTAssertEqual(met.majority([3,2,3]), [3])
+        XCTAssertEqual(met.majority([3,2,2,2]), [2])
+        XCTAssertEqual(met.majority([2,1,1,1,1,2]), [1])
+        XCTAssertEqual(met.majority([1,1,1,3,3,2,2]), [1])
+    }
 }
