@@ -50,4 +50,13 @@ class TestAlgorithmsDesign: XCTestCase {
         
         XCTAssertEqual(bqus.queueUsingStack(elements: [2,3,1,4,5,7,6,9,8]), [2,3,1,4,5,7,6,9,8])
     }
+    
+    func testMajorityElement() {
+        
+        let me = MajorityElement()
+        
+        XCTAssertEqual(me.majority([3,2,3]), 3)
+        XCTAssertEqual(me.majority([3,2,3,2,2]), 2)
+        XCTAssertEqual(me.majority([2,2,1,1,1,1,2,2,2]), 2)
+    }
 }
