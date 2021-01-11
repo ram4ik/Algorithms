@@ -43,4 +43,11 @@ class TestAlgorithmsDesign: XCTestCase {
         
         XCTAssertEqual(uea.getUniqueAddresses(emailList), 2)
     }
+    
+    func testBuildQueueUsingStack() {
+        
+        let bqus = BuildQueueUsingStack()
+        
+        XCTAssertEqual(bqus.queueUsingStack(elements: [2,3,1,4,5,7,6,9,8]), [2,3,1,4,5,7,6,9,8])
+    }
 }
