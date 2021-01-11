@@ -69,4 +69,11 @@ class TestAlgorithmsDesign: XCTestCase {
         XCTAssertEqual(met.majority([2,1,1,1,1,2]), [1])
         XCTAssertEqual(met.majority([1,1,1,3,3,2,2]), [1])
     }
+    
+    func testIntersectionOfTwoArrays() {
+        
+        let iota = IntersectionOfTwoArrays()
+        
+        XCTAssertEqual(iota.intersection([1,2,2,1], [2,2]), [2])
+    }
 }
