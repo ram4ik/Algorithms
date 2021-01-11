@@ -86,6 +86,7 @@
 		953402C325AC6F0000A854DA /* MajorityElementTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953402C225AC6F0000A854DA /* MajorityElementTwo.swift */; };
 		953402C725AC749500A854DA /* IntersectionOfTwoArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953402C625AC749500A854DA /* IntersectionOfTwoArrays.swift */; };
 		953402CB25AC7D4E00A854DA /* IntersectionOfTwoArraysTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953402CA25AC7D4E00A854DA /* IntersectionOfTwoArraysTwo.swift */; };
+		953402CF25AC823500A854DA /* ContainsDuplicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953402CE25AC823500A854DA /* ContainsDuplicate.swift */; };
 		9585F318256E3D14007E9250 /* JumpingOnTheCloudsRevisited.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9585F317256E3D14007E9250 /* JumpingOnTheCloudsRevisited.swift */; };
 		95860012256CF3060060DC91 /* SherlockAndSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95860011256CF3060060DC91 /* SherlockAndSquare.swift */; };
 		9586FFE4256BEC210060DC91 /* LibraryFine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9586FFE3256BEC210060DC91 /* LibraryFine.swift */; };
@@ -196,6 +197,7 @@
 		953402C225AC6F0000A854DA /* MajorityElementTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajorityElementTwo.swift; sourceTree = "<group>"; };
 		953402C625AC749500A854DA /* IntersectionOfTwoArrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntersectionOfTwoArrays.swift; sourceTree = "<group>"; };
 		953402CA25AC7D4E00A854DA /* IntersectionOfTwoArraysTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntersectionOfTwoArraysTwo.swift; sourceTree = "<group>"; };
+		953402CE25AC823500A854DA /* ContainsDuplicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainsDuplicate.swift; sourceTree = "<group>"; };
 		9585F317256E3D14007E9250 /* JumpingOnTheCloudsRevisited.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpingOnTheCloudsRevisited.swift; sourceTree = "<group>"; };
 		95860011256CF3060060DC91 /* SherlockAndSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SherlockAndSquare.swift; sourceTree = "<group>"; };
 		9586FFE3256BEC210060DC91 /* LibraryFine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryFine.swift; sourceTree = "<group>"; };
@@ -385,6 +387,7 @@
 				953402C225AC6F0000A854DA /* MajorityElementTwo.swift */,
 				953402C625AC749500A854DA /* IntersectionOfTwoArrays.swift */,
 				953402CA25AC7D4E00A854DA /* IntersectionOfTwoArraysTwo.swift */,
+				953402CE25AC823500A854DA /* ContainsDuplicate.swift */,
 			);
 			path = AlgorithmsDesign;
 			sourceTree = "<group>";
@@ -500,6 +503,7 @@
 				1D11DEBB25582239008C0695 /* BillDivision.swift in Sources */,
 				1D653DB72552A26A008397A4 /* MigratoryBirds.swift in Sources */,
 				1D12578725A70785008A2262 /* IntegerDigitsCount.swift in Sources */,
+				953402CF25AC823500A854DA /* ContainsDuplicate.swift in Sources */,
 				1D1CE77025547A5600DB4287 /* DayOfTheProgrammer.swift in Sources */,
 				1DBB78A8254DF36B00DD4CAA /* ContentView.swift in Sources */,
 				9522EBEB2588DC4100E5C4C1 /* QueueUsingStack.swift in Sources */,

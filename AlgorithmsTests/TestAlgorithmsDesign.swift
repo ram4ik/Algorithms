@@ -85,4 +85,12 @@ class TestAlgorithmsDesign: XCTestCase {
         XCTAssertEqual(iotat.inter([1,2,2,1], [2,2,2]), [2,2])
         XCTAssertEqual(iotat.inter([1,2,2,1,3], [2,2,2]), [2,2])
     }
+    
+    func testContainsDuplicate() {
+        
+        let cd = ContainsDuplicate()
+        
+        XCTAssertEqual(cd.containsDuplicate([1,2,3,1,1]), true)
+        XCTAssertEqual(cd.containsDuplicate([2,1,3,4,5,6,7,0,9]), false)
+    }
 }
