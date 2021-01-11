@@ -17,5 +17,17 @@ class TestAlgorithmsDesign: XCTestCase {
         XCTAssertEqual(intro.licenseKeyFormatter(s: "5jK8-3r-8-l", k: 4), "5JK8-3R8L")
         XCTAssertEqual(intro.licenseKeyFormatter(s: "2-6u-9-d", k: 2), "2-6U-9D")
     }
+    
+    func testLogger() {
+        
+        let l = Logger()
+        
+        XCTAssertEqual(l.shouldPrintMessage(timestamp: 1, message: "foo"), true)
+        XCTAssertEqual(l.shouldPrintMessage(timestamp: 2, message: "bar"), true)
+        XCTAssertEqual(l.shouldPrintMessage(timestamp: 3, message: "foo"), false)
+        XCTAssertEqual(l.shouldPrintMessage(timestamp: 8, message: "bar"), false)
+        XCTAssertEqual(l.shouldPrintMessage(timestamp: 10, message: "foo"), false)
+        XCTAssertEqual(l.shouldPrintMessage(timestamp: 11, message: "foo"), true)
+    }
 
 }

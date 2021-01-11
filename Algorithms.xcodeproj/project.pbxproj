@@ -91,6 +91,7 @@
 		95A222CA257CC33D002FCA87 /* SequenceEquation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A222C9257CC33D002FCA87 /* SequenceEquation.swift */; };
 		95D5511525AC4183003E903A /* Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D5511425AC4183003E903A /* Intro.swift */; };
 		95D5511D25AC42EB003E903A /* TestAlgorithmsDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D5511C25AC42EB003E903A /* TestAlgorithmsDesign.swift */; };
+		95D5512125AC4D01003E903A /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D5512025AC4D01003E903A /* Logger.swift */; };
 		95E50367256518E700DDD45F /* HalloweenSale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E50366256518E700DDD45F /* HalloweenSale.swift */; };
 		95EB4E782574F6F300DD32BA /* FlatlandSpaceStations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EB4E772574F6F300DD32BA /* FlatlandSpaceStations.swift */; };
 /* End PBXBuildFile section */
@@ -194,6 +195,7 @@
 		95A222C9257CC33D002FCA87 /* SequenceEquation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceEquation.swift; sourceTree = "<group>"; };
 		95D5511425AC4183003E903A /* Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intro.swift; sourceTree = "<group>"; };
 		95D5511C25AC42EB003E903A /* TestAlgorithmsDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAlgorithmsDesign.swift; sourceTree = "<group>"; };
+		95D5512025AC4D01003E903A /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		95E50366256518E700DDD45F /* HalloweenSale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalloweenSale.swift; sourceTree = "<group>"; };
 		95EB4E772574F6F300DD32BA /* FlatlandSpaceStations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlatlandSpaceStations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -364,6 +366,7 @@
 			isa = PBXGroup;
 			children = (
 				95D5511425AC4183003E903A /* Intro.swift */,
+				95D5512025AC4D01003E903A /* Logger.swift */,
 			);
 			path = AlgorithmsDesign;
 			sourceTree = "<group>";
@@ -528,6 +531,7 @@
 				1D9BAA64256074FD00527E66 /* UtopianTree.swift in Sources */,
 				1DE74B79256ACC5700313838 /* CutSticks.swift in Sources */,
 				95A222CA257CC33D002FCA87 /* SequenceEquation.swift in Sources */,
+				95D5512125AC4D01003E903A /* Logger.swift in Sources */,
 				1D12578325A7066E008A2262 /* TotalVolumeOfAllBoxes.swift in Sources */,
 				1DF44EFB25725FA900232DD4 /* BeautifulDaysAtTheMovies.swift in Sources */,
 				1DF44EBF2570263000232DD4 /* SaveThePrisoner.swift in Sources */,
