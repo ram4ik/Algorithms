@@ -89,6 +89,8 @@
 		95A222A12578FD3E002FCA87 /* ElectronicsShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A222A02578FD3E002FCA87 /* ElectronicsShop.swift */; };
 		95A222C6257A2AEC002FCA87 /* DrawingBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A222C5257A2AEC002FCA87 /* DrawingBook.swift */; };
 		95A222CA257CC33D002FCA87 /* SequenceEquation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A222C9257CC33D002FCA87 /* SequenceEquation.swift */; };
+		95D5511525AC4183003E903A /* Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D5511425AC4183003E903A /* Intro.swift */; };
+		95D5511D25AC42EB003E903A /* TestAlgorithmsDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D5511C25AC42EB003E903A /* TestAlgorithmsDesign.swift */; };
 		95E50367256518E700DDD45F /* HalloweenSale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E50366256518E700DDD45F /* HalloweenSale.swift */; };
 		95EB4E782574F6F300DD32BA /* FlatlandSpaceStations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EB4E772574F6F300DD32BA /* FlatlandSpaceStations.swift */; };
 /* End PBXBuildFile section */
@@ -190,6 +192,8 @@
 		95A222A02578FD3E002FCA87 /* ElectronicsShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectronicsShop.swift; sourceTree = "<group>"; };
 		95A222C5257A2AEC002FCA87 /* DrawingBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingBook.swift; sourceTree = "<group>"; };
 		95A222C9257CC33D002FCA87 /* SequenceEquation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceEquation.swift; sourceTree = "<group>"; };
+		95D5511425AC4183003E903A /* Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intro.swift; sourceTree = "<group>"; };
+		95D5511C25AC42EB003E903A /* TestAlgorithmsDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAlgorithmsDesign.swift; sourceTree = "<group>"; };
 		95E50366256518E700DDD45F /* HalloweenSale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalloweenSale.swift; sourceTree = "<group>"; };
 		95EB4E772574F6F300DD32BA /* FlatlandSpaceStations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlatlandSpaceStations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -281,6 +285,7 @@
 		1DBB78A4254DF36B00DD4CAA /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				95D5511325AC4166003E903A /* AlgorithmsDesign */,
 				1D386C2A25A3AD73004A457B /* CodingExercises */,
 				1DBB78B5254DF3BA00DD4CAA /* Hackerank */,
 				1DBB78A5254DF36B00DD4CAA /* AlgorithmsApp.swift */,
@@ -350,8 +355,17 @@
 				1DBB78BF254DF60F00DD4CAA /* AlgorithmsTests.swift */,
 				1DBB78C1254DF60F00DD4CAA /* Info.plist */,
 				1D386C2B25A3AD9F004A457B /* TestCodingExercises.swift */,
+				95D5511C25AC42EB003E903A /* TestAlgorithmsDesign.swift */,
 			);
 			path = AlgorithmsTests;
+			sourceTree = "<group>";
+		};
+		95D5511325AC4166003E903A /* AlgorithmsDesign */ = {
+			isa = PBXGroup;
+			children = (
+				95D5511425AC4183003E903A /* Intro.swift */,
+			);
+			path = AlgorithmsDesign;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -473,6 +487,7 @@
 				95EB4E782574F6F300DD32BA /* FlatlandSpaceStations.swift in Sources */,
 				1D12578B25A70B70008A2262 /* DigitDistance.swift in Sources */,
 				1D358619255CFB2800D9ED64 /* ViralAdvertising.swift in Sources */,
+				95D5511525AC4183003E903A /* Intro.swift in Sources */,
 				1D12579725A88883008A2262 /* CountOnesInBinaryRepresentationOfInteger.swift in Sources */,
 				1D12579325A70EFD008A2262 /* LeastCommonMultiple.swift in Sources */,
 				1D386C3225A3ADC0004A457B /* StaircaseOfRecursion.swift in Sources */,
@@ -542,6 +557,7 @@
 			files = (
 				1DBB78C0254DF60F00DD4CAA /* AlgorithmsTests.swift in Sources */,
 				1D386C2C25A3AD9F004A457B /* TestCodingExercises.swift in Sources */,
+				95D5511D25AC42EB003E903A /* TestAlgorithmsDesign.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
