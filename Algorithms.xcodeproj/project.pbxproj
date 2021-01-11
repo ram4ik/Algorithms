@@ -92,6 +92,7 @@
 		95D5511525AC4183003E903A /* Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D5511425AC4183003E903A /* Intro.swift */; };
 		95D5511D25AC42EB003E903A /* TestAlgorithmsDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D5511C25AC42EB003E903A /* TestAlgorithmsDesign.swift */; };
 		95D5512125AC4D01003E903A /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D5512025AC4D01003E903A /* Logger.swift */; };
+		95D5512525AC564F003E903A /* UniqueEmailAddresses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D5512425AC564F003E903A /* UniqueEmailAddresses.swift */; };
 		95E50367256518E700DDD45F /* HalloweenSale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E50366256518E700DDD45F /* HalloweenSale.swift */; };
 		95EB4E782574F6F300DD32BA /* FlatlandSpaceStations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EB4E772574F6F300DD32BA /* FlatlandSpaceStations.swift */; };
 /* End PBXBuildFile section */
@@ -196,6 +197,7 @@
 		95D5511425AC4183003E903A /* Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intro.swift; sourceTree = "<group>"; };
 		95D5511C25AC42EB003E903A /* TestAlgorithmsDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAlgorithmsDesign.swift; sourceTree = "<group>"; };
 		95D5512025AC4D01003E903A /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		95D5512425AC564F003E903A /* UniqueEmailAddresses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqueEmailAddresses.swift; sourceTree = "<group>"; };
 		95E50366256518E700DDD45F /* HalloweenSale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalloweenSale.swift; sourceTree = "<group>"; };
 		95EB4E772574F6F300DD32BA /* FlatlandSpaceStations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlatlandSpaceStations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -367,6 +369,7 @@
 			children = (
 				95D5511425AC4183003E903A /* Intro.swift */,
 				95D5512025AC4D01003E903A /* Logger.swift */,
+				95D5512425AC564F003E903A /* UniqueEmailAddresses.swift */,
 			);
 			path = AlgorithmsDesign;
 			sourceTree = "<group>";
@@ -499,6 +502,7 @@
 				1D784CCA25AAEA390038EA3A /* FilterOutStringFromAnArray.swift in Sources */,
 				95A222942577810A002FCA87 /* PickingNumbers.swift in Sources */,
 				1D784CAA25A9ADC70038EA3A /* HurdleJump.swift in Sources */,
+				95D5512525AC564F003E903A /* UniqueEmailAddresses.swift in Sources */,
 				1DD954E92573BD1D0096FB3B /* AngryProfessor .swift in Sources */,
 				1D91F98D256317A200A0CB73 /* EqualizeTheArray.swift in Sources */,
 				1DBB78D6254F3B4700DD4CAA /* BreakingTheRecords.swift in Sources */,

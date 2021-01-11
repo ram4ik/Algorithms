@@ -29,5 +29,18 @@ class TestAlgorithmsDesign: XCTestCase {
         XCTAssertEqual(l.shouldPrintMessage(timestamp: 10, message: "foo"), false)
         XCTAssertEqual(l.shouldPrintMessage(timestamp: 11, message: "foo"), true)
     }
-
+    
+    func testUniqueEmailAddresses() {
+        
+        let uea = UniqueEmailAddresses()
+        
+        let emailList = [
+            "test.email+mark@email.com",
+            "test.email@email.com",
+            "testemail@email.com",
+            "test.email.com@email.com"
+        ]
+        
+        XCTAssertEqual(uea.getUniqueAddresses(emailList), 2)
+    }
 }
