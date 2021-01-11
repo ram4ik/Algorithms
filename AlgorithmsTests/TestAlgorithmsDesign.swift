@@ -76,4 +76,13 @@ class TestAlgorithmsDesign: XCTestCase {
         
         XCTAssertEqual(iota.intersection([1,2,2,1], [2,2]), [2])
     }
+    
+    func testIntersectionOfTwoArraysTwo() {
+        
+        let iotat = IntersectionOfTwoArraysTwo()
+        
+        XCTAssertEqual(iotat.inter([1,2,2,1], [2,2]), [2,2])
+        XCTAssertEqual(iotat.inter([1,2,2,1], [2,2,2]), [2,2])
+        XCTAssertEqual(iotat.inter([1,2,2,1,3], [2,2,2]), [2,2])
+    }
 }

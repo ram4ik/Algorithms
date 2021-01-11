@@ -85,6 +85,7 @@
 		953402BF25AC6BEA00A854DA /* MajorityElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953402BE25AC6BEA00A854DA /* MajorityElement.swift */; };
 		953402C325AC6F0000A854DA /* MajorityElementTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953402C225AC6F0000A854DA /* MajorityElementTwo.swift */; };
 		953402C725AC749500A854DA /* IntersectionOfTwoArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953402C625AC749500A854DA /* IntersectionOfTwoArrays.swift */; };
+		953402CB25AC7D4E00A854DA /* IntersectionOfTwoArraysTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953402CA25AC7D4E00A854DA /* IntersectionOfTwoArraysTwo.swift */; };
 		9585F318256E3D14007E9250 /* JumpingOnTheCloudsRevisited.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9585F317256E3D14007E9250 /* JumpingOnTheCloudsRevisited.swift */; };
 		95860012256CF3060060DC91 /* SherlockAndSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95860011256CF3060060DC91 /* SherlockAndSquare.swift */; };
 		9586FFE4256BEC210060DC91 /* LibraryFine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9586FFE3256BEC210060DC91 /* LibraryFine.swift */; };
@@ -194,6 +195,7 @@
 		953402BE25AC6BEA00A854DA /* MajorityElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajorityElement.swift; sourceTree = "<group>"; };
 		953402C225AC6F0000A854DA /* MajorityElementTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajorityElementTwo.swift; sourceTree = "<group>"; };
 		953402C625AC749500A854DA /* IntersectionOfTwoArrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntersectionOfTwoArrays.swift; sourceTree = "<group>"; };
+		953402CA25AC7D4E00A854DA /* IntersectionOfTwoArraysTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntersectionOfTwoArraysTwo.swift; sourceTree = "<group>"; };
 		9585F317256E3D14007E9250 /* JumpingOnTheCloudsRevisited.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpingOnTheCloudsRevisited.swift; sourceTree = "<group>"; };
 		95860011256CF3060060DC91 /* SherlockAndSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SherlockAndSquare.swift; sourceTree = "<group>"; };
 		9586FFE3256BEC210060DC91 /* LibraryFine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryFine.swift; sourceTree = "<group>"; };
@@ -382,6 +384,7 @@
 				953402BE25AC6BEA00A854DA /* MajorityElement.swift */,
 				953402C225AC6F0000A854DA /* MajorityElementTwo.swift */,
 				953402C625AC749500A854DA /* IntersectionOfTwoArrays.swift */,
+				953402CA25AC7D4E00A854DA /* IntersectionOfTwoArraysTwo.swift */,
 			);
 			path = AlgorithmsDesign;
 			sourceTree = "<group>";
@@ -487,6 +490,7 @@
 			files = (
 				1D784C9A25A997C00038EA3A /* CumulativeArraySum.swift in Sources */,
 				1D784CA625A9AC670038EA3A /* PerfectSquarePatch.swift in Sources */,
+				953402CB25AC7D4E00A854DA /* IntersectionOfTwoArraysTwo.swift in Sources */,
 				1DEC8FF4256177FE0023A1E9 /* ModifiedKaprekarNumbers.swift in Sources */,
 				1D12575B25A5EDCD008A2262 /* SockPairs.swift in Sources */,
 				1D12577725A6F2E8008A2262 /* MakingProgress.swift in Sources */,
