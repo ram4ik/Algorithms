@@ -480,4 +480,15 @@ class TestCodingExercises: XCTestCase {
         XCTAssertEqual(itse.isEmpty(" "), false)
         XCTAssertEqual(itse.isEmpty("a"), false)
     }
+    
+    func testPerfectNumber() {
+        
+        let pn = PerfectNumber()
+        
+        XCTAssertEqual(pn.checkPerfect(6), true)
+        XCTAssertEqual(pn.checkPerfect(28), true)
+        XCTAssertEqual(pn.checkPerfect(496), true)
+        XCTAssertEqual(pn.checkPerfect(12), false)
+        XCTAssertEqual(pn.checkPerfect(97), false)
+    }
 }
