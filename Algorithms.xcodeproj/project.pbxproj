@@ -59,6 +59,7 @@
 		1D784CD225AB78D10038EA3A /* SliceOfPie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D784CD125AB78D10038EA3A /* SliceOfPie.swift */; };
 		1D784CD625AB7AA50038EA3A /* MuseumOfIncredibly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D784CD525AB7AA50038EA3A /* MuseumOfIncredibly.swift */; };
 		1D784CF825ADDA8F0038EA3A /* MatchstickHouses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D784CF725ADDA8F0038EA3A /* MatchstickHouses.swift */; };
+		1D784CFE25ADDC040038EA3A /* XandYCoordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D784CFD25ADDC040038EA3A /* XandYCoordinates.swift */; };
 		1D89614C257E1C2000A1BC77 /* AppendAndDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D89614B257E1C2000A1BC77 /* AppendAndDelete.swift */; };
 		1D91F98D256317A200A0CB73 /* EqualizeTheArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D91F98C256317A200A0CB73 /* EqualizeTheArray.swift */; };
 		1D9BAA64256074FD00527E66 /* UtopianTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9BAA63256074FD00527E66 /* UtopianTree.swift */; };
@@ -167,6 +168,7 @@
 		1D784CD125AB78D10038EA3A /* SliceOfPie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliceOfPie.swift; sourceTree = "<group>"; };
 		1D784CD525AB7AA50038EA3A /* MuseumOfIncredibly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseumOfIncredibly.swift; sourceTree = "<group>"; };
 		1D784CF725ADDA8F0038EA3A /* MatchstickHouses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchstickHouses.swift; sourceTree = "<group>"; };
+		1D784CFD25ADDC040038EA3A /* XandYCoordinates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XandYCoordinates.swift; sourceTree = "<group>"; };
 		1D89614B257E1C2000A1BC77 /* AppendAndDelete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppendAndDelete.swift; sourceTree = "<group>"; };
 		1D91F98C256317A200A0CB73 /* EqualizeTheArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EqualizeTheArray.swift; sourceTree = "<group>"; };
 		1D9BAA63256074FD00527E66 /* UtopianTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtopianTree.swift; sourceTree = "<group>"; };
@@ -279,6 +281,7 @@
 				1D784CD125AB78D10038EA3A /* SliceOfPie.swift */,
 				1D784CD525AB7AA50038EA3A /* MuseumOfIncredibly.swift */,
 				1D784CF725ADDA8F0038EA3A /* MatchstickHouses.swift */,
+				1D784CFD25ADDC040038EA3A /* XandYCoordinates.swift */,
 			);
 			path = CodingExercises;
 			sourceTree = "<group>";
@@ -572,6 +575,7 @@
 				1D672B58255A7BEF007F998D /* HurdleRace.swift in Sources */,
 				1D12576325A656EF008A2262 /* ClosestPalindromeNumber.swift in Sources */,
 				1D784CCE25AB76EF0038EA3A /* ATMPINCodeValidation.swift in Sources */,
+				1D784CFE25ADDC040038EA3A /* XandYCoordinates.swift in Sources */,
 				1D784CAE25A9AF3E0038EA3A /* ProfitableGamble.swift in Sources */,
 				1DBB78CE254EA2F000DD4CAA /* NumberLineJumps.swift in Sources */,
 				1D12577B25A6FDC0008A2262 /* PersistentLittleBugger.swift in Sources */,
