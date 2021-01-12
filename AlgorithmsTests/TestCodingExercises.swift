@@ -471,4 +471,13 @@ class TestCodingExercises: XCTestCase {
         ]
         XCTAssertEqual(co.countOnes(inputThree), 4)
     }
+    
+    func testIsTheStringEmpty() {
+        
+        let itse = IsTheStringEmpty()
+        
+        XCTAssertEqual(itse.isEmpty(""), true)
+        XCTAssertEqual(itse.isEmpty(" "), false)
+        XCTAssertEqual(itse.isEmpty("a"), false)
+    }
 }
