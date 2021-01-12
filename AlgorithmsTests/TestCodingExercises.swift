@@ -427,4 +427,14 @@ class TestCodingExercises: XCTestCase {
         XCTAssertEqual(xy.convertCartesian([1,5,3,3,4], [5,8,9,1,0]), [[1,5],[5,8],[3,9],[3,1],[4,0]])
         XCTAssertEqual(xy.convertCartesian([9,8,3], [1,1,1]), [[9,1],[8,1],[3,1]])
     }
+    
+    func testReverseCodingChallenge() {
+        
+        let rcc = ReverseCodingChallenge()
+        
+        XCTAssertEqual(rcc.mysteryFunc([5,7,8,2,1], 2), [1,1,0,0,1])
+        XCTAssertEqual(rcc.mysteryFunc([9,8,16,47], 4), [1,0,0,3])
+        XCTAssertEqual(rcc.mysteryFunc([17,11,99,55,23,1], 5), [2,1,4,0,3,1])
+        XCTAssertEqual(rcc.mysteryFunc([6,1], 7), [6,1])
+    }
 }
