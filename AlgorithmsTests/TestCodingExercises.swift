@@ -437,4 +437,12 @@ class TestCodingExercises: XCTestCase {
         XCTAssertEqual(rcc.mysteryFunc([17,11,99,55,23,1], 5), [2,1,4,0,3,1])
         XCTAssertEqual(rcc.mysteryFunc([6,1], 7), [6,1])
     }
+    
+    func testSpellingItOut() {
+        
+        let sio = SpellingItOut()
+        
+        XCTAssertEqual(sio.spelling("bee"), ["b", "be", "bee"])
+        XCTAssertEqual(sio.spelling("happy"), ["h", "ha", "hap", "happ", "happy"])
+    }
 }
