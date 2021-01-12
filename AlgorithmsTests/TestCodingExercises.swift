@@ -409,4 +409,13 @@ class TestCodingExercises: XCTestCase {
         XCTAssertEqual(moi.removeSmallest([5,3,2,1,4]), [5,3,2,4])
         XCTAssertEqual(moi.removeSmallest([2,2,1,2,1]), [2,2,2,1])
     }
+    
+    func testMatchstickHouses() {
+        
+        let mh = MatchstickHouses()
+        
+        XCTAssertEqual(mh.matchHouses(1), 6)
+        XCTAssertEqual(mh.matchHouses(4), 21)
+        XCTAssertEqual(mh.matchHouses(87), 436)
+    }
 }
