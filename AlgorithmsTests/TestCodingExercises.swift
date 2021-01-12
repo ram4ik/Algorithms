@@ -445,4 +445,30 @@ class TestCodingExercises: XCTestCase {
         XCTAssertEqual(sio.spelling("bee"), ["b", "be", "bee"])
         XCTAssertEqual(sio.spelling("happy"), ["h", "ha", "hap", "happ", "happy"])
     }
+    
+    func testCountOnes() {
+        
+        let co = CountOnes()
+        
+        let inputOne = [
+            [1, 0],
+            [0, 0]
+        ]
+        XCTAssertEqual(co.countOnes(inputOne), 1)
+        
+        let inputTwo = [
+            [1, 0, 0],
+            [1, 1, 1],
+            [0, 1, 1]
+        ]
+        XCTAssertEqual(co.countOnes(inputTwo), 6)
+        
+        let inputThree = [
+            [1, 1, 2, 0],
+            [2, 3, 42, 1],
+            [12, 13, 10, 9],
+            [0, 9, 1, 3]
+        ]
+        XCTAssertEqual(co.countOnes(inputThree), 4)
+    }
 }
