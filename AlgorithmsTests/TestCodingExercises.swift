@@ -518,4 +518,13 @@ class TestCodingExercises: XCTestCase {
         XCTAssertEqual(gsoae.getSum(of: [45,3,0]), 48)
         XCTAssertEqual(gsoae.getSum(of: [-2,84,23]), 105)
     }
+    
+    func testMultiplyOf100() {
+        
+        let m = MultiplyOf100()
+        
+        XCTAssertEqual(m.divisible(1), false)
+        XCTAssertEqual(m.divisible(1000), true)
+        XCTAssertEqual(m.divisible(100), true)
+    }
 }

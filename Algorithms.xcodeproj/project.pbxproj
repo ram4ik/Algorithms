@@ -34,6 +34,7 @@
 		1D28932025AED53A00139F38 /* ConvertHoursAndMinutesToSeconds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D28931F25AED53A00139F38 /* ConvertHoursAndMinutesToSeconds.swift */; };
 		1D28932425AED66900139F38 /* FindThePerimeterOfARectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D28932325AED66900139F38 /* FindThePerimeterOfARectangle.swift */; };
 		1D28932825AED7B800139F38 /* GetTheSumOfAllArrayElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D28932725AED7B800139F38 /* GetTheSumOfAllArrayElements.swift */; };
+		1D28932C25AED8C600139F38 /* MultiplyOf100.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D28932B25AED8C600139F38 /* MultiplyOf100.swift */; };
 		1D358619255CFB2800D9ED64 /* ViralAdvertising.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D358618255CFB2800D9ED64 /* ViralAdvertising.swift */; };
 		1D386C2C25A3AD9F004A457B /* TestCodingExercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D386C2B25A3AD9F004A457B /* TestCodingExercises.swift */; };
 		1D386C3225A3ADC0004A457B /* StaircaseOfRecursion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D386C3125A3ADC0004A457B /* StaircaseOfRecursion.swift */; };
@@ -151,6 +152,7 @@
 		1D28931F25AED53A00139F38 /* ConvertHoursAndMinutesToSeconds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertHoursAndMinutesToSeconds.swift; sourceTree = "<group>"; };
 		1D28932325AED66900139F38 /* FindThePerimeterOfARectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindThePerimeterOfARectangle.swift; sourceTree = "<group>"; };
 		1D28932725AED7B800139F38 /* GetTheSumOfAllArrayElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetTheSumOfAllArrayElements.swift; sourceTree = "<group>"; };
+		1D28932B25AED8C600139F38 /* MultiplyOf100.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplyOf100.swift; sourceTree = "<group>"; };
 		1D358618255CFB2800D9ED64 /* ViralAdvertising.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViralAdvertising.swift; sourceTree = "<group>"; };
 		1D386C2B25A3AD9F004A457B /* TestCodingExercises.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCodingExercises.swift; sourceTree = "<group>"; };
 		1D386C3125A3ADC0004A457B /* StaircaseOfRecursion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaircaseOfRecursion.swift; sourceTree = "<group>"; };
@@ -306,6 +308,7 @@
 				1D28931F25AED53A00139F38 /* ConvertHoursAndMinutesToSeconds.swift */,
 				1D28932325AED66900139F38 /* FindThePerimeterOfARectangle.swift */,
 				1D28932725AED7B800139F38 /* GetTheSumOfAllArrayElements.swift */,
+				1D28932B25AED8C600139F38 /* MultiplyOf100.swift */,
 			);
 			path = CodingExercises;
 			sourceTree = "<group>";
@@ -521,6 +524,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D28932C25AED8C600139F38 /* MultiplyOf100.swift in Sources */,
 				1D784C9A25A997C00038EA3A /* CumulativeArraySum.swift in Sources */,
 				1D784CA625A9AC670038EA3A /* PerfectSquarePatch.swift in Sources */,
 				953402CB25AC7D4E00A854DA /* IntersectionOfTwoArraysTwo.swift in Sources */,
