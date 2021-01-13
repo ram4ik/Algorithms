@@ -500,4 +500,13 @@ class TestCodingExercises: XCTestCase {
         XCTAssertEqual(converter.convert(2, 0), 7200)
         XCTAssertEqual(converter.convert(0, 0), 0)
     }
+    
+    func testFindThePerimeterOfARectangle() {
+        
+        let fpor = FindThePerimeterOfARectangle()
+        
+        XCTAssertEqual(fpor.findPerimeter(6, 7), 26)
+        XCTAssertEqual(fpor.findPerimeter(20, 10), 60)
+        XCTAssertEqual(fpor.findPerimeter(2, 9), 22)
+    }
 }
