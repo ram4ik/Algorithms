@@ -491,4 +491,13 @@ class TestCodingExercises: XCTestCase {
         XCTAssertEqual(pn.checkPerfect(12), false)
         XCTAssertEqual(pn.checkPerfect(97), false)
     }
+    
+    func testConvertHoursAndMinutesToSeconds() {
+        
+        let converter = ConvertHoursAndMinutesToSeconds()
+        
+        XCTAssertEqual(converter.convert(1, 3), 3780)
+        XCTAssertEqual(converter.convert(2, 0), 7200)
+        XCTAssertEqual(converter.convert(0, 0), 0)
+    }
 }
