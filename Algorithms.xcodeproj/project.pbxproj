@@ -33,6 +33,7 @@
 		1D28451F25A598740086C2ED /* ProductOfAllOtherNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D28451E25A598740086C2ED /* ProductOfAllOtherNumbers.swift */; };
 		1D28932025AED53A00139F38 /* ConvertHoursAndMinutesToSeconds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D28931F25AED53A00139F38 /* ConvertHoursAndMinutesToSeconds.swift */; };
 		1D28932425AED66900139F38 /* FindThePerimeterOfARectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D28932325AED66900139F38 /* FindThePerimeterOfARectangle.swift */; };
+		1D28932825AED7B800139F38 /* GetTheSumOfAllArrayElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D28932725AED7B800139F38 /* GetTheSumOfAllArrayElements.swift */; };
 		1D358619255CFB2800D9ED64 /* ViralAdvertising.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D358618255CFB2800D9ED64 /* ViralAdvertising.swift */; };
 		1D386C2C25A3AD9F004A457B /* TestCodingExercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D386C2B25A3AD9F004A457B /* TestCodingExercises.swift */; };
 		1D386C3225A3ADC0004A457B /* StaircaseOfRecursion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D386C3125A3ADC0004A457B /* StaircaseOfRecursion.swift */; };
@@ -149,6 +150,7 @@
 		1D28451E25A598740086C2ED /* ProductOfAllOtherNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductOfAllOtherNumbers.swift; sourceTree = "<group>"; };
 		1D28931F25AED53A00139F38 /* ConvertHoursAndMinutesToSeconds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertHoursAndMinutesToSeconds.swift; sourceTree = "<group>"; };
 		1D28932325AED66900139F38 /* FindThePerimeterOfARectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindThePerimeterOfARectangle.swift; sourceTree = "<group>"; };
+		1D28932725AED7B800139F38 /* GetTheSumOfAllArrayElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetTheSumOfAllArrayElements.swift; sourceTree = "<group>"; };
 		1D358618255CFB2800D9ED64 /* ViralAdvertising.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViralAdvertising.swift; sourceTree = "<group>"; };
 		1D386C2B25A3AD9F004A457B /* TestCodingExercises.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCodingExercises.swift; sourceTree = "<group>"; };
 		1D386C3125A3ADC0004A457B /* StaircaseOfRecursion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaircaseOfRecursion.swift; sourceTree = "<group>"; };
@@ -303,6 +305,7 @@
 				1D784D1125ADE5C00038EA3A /* PerfectNumber.swift */,
 				1D28931F25AED53A00139F38 /* ConvertHoursAndMinutesToSeconds.swift */,
 				1D28932325AED66900139F38 /* FindThePerimeterOfARectangle.swift */,
+				1D28932725AED7B800139F38 /* GetTheSumOfAllArrayElements.swift */,
 			);
 			path = CodingExercises;
 			sourceTree = "<group>";
@@ -589,6 +592,7 @@
 				1D784C5125A8CA5F0038EA3A /* RepeatingLetters.swift in Sources */,
 				1D784CBA25AA2ADC0038EA3A /* IsTheWordSingularOrPlural.swift in Sources */,
 				1D9BAA64256074FD00527E66 /* UtopianTree.swift in Sources */,
+				1D28932825AED7B800139F38 /* GetTheSumOfAllArrayElements.swift in Sources */,
 				1DE74B79256ACC5700313838 /* CutSticks.swift in Sources */,
 				95A222CA257CC33D002FCA87 /* SequenceEquation.swift in Sources */,
 				95D5512125AC4D01003E903A /* Logger.swift in Sources */,

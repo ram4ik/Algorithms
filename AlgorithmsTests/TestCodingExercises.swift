@@ -509,4 +509,13 @@ class TestCodingExercises: XCTestCase {
         XCTAssertEqual(fpor.findPerimeter(20, 10), 60)
         XCTAssertEqual(fpor.findPerimeter(2, 9), 22)
     }
+    
+    func testGetTheSumOfAllArrayElements() {
+        
+        let gsoae = GetTheSumOfAllArrayElements()
+        
+        XCTAssertEqual(gsoae.getSum(of: [2,7,4]), 13)
+        XCTAssertEqual(gsoae.getSum(of: [45,3,0]), 48)
+        XCTAssertEqual(gsoae.getSum(of: [-2,84,23]), 105)
+    }
 }
