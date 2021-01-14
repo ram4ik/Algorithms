@@ -535,4 +535,10 @@ class TestCodingExercises: XCTestCase {
         XCTAssertEqual(fe.getFirstValue([80,5,100]), 80)
         XCTAssertEqual(fe.getFirstValue([-500,0,50]), -500)
     }
+    
+    func testReturnTheLastElementInAnArray() {
+        let le = ReturnTheLastElementInAnArray()
+        
+        XCTAssertEqual(le.getLastItem([1,2,3]), 3)
+    }
 }
