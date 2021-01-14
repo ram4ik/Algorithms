@@ -70,6 +70,7 @@
 		1D784D0E25ADE4CF0038EA3A /* IsTheStringEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D784D0D25ADE4CF0038EA3A /* IsTheStringEmpty.swift */; };
 		1D784D1225ADE5C00038EA3A /* PerfectNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D784D1125ADE5C00038EA3A /* PerfectNumber.swift */; };
 		1D89614C257E1C2000A1BC77 /* AppendAndDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D89614B257E1C2000A1BC77 /* AppendAndDelete.swift */; };
+		1D919C8725B02E990098C714 /* ReturnTheFirstElementInAnArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D919C8625B02E990098C714 /* ReturnTheFirstElementInAnArray.swift */; };
 		1D91F98D256317A200A0CB73 /* EqualizeTheArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D91F98C256317A200A0CB73 /* EqualizeTheArray.swift */; };
 		1D9BAA64256074FD00527E66 /* UtopianTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9BAA63256074FD00527E66 /* UtopianTree.swift */; };
 		1DB426742561C20800647529 /* BeautifulTriplets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB426732561C20800647529 /* BeautifulTriplets.swift */; };
@@ -188,6 +189,7 @@
 		1D784D0D25ADE4CF0038EA3A /* IsTheStringEmpty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsTheStringEmpty.swift; sourceTree = "<group>"; };
 		1D784D1125ADE5C00038EA3A /* PerfectNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfectNumber.swift; sourceTree = "<group>"; };
 		1D89614B257E1C2000A1BC77 /* AppendAndDelete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppendAndDelete.swift; sourceTree = "<group>"; };
+		1D919C8625B02E990098C714 /* ReturnTheFirstElementInAnArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturnTheFirstElementInAnArray.swift; sourceTree = "<group>"; };
 		1D91F98C256317A200A0CB73 /* EqualizeTheArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EqualizeTheArray.swift; sourceTree = "<group>"; };
 		1D9BAA63256074FD00527E66 /* UtopianTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtopianTree.swift; sourceTree = "<group>"; };
 		1DB426732561C20800647529 /* BeautifulTriplets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeautifulTriplets.swift; sourceTree = "<group>"; };
@@ -309,6 +311,7 @@
 				1D28932325AED66900139F38 /* FindThePerimeterOfARectangle.swift */,
 				1D28932725AED7B800139F38 /* GetTheSumOfAllArrayElements.swift */,
 				1D28932B25AED8C600139F38 /* MultiplyOf100.swift */,
+				1D919C8625B02E990098C714 /* ReturnTheFirstElementInAnArray.swift */,
 			);
 			path = CodingExercises;
 			sourceTree = "<group>";
@@ -531,6 +534,7 @@
 				1DEC8FF4256177FE0023A1E9 /* ModifiedKaprekarNumbers.swift in Sources */,
 				1D12575B25A5EDCD008A2262 /* SockPairs.swift in Sources */,
 				1D12577725A6F2E8008A2262 /* MakingProgress.swift in Sources */,
+				1D919C8725B02E990098C714 /* ReturnTheFirstElementInAnArray.swift in Sources */,
 				1D784D0225ADE1100038EA3A /* ReverseCodingChallenge.swift in Sources */,
 				1D12576B25A6E8EF008A2262 /* OddUpEvenDown.swift in Sources */,
 				1D784D0625ADE23E0038EA3A /* SpellingItOut.swift in Sources */,

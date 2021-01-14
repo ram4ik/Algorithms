@@ -527,4 +527,12 @@ class TestCodingExercises: XCTestCase {
         XCTAssertEqual(m.divisible(1000), true)
         XCTAssertEqual(m.divisible(100), true)
     }
+    
+    func testReturnTheFirstElementInAnArray() {
+        let fe = ReturnTheFirstElementInAnArray()
+        
+        XCTAssertEqual(fe.getFirstValue([1,2,3]), 1)
+        XCTAssertEqual(fe.getFirstValue([80,5,100]), 80)
+        XCTAssertEqual(fe.getFirstValue([-500,0,50]), -500)
+    }
 }
