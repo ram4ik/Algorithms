@@ -587,4 +587,22 @@ class TestCodingExercises: XCTestCase {
         XCTAssertEqual(cta.concat([1,3,5], [2,6,8]), [1,3,5,2,6,8])
         XCTAssertEqual(cta.concat2([7,8], [10,9,1,1,2]), [7,8,10,9,1,1,2])
     }
+    
+    func testTraceThatMatrix() {
+        
+        let tm = TraceThatMatrix()
+        
+        let ex1 = [
+            [1, 4],
+            [4, 1]
+        ]
+        XCTAssertEqual(tm.trace(ex1), 2)
+        
+        let ex2 = [
+            [1, 2, 3],
+            [4, 5, 6],
+            [7, 8, 9]
+        ]
+        XCTAssertEqual(tm.trace(ex2), 15)
+    }
 }
