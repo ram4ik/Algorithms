@@ -557,4 +557,13 @@ class TestCodingExercises: XCTestCase {
         
         XCTAssertEqual(rs.giveMeSomething("to do"), "something to do")
     }
+    
+    func testSumOfDigitsBetweenTwoNumbers() {
+        
+        let dotd = SumOfDigitsBetweenTwoNumbers()
+        
+        XCTAssertEqual(dotd.sumDigits(7, 8), 15)
+        XCTAssertEqual(dotd.sumDigits(17, 20), 29)
+        XCTAssertEqual(dotd.sumDigits(10, 12), 6)
+    }
 }
