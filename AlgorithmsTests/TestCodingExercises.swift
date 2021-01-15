@@ -579,4 +579,12 @@ class TestCodingExercises: XCTestCase {
         XCTAssertEqual(adds10(44), 54)
         XCTAssertEqual(adds10(20), 30)
     }
+    
+    func testConcatenatingTwoIntegerArrays() {
+        
+        let cta = ConcatenatingTwoIntegerArrays()
+        
+        XCTAssertEqual(cta.concat([1,3,5], [2,6,8]), [1,3,5,2,6,8])
+        XCTAssertEqual(cta.concat2([7,8], [10,9,1,1,2]), [7,8,10,9,1,1,2])
+    }
 }
