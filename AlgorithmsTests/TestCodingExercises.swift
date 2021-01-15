@@ -566,4 +566,17 @@ class TestCodingExercises: XCTestCase {
         XCTAssertEqual(dotd.sumDigits(17, 20), 29)
         XCTAssertEqual(dotd.sumDigits(10, 12), 6)
     }
+    
+    func testAllAboutClosuresAdding() {
+        
+        let aaca = AllAboutClosuresAdding()
+        
+        let adds1 = aaca.addsNum(1)
+        XCTAssertEqual(adds1(3), 4)
+        XCTAssertEqual(adds1(5), 6)
+        
+        let adds10 = aaca.addsNum(10)
+        XCTAssertEqual(adds10(44), 54)
+        XCTAssertEqual(adds10(20), 30)
+    }
 }
