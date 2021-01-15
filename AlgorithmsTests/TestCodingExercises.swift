@@ -550,4 +550,11 @@ class TestCodingExercises: XCTestCase {
         XCTAssertEqual(fp.footballPoints(5, 0, 2), 15)
         XCTAssertEqual(fp.footballPoints(0, 0, 1), 0)
     }
+    
+    func testReturnSomethingToMe() {
+        
+        let rs = ReturnSomethingToMe()
+        
+        XCTAssertEqual(rs.giveMeSomething("to do"), "something to do")
+    }
 }
