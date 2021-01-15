@@ -1,0 +1,19 @@
+//
+//  PositiveDominant.swift
+//  Algorithms
+//
+//  Created by Ramill Ibragimov on 15.01.2021.
+//
+
+import Foundation
+
+class PositiveDominant {
+    
+    func isPositiveDominant(_ arr: [Int]) -> Bool {
+
+        let n = arr.filter{$0<0}
+        let p = arr.filter{$0>0}
+
+        return Set(p).count>Set(n).count
+    }
+}

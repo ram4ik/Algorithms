@@ -605,4 +605,14 @@ class TestCodingExercises: XCTestCase {
         ]
         XCTAssertEqual(tm.trace(ex2), 15)
     }
+    
+    func testPositiveDominant() {
+        
+        let pd = PositiveDominant()
+        
+        XCTAssertEqual(pd.isPositiveDominant([1,1,1,1,-3,-4]), false)
+        XCTAssertEqual(pd.isPositiveDominant([5,99,832,-3,-4]), true)
+        XCTAssertEqual(pd.isPositiveDominant([5,0]), true)
+        XCTAssertEqual(pd.isPositiveDominant([0,-4,-1]), false)
+    }
 }
