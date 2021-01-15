@@ -39,6 +39,7 @@
 		1D386C2C25A3AD9F004A457B /* TestCodingExercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D386C2B25A3AD9F004A457B /* TestCodingExercises.swift */; };
 		1D386C3225A3ADC0004A457B /* StaircaseOfRecursion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D386C3125A3ADC0004A457B /* StaircaseOfRecursion.swift */; };
 		1D3BC1FC2568441400E53B15 /* MinimumDistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3BC1FB2568441400E53B15 /* MinimumDistance.swift */; };
+		1D3E819325B1935300E1E732 /* FootballPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3E819225B1935300E1E732 /* FootballPoint.swift */; };
 		1D46CB81257B6FFA001EE09A /* CircularArrayRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D46CB80257B6FF9001EE09A /* CircularArrayRotation.swift */; };
 		1D4FABFB25763FBD0031C94D /* DesignerPDFViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4FABFA25763FBD0031C94D /* DesignerPDFViewer.swift */; };
 		1D653DB72552A26A008397A4 /* MigratoryBirds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D653DB62552A26A008397A4 /* MigratoryBirds.swift */; };
@@ -159,6 +160,7 @@
 		1D386C2B25A3AD9F004A457B /* TestCodingExercises.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCodingExercises.swift; sourceTree = "<group>"; };
 		1D386C3125A3ADC0004A457B /* StaircaseOfRecursion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaircaseOfRecursion.swift; sourceTree = "<group>"; };
 		1D3BC1FB2568441400E53B15 /* MinimumDistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumDistance.swift; sourceTree = "<group>"; };
+		1D3E819225B1935300E1E732 /* FootballPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootballPoint.swift; sourceTree = "<group>"; };
 		1D46CB80257B6FF9001EE09A /* CircularArrayRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularArrayRotation.swift; sourceTree = "<group>"; };
 		1D4FABFA25763FBD0031C94D /* DesignerPDFViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignerPDFViewer.swift; sourceTree = "<group>"; };
 		1D653DB62552A26A008397A4 /* MigratoryBirds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigratoryBirds.swift; sourceTree = "<group>"; };
@@ -315,6 +317,7 @@
 				1D28932B25AED8C600139F38 /* MultiplyOf100.swift */,
 				1D919C8625B02E990098C714 /* ReturnTheFirstElementInAnArray.swift */,
 				1D919C8A25B02FD70098C714 /* ReturnTheLastElementInAnArray.swift */,
+				1D3E819225B1935300E1E732 /* FootballPoint.swift */,
 			);
 			path = CodingExercises;
 			sourceTree = "<group>";
@@ -620,6 +623,7 @@
 				1D784CFE25ADDC040038EA3A /* XandYCoordinates.swift in Sources */,
 				1D784CAE25A9AF3E0038EA3A /* ProfitableGamble.swift in Sources */,
 				1D784D0A25ADE37C0038EA3A /* CountOnes.swift in Sources */,
+				1D3E819325B1935300E1E732 /* FootballPoint.swift in Sources */,
 				1DBB78CE254EA2F000DD4CAA /* NumberLineJumps.swift in Sources */,
 				1D12577B25A6FDC0008A2262 /* PersistentLittleBugger.swift in Sources */,
 				1D265A5E2569C2BE0073C85E /* ServiceLane.swift in Sources */,

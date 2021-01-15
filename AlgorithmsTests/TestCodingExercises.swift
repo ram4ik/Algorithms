@@ -541,4 +541,13 @@ class TestCodingExercises: XCTestCase {
         
         XCTAssertEqual(le.getLastItem([1,2,3]), 3)
     }
+    
+    func testFootballPoint() {
+        
+        let fp = FootballPoint()
+        
+        XCTAssertEqual(fp.footballPoints(3, 4, 2), 13)
+        XCTAssertEqual(fp.footballPoints(5, 0, 2), 15)
+        XCTAssertEqual(fp.footballPoints(0, 0, 1), 0)
+    }
 }
