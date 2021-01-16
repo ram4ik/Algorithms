@@ -625,4 +625,14 @@ class TestCodingExercises: XCTestCase {
         XCTAssertEqual(hp.hashPlusCount("#+++#+#++#"), [4, 6])
         XCTAssertEqual(hp.hashPlusCount(""), [0, 0])
     }
+    
+    func testReturnTheTotalNumberOfParameters() {
+        
+        let rtn = ReturnTheTotalNUmberOfParameters()
+        
+        XCTAssertEqual(rtn.numberArgs("a", "b", "c"), 3)
+        XCTAssertEqual(rtn.numberArgs(10, 20, 30, 40, 50), 5)
+        XCTAssertEqual(rtn.numberArgs("x", "y"), 2)
+        XCTAssertEqual(rtn.numberArgs(), 0)
+    }
 }
