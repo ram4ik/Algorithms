@@ -681,4 +681,12 @@ class TestCodingExercises: XCTestCase {
         XCTAssertEqual(lnia.findLargestNum([300, 200, 600, 150]), 600)
         XCTAssertEqual(lnia.findLargestNum([1000, 1001, 999]), 1001)
     }
+    
+    func testCheckIfAnArrayContainsAGivenNumber() {
+        
+        let acgn = CheckIfAnArrayContainsAGivenNumber()
+        
+        XCTAssertEqual(acgn.check([3, 4, 5, 6, 8], 3), true)
+        XCTAssertEqual(acgn.check([7, 7, 7, 8], 9), false)
+    }
 }
