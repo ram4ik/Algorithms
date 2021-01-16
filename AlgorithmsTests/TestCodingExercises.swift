@@ -654,4 +654,13 @@ class TestCodingExercises: XCTestCase {
         XCTAssertEqual(eon.noOdds([43,65,23,89,53,9,6]), [6])
         XCTAssertEqual(eon.noOdds([718,991,449,644,380,440]), [718,644,380,440])
     }
+    
+    func testIsTheStringOddOrEven() {
+        
+        let sooe = IsTheStringOddOrEven()
+        
+        XCTAssertEqual(sooe.oddOrEven("apples"), true)
+        XCTAssertEqual(sooe.oddOrEven("banana"), true)
+        XCTAssertEqual(sooe.oddOrEven("coconut"), false)
+    }
 }
