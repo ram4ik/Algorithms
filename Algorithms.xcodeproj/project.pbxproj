@@ -55,6 +55,7 @@
 		1D3E81CB25B37CB900E1E732 /* FindTheLargestNumberInArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3E81CA25B37CB900E1E732 /* FindTheLargestNumberInArray.swift */; };
 		1D3E81CF25B37DC500E1E732 /* CheckIfAnArrayContainsAGivenNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3E81CE25B37DC500E1E732 /* CheckIfAnArrayContainsAGivenNumber.swift */; };
 		1D3E81D325B37ECE00E1E732 /* ConvertAgeToDays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3E81D225B37ECE00E1E732 /* ConvertAgeToDays.swift */; };
+		1D3E81D725B384AA00E1E732 /* ComparingStringsByCountingOfCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3E81D625B384AA00E1E732 /* ComparingStringsByCountingOfCharacters.swift */; };
 		1D46CB81257B6FFA001EE09A /* CircularArrayRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D46CB80257B6FF9001EE09A /* CircularArrayRotation.swift */; };
 		1D4FABFB25763FBD0031C94D /* DesignerPDFViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4FABFA25763FBD0031C94D /* DesignerPDFViewer.swift */; };
 		1D653DB72552A26A008397A4 /* MigratoryBirds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D653DB62552A26A008397A4 /* MigratoryBirds.swift */; };
@@ -191,6 +192,7 @@
 		1D3E81CA25B37CB900E1E732 /* FindTheLargestNumberInArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindTheLargestNumberInArray.swift; sourceTree = "<group>"; };
 		1D3E81CE25B37DC500E1E732 /* CheckIfAnArrayContainsAGivenNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckIfAnArrayContainsAGivenNumber.swift; sourceTree = "<group>"; };
 		1D3E81D225B37ECE00E1E732 /* ConvertAgeToDays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertAgeToDays.swift; sourceTree = "<group>"; };
+		1D3E81D625B384AA00E1E732 /* ComparingStringsByCountingOfCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComparingStringsByCountingOfCharacters.swift; sourceTree = "<group>"; };
 		1D46CB80257B6FF9001EE09A /* CircularArrayRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularArrayRotation.swift; sourceTree = "<group>"; };
 		1D4FABFA25763FBD0031C94D /* DesignerPDFViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignerPDFViewer.swift; sourceTree = "<group>"; };
 		1D653DB62552A26A008397A4 /* MigratoryBirds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigratoryBirds.swift; sourceTree = "<group>"; };
@@ -363,6 +365,7 @@
 				1D3E81CA25B37CB900E1E732 /* FindTheLargestNumberInArray.swift */,
 				1D3E81CE25B37DC500E1E732 /* CheckIfAnArrayContainsAGivenNumber.swift */,
 				1D3E81D225B37ECE00E1E732 /* ConvertAgeToDays.swift */,
+				1D3E81D625B384AA00E1E732 /* ComparingStringsByCountingOfCharacters.swift */,
 			);
 			path = CodingExercises;
 			sourceTree = "<group>";
@@ -630,6 +633,7 @@
 				95A222A12578FD3E002FCA87 /* ElectronicsShop.swift in Sources */,
 				1D784D0E25ADE4CF0038EA3A /* IsTheStringEmpty.swift in Sources */,
 				1D3E819B25B1952B00E1E732 /* SumOfDigitsBetweenTwoNumbers.swift in Sources */,
+				1D3E81D725B384AA00E1E732 /* ComparingStringsByCountingOfCharacters.swift in Sources */,
 				1D28451325A4EDD00086C2ED /* TicTakToe.swift in Sources */,
 				95A222C6257A2AEC002FCA87 /* DrawingBook.swift in Sources */,
 				1D784CBE25AA347F0038EA3A /* AllOccurrencesOfAnElementInAnArray.swift in Sources */,

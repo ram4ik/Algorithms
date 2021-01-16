@@ -697,4 +697,12 @@ class TestCodingExercises: XCTestCase {
         XCTAssertEqual(catd.calcAge(65), 23725)
         XCTAssertEqual(catd.calcAge(37), 13505)
     }
+    
+    func testComparingStringsByCountingOfCharacters() {
+        
+        let csbc = ComparingStringsByCountingOfCharacters()
+        
+        XCTAssertEqual(csbc.comp("UI", "oi"), true)
+        XCTAssertEqual(csbc.comp("SwiftUI", "iOS"), false)
+    }
 }
