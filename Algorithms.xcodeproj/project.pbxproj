@@ -46,6 +46,7 @@
 		1D3E81A325B19BF500E1E732 /* ConcatenatingTwoIntegerArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3E81A225B19BF500E1E732 /* ConcatenatingTwoIntegerArrays.swift */; };
 		1D3E81A725B19CFC00E1E732 /* TraceThatMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3E81A625B19CFC00E1E732 /* TraceThatMatrix.swift */; };
 		1D3E81AB25B19EA000E1E732 /* PositiveDominant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3E81AA25B19EA000E1E732 /* PositiveDominant.swift */; };
+		1D3E81AF25B3052C00E1E732 /* HashesAndPluses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3E81AE25B3052C00E1E732 /* HashesAndPluses.swift */; };
 		1D46CB81257B6FFA001EE09A /* CircularArrayRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D46CB80257B6FF9001EE09A /* CircularArrayRotation.swift */; };
 		1D4FABFB25763FBD0031C94D /* DesignerPDFViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4FABFA25763FBD0031C94D /* DesignerPDFViewer.swift */; };
 		1D653DB72552A26A008397A4 /* MigratoryBirds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D653DB62552A26A008397A4 /* MigratoryBirds.swift */; };
@@ -173,6 +174,7 @@
 		1D3E81A225B19BF500E1E732 /* ConcatenatingTwoIntegerArrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcatenatingTwoIntegerArrays.swift; sourceTree = "<group>"; };
 		1D3E81A625B19CFC00E1E732 /* TraceThatMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraceThatMatrix.swift; sourceTree = "<group>"; };
 		1D3E81AA25B19EA000E1E732 /* PositiveDominant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositiveDominant.swift; sourceTree = "<group>"; };
+		1D3E81AE25B3052C00E1E732 /* HashesAndPluses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashesAndPluses.swift; sourceTree = "<group>"; };
 		1D46CB80257B6FF9001EE09A /* CircularArrayRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularArrayRotation.swift; sourceTree = "<group>"; };
 		1D4FABFA25763FBD0031C94D /* DesignerPDFViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignerPDFViewer.swift; sourceTree = "<group>"; };
 		1D653DB62552A26A008397A4 /* MigratoryBirds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigratoryBirds.swift; sourceTree = "<group>"; };
@@ -336,6 +338,7 @@
 				1D3E81A225B19BF500E1E732 /* ConcatenatingTwoIntegerArrays.swift */,
 				1D3E81A625B19CFC00E1E732 /* TraceThatMatrix.swift */,
 				1D3E81AA25B19EA000E1E732 /* PositiveDominant.swift */,
+				1D3E81AE25B3052C00E1E732 /* HashesAndPluses.swift */,
 			);
 			path = CodingExercises;
 			sourceTree = "<group>";
@@ -610,6 +613,7 @@
 				1DBB78A6254DF36B00DD4CAA /* AlgorithmsApp.swift in Sources */,
 				1D89614C257E1C2000A1BC77 /* AppendAndDelete.swift in Sources */,
 				1D784CD625AB7AA50038EA3A /* MuseumOfIncredibly.swift in Sources */,
+				1D3E81AF25B3052C00E1E732 /* HashesAndPluses.swift in Sources */,
 				1D46CB81257B6FFA001EE09A /* CircularArrayRotation.swift in Sources */,
 				1D4FABFB25763FBD0031C94D /* DesignerPDFViewer.swift in Sources */,
 				1D784CF825ADDA8F0038EA3A /* MatchstickHouses.swift in Sources */,

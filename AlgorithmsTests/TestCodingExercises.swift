@@ -615,4 +615,14 @@ class TestCodingExercises: XCTestCase {
         XCTAssertEqual(pd.isPositiveDominant([5,0]), true)
         XCTAssertEqual(pd.isPositiveDominant([0,-4,-1]), false)
     }
+    
+    func testHashesAndPluses() {
+        
+        let hp = HashesAndPluses()
+        
+        XCTAssertEqual(hp.hashPlusCount("###+"), [3, 1])
+        XCTAssertEqual(hp.hashPlusCount("##+++#"), [3, 3])
+        XCTAssertEqual(hp.hashPlusCount("#+++#+#++#"), [4, 6])
+        XCTAssertEqual(hp.hashPlusCount(""), [0, 0])
+    }
 }
