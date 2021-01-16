@@ -663,4 +663,22 @@ class TestCodingExercises: XCTestCase {
         XCTAssertEqual(sooe.oddOrEven("banana"), true)
         XCTAssertEqual(sooe.oddOrEven("coconut"), false)
     }
+    
+    func testIsTheNumberEvenOrOdd() {
+        
+        let neoo = IsTheNumberEvenOrOdd()
+        
+        XCTAssertEqual(neoo.isEvenOrOdd(3), "odd")
+        XCTAssertEqual(neoo.isEvenOrOdd(146), "even")
+        XCTAssertEqual(neoo.isEvenOrOdd(19), "odd")
+    }
+    
+    func testFindTheLargestNumberInArray() {
+        
+        let lnia = FindTheLargestNumberInArray()
+        
+        XCTAssertEqual(lnia.findLargestNum([4, 5, 1, 3]), 5)
+        XCTAssertEqual(lnia.findLargestNum([300, 200, 600, 150]), 600)
+        XCTAssertEqual(lnia.findLargestNum([1000, 1001, 999]), 1001)
+    }
 }

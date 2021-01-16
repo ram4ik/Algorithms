@@ -51,6 +51,8 @@
 		1D3E81BB25B30BB300E1E732 /* CheckIfTheSameCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3E81BA25B30BB300E1E732 /* CheckIfTheSameCase.swift */; };
 		1D3E81BF25B3761600E1E732 /* EliminateOddNumbersWithinAnArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3E81BE25B3761600E1E732 /* EliminateOddNumbersWithinAnArray.swift */; };
 		1D3E81C325B3777D00E1E732 /* IsTheStringOddOrEven.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3E81C225B3777D00E1E732 /* IsTheStringOddOrEven.swift */; };
+		1D3E81C725B37C0700E1E732 /* IsTheNumberEvenOrOdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3E81C625B37C0700E1E732 /* IsTheNumberEvenOrOdd.swift */; };
+		1D3E81CB25B37CB900E1E732 /* FindTheLargestNumberInArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3E81CA25B37CB900E1E732 /* FindTheLargestNumberInArray.swift */; };
 		1D46CB81257B6FFA001EE09A /* CircularArrayRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D46CB80257B6FF9001EE09A /* CircularArrayRotation.swift */; };
 		1D4FABFB25763FBD0031C94D /* DesignerPDFViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4FABFA25763FBD0031C94D /* DesignerPDFViewer.swift */; };
 		1D653DB72552A26A008397A4 /* MigratoryBirds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D653DB62552A26A008397A4 /* MigratoryBirds.swift */; };
@@ -183,6 +185,8 @@
 		1D3E81BA25B30BB300E1E732 /* CheckIfTheSameCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckIfTheSameCase.swift; sourceTree = "<group>"; };
 		1D3E81BE25B3761600E1E732 /* EliminateOddNumbersWithinAnArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EliminateOddNumbersWithinAnArray.swift; sourceTree = "<group>"; };
 		1D3E81C225B3777D00E1E732 /* IsTheStringOddOrEven.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsTheStringOddOrEven.swift; sourceTree = "<group>"; };
+		1D3E81C625B37C0700E1E732 /* IsTheNumberEvenOrOdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsTheNumberEvenOrOdd.swift; sourceTree = "<group>"; };
+		1D3E81CA25B37CB900E1E732 /* FindTheLargestNumberInArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindTheLargestNumberInArray.swift; sourceTree = "<group>"; };
 		1D46CB80257B6FF9001EE09A /* CircularArrayRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularArrayRotation.swift; sourceTree = "<group>"; };
 		1D4FABFA25763FBD0031C94D /* DesignerPDFViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignerPDFViewer.swift; sourceTree = "<group>"; };
 		1D653DB62552A26A008397A4 /* MigratoryBirds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigratoryBirds.swift; sourceTree = "<group>"; };
@@ -351,6 +355,8 @@
 				1D3E81BA25B30BB300E1E732 /* CheckIfTheSameCase.swift */,
 				1D3E81BE25B3761600E1E732 /* EliminateOddNumbersWithinAnArray.swift */,
 				1D3E81C225B3777D00E1E732 /* IsTheStringOddOrEven.swift */,
+				1D3E81C625B37C0700E1E732 /* IsTheNumberEvenOrOdd.swift */,
+				1D3E81CA25B37CB900E1E732 /* FindTheLargestNumberInArray.swift */,
 			);
 			path = CodingExercises;
 			sourceTree = "<group>";
@@ -571,6 +577,7 @@
 				1D784CA625A9AC670038EA3A /* PerfectSquarePatch.swift in Sources */,
 				953402CB25AC7D4E00A854DA /* IntersectionOfTwoArraysTwo.swift in Sources */,
 				1DEC8FF4256177FE0023A1E9 /* ModifiedKaprekarNumbers.swift in Sources */,
+				1D3E81CB25B37CB900E1E732 /* FindTheLargestNumberInArray.swift in Sources */,
 				1D12575B25A5EDCD008A2262 /* SockPairs.swift in Sources */,
 				1D12577725A6F2E8008A2262 /* MakingProgress.swift in Sources */,
 				1D919C8725B02E990098C714 /* ReturnTheFirstElementInAnArray.swift in Sources */,
@@ -626,6 +633,7 @@
 				1D784C9E25A999340038EA3A /* ChatRoomStatus.swift in Sources */,
 				1DBB78A6254DF36B00DD4CAA /* AlgorithmsApp.swift in Sources */,
 				1D89614C257E1C2000A1BC77 /* AppendAndDelete.swift in Sources */,
+				1D3E81C725B37C0700E1E732 /* IsTheNumberEvenOrOdd.swift in Sources */,
 				1D784CD625AB7AA50038EA3A /* MuseumOfIncredibly.swift in Sources */,
 				1D3E81AF25B3052C00E1E732 /* HashesAndPluses.swift in Sources */,
 				1D46CB81257B6FFA001EE09A /* CircularArrayRotation.swift in Sources */,
