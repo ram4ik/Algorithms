@@ -689,4 +689,12 @@ class TestCodingExercises: XCTestCase {
         XCTAssertEqual(acgn.check([3, 4, 5, 6, 8], 3), true)
         XCTAssertEqual(acgn.check([7, 7, 7, 8], 9), false)
     }
+    
+    func testConvertAgeToDays() {
+        
+        let catd = ConvertAgeToDays()
+        
+        XCTAssertEqual(catd.calcAge(65), 23725)
+        XCTAssertEqual(catd.calcAge(37), 13505)
+    }
 }
