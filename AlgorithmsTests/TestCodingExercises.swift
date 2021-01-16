@@ -635,4 +635,14 @@ class TestCodingExercises: XCTestCase {
         XCTAssertEqual(rtn.numberArgs("x", "y"), 2)
         XCTAssertEqual(rtn.numberArgs(), 0)
     }
+    
+    func testCheckIfTheSameCase() {
+        
+        let sc = CheckIfTheSameCase()
+        
+        XCTAssertEqual(sc.sameCase("hello"), true)
+        XCTAssertEqual(sc.sameCase("HELLO"), true)
+        XCTAssertEqual(sc.sameCase("Hello"), false)
+        XCTAssertEqual(sc.sameCase("SwiftUI"), false)
+    }
 }
