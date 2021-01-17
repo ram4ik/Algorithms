@@ -56,6 +56,7 @@
 		1D3E81CF25B37DC500E1E732 /* CheckIfAnArrayContainsAGivenNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3E81CE25B37DC500E1E732 /* CheckIfAnArrayContainsAGivenNumber.swift */; };
 		1D3E81D325B37ECE00E1E732 /* ConvertAgeToDays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3E81D225B37ECE00E1E732 /* ConvertAgeToDays.swift */; };
 		1D3E81D725B384AA00E1E732 /* ComparingStringsByCountingOfCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3E81D625B384AA00E1E732 /* ComparingStringsByCountingOfCharacters.swift */; };
+		1D3E81DB25B4513D00E1E732 /* LessThan100.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3E81DA25B4513D00E1E732 /* LessThan100.swift */; };
 		1D46CB81257B6FFA001EE09A /* CircularArrayRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D46CB80257B6FF9001EE09A /* CircularArrayRotation.swift */; };
 		1D4FABFB25763FBD0031C94D /* DesignerPDFViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4FABFA25763FBD0031C94D /* DesignerPDFViewer.swift */; };
 		1D653DB72552A26A008397A4 /* MigratoryBirds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D653DB62552A26A008397A4 /* MigratoryBirds.swift */; };
@@ -193,6 +194,7 @@
 		1D3E81CE25B37DC500E1E732 /* CheckIfAnArrayContainsAGivenNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckIfAnArrayContainsAGivenNumber.swift; sourceTree = "<group>"; };
 		1D3E81D225B37ECE00E1E732 /* ConvertAgeToDays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertAgeToDays.swift; sourceTree = "<group>"; };
 		1D3E81D625B384AA00E1E732 /* ComparingStringsByCountingOfCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComparingStringsByCountingOfCharacters.swift; sourceTree = "<group>"; };
+		1D3E81DA25B4513D00E1E732 /* LessThan100.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessThan100.swift; sourceTree = "<group>"; };
 		1D46CB80257B6FF9001EE09A /* CircularArrayRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularArrayRotation.swift; sourceTree = "<group>"; };
 		1D4FABFA25763FBD0031C94D /* DesignerPDFViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignerPDFViewer.swift; sourceTree = "<group>"; };
 		1D653DB62552A26A008397A4 /* MigratoryBirds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigratoryBirds.swift; sourceTree = "<group>"; };
@@ -366,6 +368,7 @@
 				1D3E81CE25B37DC500E1E732 /* CheckIfAnArrayContainsAGivenNumber.swift */,
 				1D3E81D225B37ECE00E1E732 /* ConvertAgeToDays.swift */,
 				1D3E81D625B384AA00E1E732 /* ComparingStringsByCountingOfCharacters.swift */,
+				1D3E81DA25B4513D00E1E732 /* LessThan100.swift */,
 			);
 			path = CodingExercises;
 			sourceTree = "<group>";
@@ -628,6 +631,7 @@
 				1D3E819725B1948700E1E732 /* ReturnSomethingToMe.swift in Sources */,
 				1DD954E92573BD1D0096FB3B /* AngryProfessor .swift in Sources */,
 				1D3E81A725B19CFC00E1E732 /* TraceThatMatrix.swift in Sources */,
+				1D3E81DB25B4513D00E1E732 /* LessThan100.swift in Sources */,
 				1D91F98D256317A200A0CB73 /* EqualizeTheArray.swift in Sources */,
 				1DBB78D6254F3B4700DD4CAA /* BreakingTheRecords.swift in Sources */,
 				95A222A12578FD3E002FCA87 /* ElectronicsShop.swift in Sources */,

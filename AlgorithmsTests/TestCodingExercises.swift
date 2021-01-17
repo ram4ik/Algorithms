@@ -705,4 +705,12 @@ class TestCodingExercises: XCTestCase {
         XCTAssertEqual(csbc.comp("UI", "oi"), true)
         XCTAssertEqual(csbc.comp("SwiftUI", "iOS"), false)
     }
+    
+    func testLessThan100() {
+        
+        let l = LessThan100()
+        
+        XCTAssertEqual(l.lessThan(22, 42), true)
+        XCTAssertEqual(l.lessThan(99, 2), false)
+    }
 }
