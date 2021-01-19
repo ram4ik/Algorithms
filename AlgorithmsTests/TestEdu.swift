@@ -23,4 +23,11 @@ class TestEdu: XCTestCase {
         
         XCTAssertEqual(s.sort(tempArr: [3,4,2,5,7,6,1,9,8]), [1,2,3,4,5,6,7,8,9])
     }
+    
+    func testInsertion() {
+        
+        let i = Insertion()
+        
+        XCTAssertEqual(i.sort(tempArr: [3,4,2,5,7,6,1,9,8]), [1,2,3,4,5,6,7,8,9])
+    }
 }
