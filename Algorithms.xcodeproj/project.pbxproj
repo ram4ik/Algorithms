@@ -120,6 +120,7 @@
 		953402CF25AC823500A854DA /* ContainsDuplicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953402CE25AC823500A854DA /* ContainsDuplicate.swift */; };
 		9570677825B6FEE500657E66 /* Bubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9570677725B6FEE500657E66 /* Bubble.swift */; };
 		9570677C25B7004700657E66 /* TestEdu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9570677B25B7004700657E66 /* TestEdu.swift */; };
+		9570678025B7025500657E66 /* Selection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9570677F25B7025500657E66 /* Selection.swift */; };
 		9585F318256E3D14007E9250 /* JumpingOnTheCloudsRevisited.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9585F317256E3D14007E9250 /* JumpingOnTheCloudsRevisited.swift */; };
 		95860012256CF3060060DC91 /* SherlockAndSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95860011256CF3060060DC91 /* SherlockAndSquare.swift */; };
 		9586FFE4256BEC210060DC91 /* LibraryFine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9586FFE3256BEC210060DC91 /* LibraryFine.swift */; };
@@ -264,6 +265,7 @@
 		953402CE25AC823500A854DA /* ContainsDuplicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainsDuplicate.swift; sourceTree = "<group>"; };
 		9570677725B6FEE500657E66 /* Bubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bubble.swift; sourceTree = "<group>"; };
 		9570677B25B7004700657E66 /* TestEdu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestEdu.swift; sourceTree = "<group>"; };
+		9570677F25B7025500657E66 /* Selection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Selection.swift; sourceTree = "<group>"; };
 		9585F317256E3D14007E9250 /* JumpingOnTheCloudsRevisited.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpingOnTheCloudsRevisited.swift; sourceTree = "<group>"; };
 		95860011256CF3060060DC91 /* SherlockAndSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SherlockAndSquare.swift; sourceTree = "<group>"; };
 		9586FFE3256BEC210060DC91 /* LibraryFine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryFine.swift; sourceTree = "<group>"; };
@@ -479,6 +481,7 @@
 			isa = PBXGroup;
 			children = (
 				9570677725B6FEE500657E66 /* Bubble.swift */,
+				9570677F25B7025500657E66 /* Selection.swift */,
 			);
 			path = Edu;
 			sourceTree = "<group>";
@@ -648,6 +651,7 @@
 				1D3E81DB25B4513D00E1E732 /* LessThan100.swift in Sources */,
 				1D91F98D256317A200A0CB73 /* EqualizeTheArray.swift in Sources */,
 				1DBB78D6254F3B4700DD4CAA /* BreakingTheRecords.swift in Sources */,
+				9570678025B7025500657E66 /* Selection.swift in Sources */,
 				9570677825B6FEE500657E66 /* Bubble.swift in Sources */,
 				95A222A12578FD3E002FCA87 /* ElectronicsShop.swift in Sources */,
 				1D784D0E25ADE4CF0038EA3A /* IsTheStringEmpty.swift in Sources */,

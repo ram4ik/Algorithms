@@ -9,7 +9,7 @@ import Foundation
 
 class Bubble {
     
-    func selectionSort(arr: [Int]) -> [Int] {
+    func sort(arr: [Int]) -> [Int] {
         
         var tempArr = arr
         
