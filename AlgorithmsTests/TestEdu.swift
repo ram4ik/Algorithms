@@ -37,4 +37,13 @@ class TestEdu: XCTestCase {
         
         XCTAssertEqual(q.sort(tempArr: [3,4,2,5,7,6,1,9,8]), [1,2,3,4,5,6,7,8,9])
     }
+    
+    func testLineSearch() {
+        
+        // 1. find a sspecific value - O(n)
+        let sequence = [8,10,2,9,6,5]
+        let result = sequence.lineSearch(for: 6) // brute force...!
+        
+        XCTAssertTrue(result)
+    }
 }

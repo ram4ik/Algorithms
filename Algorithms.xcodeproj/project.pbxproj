@@ -104,6 +104,7 @@
 		1DBB78CE254EA2F000DD4CAA /* NumberLineJumps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBB78CD254EA2F000DD4CAA /* NumberLineJumps.swift */; };
 		1DBB78D2254F190500DD4CAA /* BetweenTwoSets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBB78D1254F190500DD4CAA /* BetweenTwoSets.swift */; };
 		1DBB78D6254F3B4700DD4CAA /* BreakingTheRecords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBB78D5254F3B4700DD4CAA /* BreakingTheRecords.swift */; };
+		1DC6C02425BD5B6B006C8DEE /* BigONotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC6C02325BD5B6B006C8DEE /* BigONotation.swift */; };
 		1DD954E92573BD1D0096FB3B /* AngryProfessor .swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD954E82573BD1D0096FB3B /* AngryProfessor .swift */; };
 		1DE140BC255C55E700C415E6 /* FindDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE140BB255C55E700C415E6 /* FindDigits.swift */; };
 		1DE74B79256ACC5700313838 /* CutSticks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE74B78256ACC5700313838 /* CutSticks.swift */; };
@@ -251,6 +252,7 @@
 		1DBB78CD254EA2F000DD4CAA /* NumberLineJumps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberLineJumps.swift; sourceTree = "<group>"; };
 		1DBB78D1254F190500DD4CAA /* BetweenTwoSets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetweenTwoSets.swift; sourceTree = "<group>"; };
 		1DBB78D5254F3B4700DD4CAA /* BreakingTheRecords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakingTheRecords.swift; sourceTree = "<group>"; };
+		1DC6C02325BD5B6B006C8DEE /* BigONotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigONotation.swift; sourceTree = "<group>"; };
 		1DD954E82573BD1D0096FB3B /* AngryProfessor .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AngryProfessor .swift"; sourceTree = "<group>"; };
 		1DE140BB255C55E700C415E6 /* FindDigits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindDigits.swift; sourceTree = "<group>"; };
 		1DE74B78256ACC5700313838 /* CutSticks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CutSticks.swift; sourceTree = "<group>"; };
@@ -488,6 +490,7 @@
 				9570677F25B7025500657E66 /* Selection.swift */,
 				9570678325B704B700657E66 /* Insertion.swift */,
 				9570678725B70C4500657E66 /* Quick.swift */,
+				1DC6C02325BD5B6B006C8DEE /* BigONotation.swift */,
 			);
 			path = Edu;
 			sourceTree = "<group>";
@@ -668,6 +671,7 @@
 				95A222C6257A2AEC002FCA87 /* DrawingBook.swift in Sources */,
 				1D784CBE25AA347F0038EA3A /* AllOccurrencesOfAnElementInAnArray.swift in Sources */,
 				1D3E81AB25B19EA000E1E732 /* PositiveDominant.swift in Sources */,
+				1DC6C02425BD5B6B006C8DEE /* BigONotation.swift in Sources */,
 				1D28451F25A598740086C2ED /* ProductOfAllOtherNumbers.swift in Sources */,
 				1D28450F25A4E9770086C2ED /* WhichNumbersIsNotLikeTheOthers.swift in Sources */,
 				1D12577325A6ED0E008A2262 /* NextPrime.swift in Sources */,
