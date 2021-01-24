@@ -45,5 +45,6 @@ class TestEdu: XCTestCase {
         let result = sequence.lineSearch(for: 6) // brute force...!
         
         XCTAssertTrue(result)
+        XCTAssertFalse(sequence.lineSearch(for: 4))
     }
 }
