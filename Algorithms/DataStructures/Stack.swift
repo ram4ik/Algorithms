@@ -1,5 +1,5 @@
 //
-//  DataStructures.swift
+//  Stack.swift
 //  Algorithms
 //
 //  Created by ramil on 26.01.2021.
@@ -43,6 +43,6 @@ extension Stack: CustomStringConvertible {
 
 extension Stack: ExpressibleByArrayLiteral {
     init(arrayLiteral elements: Element...) {
-        storage = elements 
+        storage = elements
     }
 }

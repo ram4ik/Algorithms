@@ -8,7 +8,7 @@
 import XCTest
 @testable import Algorithms
 
-class DataStructures: XCTestCase {
+class TestStack: XCTestCase {
 
     var stack = Stack<Int>()
     

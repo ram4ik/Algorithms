@@ -137,8 +137,10 @@
 		95D5512125AC4D01003E903A /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D5512025AC4D01003E903A /* Logger.swift */; };
 		95D5512525AC564F003E903A /* UniqueEmailAddresses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D5512425AC564F003E903A /* UniqueEmailAddresses.swift */; };
 		95E50367256518E700DDD45F /* HalloweenSale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E50366256518E700DDD45F /* HalloweenSale.swift */; };
-		95EA15B225C00000006CEBF7 /* DataStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EA15B125C00000006CEBF7 /* DataStructures.swift */; };
-		95EA15B625C000C5006CEBF7 /* DataStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EA15B525C000C5006CEBF7 /* DataStructures.swift */; };
+		95EA15B225C00000006CEBF7 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EA15B125C00000006CEBF7 /* Stack.swift */; };
+		95EA15B625C000C5006CEBF7 /* TestStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EA15B525C000C5006CEBF7 /* TestStack.swift */; };
+		95EA15BC25C0118F006CEBF7 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EA15BB25C0118F006CEBF7 /* Queue.swift */; };
+		95EA15C225C01311006CEBF7 /* TestQueue&Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EA15C125C01311006CEBF7 /* TestQueue&Stack.swift */; };
 		95EB4E782574F6F300DD32BA /* FlatlandSpaceStations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EB4E772574F6F300DD32BA /* FlatlandSpaceStations.swift */; };
 /* End PBXBuildFile section */
 
@@ -287,8 +289,10 @@
 		95D5512025AC4D01003E903A /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		95D5512425AC564F003E903A /* UniqueEmailAddresses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqueEmailAddresses.swift; sourceTree = "<group>"; };
 		95E50366256518E700DDD45F /* HalloweenSale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalloweenSale.swift; sourceTree = "<group>"; };
-		95EA15B125C00000006CEBF7 /* DataStructures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStructures.swift; sourceTree = "<group>"; };
-		95EA15B525C000C5006CEBF7 /* DataStructures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStructures.swift; sourceTree = "<group>"; };
+		95EA15B125C00000006CEBF7 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		95EA15B525C000C5006CEBF7 /* TestStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestStack.swift; sourceTree = "<group>"; };
+		95EA15BB25C0118F006CEBF7 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		95EA15C125C01311006CEBF7 /* TestQueue&Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TestQueue&Stack.swift"; sourceTree = "<group>"; };
 		95EB4E772574F6F300DD32BA /* FlatlandSpaceStations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlatlandSpaceStations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -484,7 +488,8 @@
 				1D386C2B25A3AD9F004A457B /* TestCodingExercises.swift */,
 				95D5511C25AC42EB003E903A /* TestAlgorithmsDesign.swift */,
 				9570677B25B7004700657E66 /* TestEdu.swift */,
-				95EA15B525C000C5006CEBF7 /* DataStructures.swift */,
+				95EA15B525C000C5006CEBF7 /* TestStack.swift */,
+				95EA15C125C01311006CEBF7 /* TestQueue&Stack.swift */,
 			);
 			path = AlgorithmsTests;
 			sourceTree = "<group>";
@@ -504,7 +509,8 @@
 		957067FE25BEFDA300657E66 /* DataStructures */ = {
 			isa = PBXGroup;
 			children = (
-				95EA15B125C00000006CEBF7 /* DataStructures.swift */,
+				95EA15B125C00000006CEBF7 /* Stack.swift */,
+				95EA15BB25C0118F006CEBF7 /* Queue.swift */,
 			);
 			path = DataStructures;
 			sourceTree = "<group>";
@@ -687,7 +693,7 @@
 				1D3E81AB25B19EA000E1E732 /* PositiveDominant.swift in Sources */,
 				1DC6C02425BD5B6B006C8DEE /* BigONotation.swift in Sources */,
 				1D28451F25A598740086C2ED /* ProductOfAllOtherNumbers.swift in Sources */,
-				95EA15B225C00000006CEBF7 /* DataStructures.swift in Sources */,
+				95EA15B225C00000006CEBF7 /* Stack.swift in Sources */,
 				1D28450F25A4E9770086C2ED /* WhichNumbersIsNotLikeTheOthers.swift in Sources */,
 				1D12577325A6ED0E008A2262 /* NextPrime.swift in Sources */,
 				953402C725AC749500A854DA /* IntersectionOfTwoArrays.swift in Sources */,
@@ -717,6 +723,7 @@
 				1D28451B25A591700086C2ED /* FindTheMissingLetter.swift in Sources */,
 				1D784C5125A8CA5F0038EA3A /* RepeatingLetters.swift in Sources */,
 				1D3E819F25B197B500E1E732 /* AllAboutClosuresAdding.swift in Sources */,
+				95EA15BC25C0118F006CEBF7 /* Queue.swift in Sources */,
 				1D784CBA25AA2ADC0038EA3A /* IsTheWordSingularOrPlural.swift in Sources */,
 				1D3E81A325B19BF500E1E732 /* ConcatenatingTwoIntegerArrays.swift in Sources */,
 				1D9BAA64256074FD00527E66 /* UtopianTree.swift in Sources */,
@@ -758,7 +765,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DBB78C0254DF60F00DD4CAA /* AlgorithmsTests.swift in Sources */,
-				95EA15B625C000C5006CEBF7 /* DataStructures.swift in Sources */,
+				95EA15C225C01311006CEBF7 /* TestQueue&Stack.swift in Sources */,
+				95EA15B625C000C5006CEBF7 /* TestStack.swift in Sources */,
 				1D386C2C25A3AD9F004A457B /* TestCodingExercises.swift in Sources */,
 				9570677C25B7004700657E66 /* TestEdu.swift in Sources */,
 				95D5511D25AC42EB003E903A /* TestAlgorithmsDesign.swift in Sources */,
