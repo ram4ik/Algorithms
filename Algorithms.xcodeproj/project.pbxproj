@@ -88,6 +88,8 @@
 		1D784D0E25ADE4CF0038EA3A /* IsTheStringEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D784D0D25ADE4CF0038EA3A /* IsTheStringEmpty.swift */; };
 		1D784D1225ADE5C00038EA3A /* PerfectNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D784D1125ADE5C00038EA3A /* PerfectNumber.swift */; };
 		1D89614C257E1C2000A1BC77 /* AppendAndDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D89614B257E1C2000A1BC77 /* AppendAndDelete.swift */; };
+		1D8F252E25C6A2F200B256C5 /* RecursionInTheWorkplace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8F252D25C6A2F200B256C5 /* RecursionInTheWorkplace.swift */; };
+		1D8F253225C6C30300B256C5 /* TestRecursionInTheWorkplace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8F253125C6C30300B256C5 /* TestRecursionInTheWorkplace.swift */; };
 		1D919C8725B02E990098C714 /* ReturnTheFirstElementInAnArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D919C8625B02E990098C714 /* ReturnTheFirstElementInAnArray.swift */; };
 		1D919C8B25B02FD80098C714 /* ReturnTheLastElementInAnArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D919C8A25B02FD70098C714 /* ReturnTheLastElementInAnArray.swift */; };
 		1D91F98D256317A200A0CB73 /* EqualizeTheArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D91F98C256317A200A0CB73 /* EqualizeTheArray.swift */; };
@@ -236,6 +238,8 @@
 		1D784D0D25ADE4CF0038EA3A /* IsTheStringEmpty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsTheStringEmpty.swift; sourceTree = "<group>"; };
 		1D784D1125ADE5C00038EA3A /* PerfectNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfectNumber.swift; sourceTree = "<group>"; };
 		1D89614B257E1C2000A1BC77 /* AppendAndDelete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppendAndDelete.swift; sourceTree = "<group>"; };
+		1D8F252D25C6A2F200B256C5 /* RecursionInTheWorkplace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecursionInTheWorkplace.swift; sourceTree = "<group>"; };
+		1D8F253125C6C30300B256C5 /* TestRecursionInTheWorkplace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRecursionInTheWorkplace.swift; sourceTree = "<group>"; };
 		1D919C8625B02E990098C714 /* ReturnTheFirstElementInAnArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturnTheFirstElementInAnArray.swift; sourceTree = "<group>"; };
 		1D919C8A25B02FD70098C714 /* ReturnTheLastElementInAnArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturnTheLastElementInAnArray.swift; sourceTree = "<group>"; };
 		1D91F98C256317A200A0CB73 /* EqualizeTheArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EqualizeTheArray.swift; sourceTree = "<group>"; };
@@ -393,6 +397,14 @@
 			path = CodingExercises;
 			sourceTree = "<group>";
 		};
+		1D8F252A25C6A2E000B256C5 /* Arcade */ = {
+			isa = PBXGroup;
+			children = (
+				1D8F252D25C6A2F200B256C5 /* RecursionInTheWorkplace.swift */,
+			);
+			path = Arcade;
+			sourceTree = "<group>";
+		};
 		1DBB7899254DF36A00DD4CAA = {
 			isa = PBXGroup;
 			children = (
@@ -414,6 +426,7 @@
 		1DBB78A4254DF36B00DD4CAA /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				1D8F252A25C6A2E000B256C5 /* Arcade */,
 				957067FE25BEFDA300657E66 /* DataStructures */,
 				9570677625B6FECC00657E66 /* Edu */,
 				95D5511325AC4166003E903A /* AlgorithmsDesign */,
@@ -490,6 +503,7 @@
 				9570677B25B7004700657E66 /* TestEdu.swift */,
 				95EA15B525C000C5006CEBF7 /* TestStack.swift */,
 				95EA15C125C01311006CEBF7 /* TestQueue&Stack.swift */,
+				1D8F253125C6C30300B256C5 /* TestRecursionInTheWorkplace.swift */,
 			);
 			path = AlgorithmsTests;
 			sourceTree = "<group>";
@@ -680,6 +694,7 @@
 				1D3E81DB25B4513D00E1E732 /* LessThan100.swift in Sources */,
 				1D91F98D256317A200A0CB73 /* EqualizeTheArray.swift in Sources */,
 				1DBB78D6254F3B4700DD4CAA /* BreakingTheRecords.swift in Sources */,
+				1D8F252E25C6A2F200B256C5 /* RecursionInTheWorkplace.swift in Sources */,
 				9570678025B7025500657E66 /* Selection.swift in Sources */,
 				9570678825B70C4500657E66 /* Quick.swift in Sources */,
 				9570677825B6FEE500657E66 /* Bubble.swift in Sources */,
@@ -768,6 +783,7 @@
 				95EA15C225C01311006CEBF7 /* TestQueue&Stack.swift in Sources */,
 				95EA15B625C000C5006CEBF7 /* TestStack.swift in Sources */,
 				1D386C2C25A3AD9F004A457B /* TestCodingExercises.swift in Sources */,
+				1D8F253225C6C30300B256C5 /* TestRecursionInTheWorkplace.swift in Sources */,
 				9570677C25B7004700657E66 /* TestEdu.swift in Sources */,
 				95D5511D25AC42EB003E903A /* TestAlgorithmsDesign.swift in Sources */,
 			);
