@@ -111,6 +111,8 @@
 		1DE140BC255C55E700C415E6 /* FindDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE140BB255C55E700C415E6 /* FindDigits.swift */; };
 		1DE74B79256ACC5700313838 /* CutSticks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE74B78256ACC5700313838 /* CutSticks.swift */; };
 		1DEC8FF4256177FE0023A1E9 /* ModifiedKaprekarNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEC8FF3256177FE0023A1E9 /* ModifiedKaprekarNumbers.swift */; };
+		1DF1A79425CBD74300B347C8 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF1A79325CBD74300B347C8 /* LinkedList.swift */; };
+		1DF1A79825CBD80500B347C8 /* TestLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF1A79725CBD80500B347C8 /* TestLinkedList.swift */; };
 		1DF44EBF2570263000232DD4 /* SaveThePrisoner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF44EBE2570263000232DD4 /* SaveThePrisoner.swift */; };
 		1DF44EFB25725FA900232DD4 /* BeautifulDaysAtTheMovies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF44EFA25725FA900232DD4 /* BeautifulDaysAtTheMovies.swift */; };
 		9515CF3825666A310061796F /* ChocolateFeast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9515CF3725666A310061796F /* ChocolateFeast.swift */; };
@@ -265,6 +267,8 @@
 		1DE140BB255C55E700C415E6 /* FindDigits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindDigits.swift; sourceTree = "<group>"; };
 		1DE74B78256ACC5700313838 /* CutSticks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CutSticks.swift; sourceTree = "<group>"; };
 		1DEC8FF3256177FE0023A1E9 /* ModifiedKaprekarNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifiedKaprekarNumbers.swift; sourceTree = "<group>"; };
+		1DF1A79325CBD74300B347C8 /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
+		1DF1A79725CBD80500B347C8 /* TestLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLinkedList.swift; sourceTree = "<group>"; };
 		1DF44EBE2570263000232DD4 /* SaveThePrisoner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveThePrisoner.swift; sourceTree = "<group>"; };
 		1DF44EFA25725FA900232DD4 /* BeautifulDaysAtTheMovies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeautifulDaysAtTheMovies.swift; sourceTree = "<group>"; };
 		9515CF3725666A310061796F /* ChocolateFeast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChocolateFeast.swift; sourceTree = "<group>"; };
@@ -426,6 +430,7 @@
 		1DBB78A4254DF36B00DD4CAA /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				1DF1A79225CBD72200B347C8 /* Book */,
 				1D8F252A25C6A2E000B256C5 /* Arcade */,
 				957067FE25BEFDA300657E66 /* DataStructures */,
 				9570677625B6FECC00657E66 /* Edu */,
@@ -504,8 +509,17 @@
 				95EA15B525C000C5006CEBF7 /* TestStack.swift */,
 				95EA15C125C01311006CEBF7 /* TestQueue&Stack.swift */,
 				1D8F253125C6C30300B256C5 /* TestRecursionInTheWorkplace.swift */,
+				1DF1A79725CBD80500B347C8 /* TestLinkedList.swift */,
 			);
 			path = AlgorithmsTests;
+			sourceTree = "<group>";
+		};
+		1DF1A79225CBD72200B347C8 /* Book */ = {
+			isa = PBXGroup;
+			children = (
+				1DF1A79325CBD74300B347C8 /* LinkedList.swift */,
+			);
+			path = Book;
 			sourceTree = "<group>";
 		};
 		9570677625B6FECC00657E66 /* Edu */ = {
@@ -767,6 +781,7 @@
 				1D3BC1FC2568441400E53B15 /* MinimumDistance.swift in Sources */,
 				1D12577F25A704C8008A2262 /* EvenOddPartition.swift in Sources */,
 				1D28932425AED66900139F38 /* FindThePerimeterOfARectangle.swift in Sources */,
+				1DF1A79425CBD74300B347C8 /* LinkedList.swift in Sources */,
 				1D784CC625AAE7760038EA3A /* ArrayOfMultiples.swift in Sources */,
 				95E50367256518E700DDD45F /* HalloweenSale.swift in Sources */,
 				1DE140BC255C55E700C415E6 /* FindDigits.swift in Sources */,
@@ -781,6 +796,7 @@
 			files = (
 				1DBB78C0254DF60F00DD4CAA /* AlgorithmsTests.swift in Sources */,
 				95EA15C225C01311006CEBF7 /* TestQueue&Stack.swift in Sources */,
+				1DF1A79825CBD80500B347C8 /* TestLinkedList.swift in Sources */,
 				95EA15B625C000C5006CEBF7 /* TestStack.swift in Sources */,
 				1D386C2C25A3AD9F004A457B /* TestCodingExercises.swift in Sources */,
 				1D8F253225C6C30300B256C5 /* TestRecursionInTheWorkplace.swift in Sources */,
