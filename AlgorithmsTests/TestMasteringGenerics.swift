@@ -48,4 +48,20 @@ class TestMasteringGenerics: XCTestCase {
         XCTAssertEqual(mg.customAdd(a: 4, b: 5), 9)
         XCTAssertEqual(mg.customAdd(a: 3.14, b: 1.25), 4.390000000000001)
     }
+    
+    func testUseStorage() {
+        let booksBox = Box<Book>()
+        
+        booksBox.store(item: Book(title: "Mastering SwiftUI", author: "Paul"))
+        booksBox.store(item: Book(title: "Mastering Generics", author: "Markus"))
+        
+        XCTAssertEqual(booksBox.items.count, 2)
+        
+        let retriveAuthor = booksBox.retrive(index: 0).author
+        XCTAssertEqual(retriveAuthor, "Paul")
+        
+        let retriveTitle = booksBox.retrive(index: 1).title
+        XCTAssertEqual(retriveTitle, "Mastering Generics")
+        
+    }
 }

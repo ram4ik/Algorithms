@@ -124,6 +124,12 @@
 		951C81972628884F0098038C /* Truck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951C81962628884F0098038C /* Truck.swift */; };
 		951C819B2628885D0098038C /* Tractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951C819A2628885D0098038C /* Tractor.swift */; };
 		951C819F262888A10098038C /* AddableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951C819E262888A10098038C /* AddableProtocol.swift */; };
+		951C81A326288CBF0098038C /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951C81A226288CBF0098038C /* Book.swift */; };
+		951C81A726288CDF0098038C /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951C81A626288CDF0098038C /* Storage.swift */; };
+		951C81AB26288D240098038C /* Bookcase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951C81AA26288D240098038C /* Bookcase.swift */; };
+		951C81AF26288DB30098038C /* VideoGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951C81AE26288DB30098038C /* VideoGame.swift */; };
+		951C81B326288DD90098038C /* VideoCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951C81B226288DD90098038C /* VideoCase.swift */; };
+		951C81B726288EED0098038C /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951C81B626288EED0098038C /* Box.swift */; };
 		9522EBEB2588DC4100E5C4C1 /* QueueUsingStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9522EBEA2588DC4100E5C4C1 /* QueueUsingStack.swift */; };
 		953402BB25AC62A300A854DA /* BuildQueueUsingStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953402BA25AC62A300A854DA /* BuildQueueUsingStack.swift */; };
 		953402BF25AC6BEA00A854DA /* MajorityElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953402BE25AC6BEA00A854DA /* MajorityElement.swift */; };
@@ -288,6 +294,12 @@
 		951C81962628884F0098038C /* Truck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Truck.swift; sourceTree = "<group>"; };
 		951C819A2628885D0098038C /* Tractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tractor.swift; sourceTree = "<group>"; };
 		951C819E262888A10098038C /* AddableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddableProtocol.swift; sourceTree = "<group>"; };
+		951C81A226288CBF0098038C /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		951C81A626288CDF0098038C /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		951C81AA26288D240098038C /* Bookcase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bookcase.swift; sourceTree = "<group>"; };
+		951C81AE26288DB30098038C /* VideoGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoGame.swift; sourceTree = "<group>"; };
+		951C81B226288DD90098038C /* VideoCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCase.swift; sourceTree = "<group>"; };
+		951C81B626288EED0098038C /* Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
 		9522EBEA2588DC4100E5C4C1 /* QueueUsingStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueUsingStack.swift; sourceTree = "<group>"; };
 		953402BA25AC62A300A854DA /* BuildQueueUsingStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildQueueUsingStack.swift; sourceTree = "<group>"; };
 		953402BE25AC6BEA00A854DA /* MajorityElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajorityElement.swift; sourceTree = "<group>"; };
@@ -550,6 +562,12 @@
 				951C81962628884F0098038C /* Truck.swift */,
 				951C819A2628885D0098038C /* Tractor.swift */,
 				951C819E262888A10098038C /* AddableProtocol.swift */,
+				951C81A226288CBF0098038C /* Book.swift */,
+				951C81A626288CDF0098038C /* Storage.swift */,
+				951C81AA26288D240098038C /* Bookcase.swift */,
+				951C81AE26288DB30098038C /* VideoGame.swift */,
+				951C81B226288DD90098038C /* VideoCase.swift */,
+				951C81B626288EED0098038C /* Box.swift */,
 			);
 			path = MasteringGenerics;
 			sourceTree = "<group>";
@@ -713,6 +731,7 @@
 				1D1CE77025547A5600DB4287 /* DayOfTheProgrammer.swift in Sources */,
 				1DBB78A8254DF36B00DD4CAA /* ContentView.swift in Sources */,
 				1D3E81BB25B30BB300E1E732 /* CheckIfTheSameCase.swift in Sources */,
+				951C81A326288CBF0098038C /* Book.swift in Sources */,
 				9522EBEB2588DC4100E5C4C1 /* QueueUsingStack.swift in Sources */,
 				1D12576F25A6EA9E008A2262 /* MovingToTheEnd.swift in Sources */,
 				1D12576725A6DBC5008A2262 /* EncodeMorse.swift in Sources */,
@@ -740,6 +759,7 @@
 				1D3E819725B1948700E1E732 /* ReturnSomethingToMe.swift in Sources */,
 				1DD954E92573BD1D0096FB3B /* AngryProfessor .swift in Sources */,
 				1D3E81A725B19CFC00E1E732 /* TraceThatMatrix.swift in Sources */,
+				951C81AF26288DB30098038C /* VideoGame.swift in Sources */,
 				1D3E81DB25B4513D00E1E732 /* LessThan100.swift in Sources */,
 				1D91F98D256317A200A0CB73 /* EqualizeTheArray.swift in Sources */,
 				1DBB78D6254F3B4700DD4CAA /* BreakingTheRecords.swift in Sources */,
@@ -747,6 +767,7 @@
 				9570678025B7025500657E66 /* Selection.swift in Sources */,
 				951C81932628881D0098038C /* Car.swift in Sources */,
 				9570678825B70C4500657E66 /* Quick.swift in Sources */,
+				951C81B326288DD90098038C /* VideoCase.swift in Sources */,
 				9570677825B6FEE500657E66 /* Bubble.swift in Sources */,
 				95A222A12578FD3E002FCA87 /* ElectronicsShop.swift in Sources */,
 				1D784D0E25ADE4CF0038EA3A /* IsTheStringEmpty.swift in Sources */,
@@ -758,6 +779,7 @@
 				1D3E81AB25B19EA000E1E732 /* PositiveDominant.swift in Sources */,
 				1DC6C02425BD5B6B006C8DEE /* BigONotation.swift in Sources */,
 				1D28451F25A598740086C2ED /* ProductOfAllOtherNumbers.swift in Sources */,
+				951C81B726288EED0098038C /* Box.swift in Sources */,
 				95EA15B225C00000006CEBF7 /* Stack.swift in Sources */,
 				1D28450F25A4E9770086C2ED /* WhichNumbersIsNotLikeTheOthers.swift in Sources */,
 				1D12577325A6ED0E008A2262 /* NextPrime.swift in Sources */,
@@ -796,6 +818,7 @@
 				1D28932825AED7B800139F38 /* GetTheSumOfAllArrayElements.swift in Sources */,
 				1DE74B79256ACC5700313838 /* CutSticks.swift in Sources */,
 				951C818126287B020098038C /* MasteringGenerics.swift in Sources */,
+				951C81A726288CDF0098038C /* Storage.swift in Sources */,
 				95A222CA257CC33D002FCA87 /* SequenceEquation.swift in Sources */,
 				95D5512125AC4D01003E903A /* Logger.swift in Sources */,
 				1D12578325A7066E008A2262 /* TotalVolumeOfAllBoxes.swift in Sources */,
@@ -814,6 +837,7 @@
 				1D3E819325B1935300E1E732 /* FootballPoint.swift in Sources */,
 				1DBB78CE254EA2F000DD4CAA /* NumberLineJumps.swift in Sources */,
 				1D12577B25A6FDC0008A2262 /* PersistentLittleBugger.swift in Sources */,
+				951C81AB26288D240098038C /* Bookcase.swift in Sources */,
 				1D265A5E2569C2BE0073C85E /* ServiceLane.swift in Sources */,
 				9586FFE4256BEC210060DC91 /* LibraryFine.swift in Sources */,
 				1D784CD225AB78D10038EA3A /* SliceOfPie.swift in Sources */,
