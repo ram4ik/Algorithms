@@ -22,4 +22,8 @@ class MasteringGenerics {
         return nil
     }
     
+    func customAdd<T: AddableProtocol>(a: T, b: T) -> T {
+        return a + b
+    }
+    
 }

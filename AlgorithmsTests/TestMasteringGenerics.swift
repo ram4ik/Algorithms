@@ -44,4 +44,8 @@ class TestMasteringGenerics: XCTestCase {
         XCTAssertNil(mg.linearSearch(array: people, key: mark))
     }
 
+    func testCustomAdd() {
+        XCTAssertEqual(mg.customAdd(a: 4, b: 5), 9)
+        XCTAssertEqual(mg.customAdd(a: 3.14, b: 1.25), 4.390000000000001)
+    }
 }
