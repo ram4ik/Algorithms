@@ -64,4 +64,20 @@ class TestMasteringGenerics: XCTestCase {
         XCTAssertEqual(retriveTitle, "Mastering Generics")
         
     }
+    
+    func testUseLocation() {
+        let loc = "777 Main str."
+        let loc1 = Location.address(loc)
+        let loc2 = Location.coordinate(42.041123, -101.22345)
+        
+        let adr = Address(streetNumber: 777, streetName: "Main str.", city: "San Francisco", zipCode: 11002)
+        let adr1 = GenLocation.address(adr)
+        let adr2 = GenLocation.coordinated(Coordinate(lat: 42.041123, long: -101.22345))
+        
+        XCTAssertEqual(loc, "\(adr.streetNumber) \(adr.streetName)")
+        XCTAssertNotNil(loc1)
+        XCTAssertNotNil(loc2)
+        XCTAssertNotNil(adr1)
+        XCTAssertNotNil(adr2)
+    }
 }

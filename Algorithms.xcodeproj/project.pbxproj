@@ -130,6 +130,10 @@
 		951C81AF26288DB30098038C /* VideoGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951C81AE26288DB30098038C /* VideoGame.swift */; };
 		951C81B326288DD90098038C /* VideoCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951C81B226288DD90098038C /* VideoCase.swift */; };
 		951C81B726288EED0098038C /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951C81B626288EED0098038C /* Box.swift */; };
+		951C81BB2629A6530098038C /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951C81BA2629A6530098038C /* Location.swift */; };
+		951C81BF2629A7620098038C /* GenLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951C81BE2629A7620098038C /* GenLocation.swift */; };
+		951C81C32629A7B60098038C /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951C81C22629A7B60098038C /* Address.swift */; };
+		951C81C72629A8840098038C /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951C81C62629A8840098038C /* Coordinate.swift */; };
 		9522EBEB2588DC4100E5C4C1 /* QueueUsingStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9522EBEA2588DC4100E5C4C1 /* QueueUsingStack.swift */; };
 		953402BB25AC62A300A854DA /* BuildQueueUsingStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953402BA25AC62A300A854DA /* BuildQueueUsingStack.swift */; };
 		953402BF25AC6BEA00A854DA /* MajorityElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953402BE25AC6BEA00A854DA /* MajorityElement.swift */; };
@@ -300,6 +304,10 @@
 		951C81AE26288DB30098038C /* VideoGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoGame.swift; sourceTree = "<group>"; };
 		951C81B226288DD90098038C /* VideoCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCase.swift; sourceTree = "<group>"; };
 		951C81B626288EED0098038C /* Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
+		951C81BA2629A6530098038C /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		951C81BE2629A7620098038C /* GenLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenLocation.swift; sourceTree = "<group>"; };
+		951C81C22629A7B60098038C /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		951C81C62629A8840098038C /* Coordinate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinate.swift; sourceTree = "<group>"; };
 		9522EBEA2588DC4100E5C4C1 /* QueueUsingStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueUsingStack.swift; sourceTree = "<group>"; };
 		953402BA25AC62A300A854DA /* BuildQueueUsingStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildQueueUsingStack.swift; sourceTree = "<group>"; };
 		953402BE25AC6BEA00A854DA /* MajorityElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajorityElement.swift; sourceTree = "<group>"; };
@@ -568,6 +576,10 @@
 				951C81AE26288DB30098038C /* VideoGame.swift */,
 				951C81B226288DD90098038C /* VideoCase.swift */,
 				951C81B626288EED0098038C /* Box.swift */,
+				951C81BA2629A6530098038C /* Location.swift */,
+				951C81BE2629A7620098038C /* GenLocation.swift */,
+				951C81C22629A7B60098038C /* Address.swift */,
+				951C81C62629A8840098038C /* Coordinate.swift */,
 			);
 			path = MasteringGenerics;
 			sourceTree = "<group>";
@@ -717,6 +729,7 @@
 				951C818D262887D90098038C /* DrivableProtocol.swift in Sources */,
 				1D3E81CB25B37CB900E1E732 /* FindTheLargestNumberInArray.swift in Sources */,
 				1D12575B25A5EDCD008A2262 /* SockPairs.swift in Sources */,
+				951C81C32629A7B60098038C /* Address.swift in Sources */,
 				1D12577725A6F2E8008A2262 /* MakingProgress.swift in Sources */,
 				1D919C8725B02E990098C714 /* ReturnTheFirstElementInAnArray.swift in Sources */,
 				1D784D0225ADE1100038EA3A /* ReverseCodingChallenge.swift in Sources */,
@@ -728,6 +741,7 @@
 				1D653DB72552A26A008397A4 /* MigratoryBirds.swift in Sources */,
 				1D12578725A70785008A2262 /* IntegerDigitsCount.swift in Sources */,
 				953402CF25AC823500A854DA /* ContainsDuplicate.swift in Sources */,
+				951C81C72629A8840098038C /* Coordinate.swift in Sources */,
 				1D1CE77025547A5600DB4287 /* DayOfTheProgrammer.swift in Sources */,
 				1DBB78A8254DF36B00DD4CAA /* ContentView.swift in Sources */,
 				1D3E81BB25B30BB300E1E732 /* CheckIfTheSameCase.swift in Sources */,
@@ -753,6 +767,7 @@
 				1D784D1225ADE5C00038EA3A /* PerfectNumber.swift in Sources */,
 				1D784CCA25AAEA390038EA3A /* FilterOutStringFromAnArray.swift in Sources */,
 				95A222942577810A002FCA87 /* PickingNumbers.swift in Sources */,
+				951C81BB2629A6530098038C /* Location.swift in Sources */,
 				1D784CAA25A9ADC70038EA3A /* HurdleJump.swift in Sources */,
 				951C819B2628885D0098038C /* Tractor.swift in Sources */,
 				95D5512525AC564F003E903A /* UniqueEmailAddresses.swift in Sources */,
@@ -818,6 +833,7 @@
 				1D28932825AED7B800139F38 /* GetTheSumOfAllArrayElements.swift in Sources */,
 				1DE74B79256ACC5700313838 /* CutSticks.swift in Sources */,
 				951C818126287B020098038C /* MasteringGenerics.swift in Sources */,
+				951C81BF2629A7620098038C /* GenLocation.swift in Sources */,
 				951C81A726288CDF0098038C /* Storage.swift in Sources */,
 				95A222CA257CC33D002FCA87 /* SequenceEquation.swift in Sources */,
 				95D5512125AC4D01003E903A /* Logger.swift in Sources */,
