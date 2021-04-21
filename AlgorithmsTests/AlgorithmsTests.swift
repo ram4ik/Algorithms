@@ -304,4 +304,11 @@ class AlgorithmsTests: XCTestCase {
         
         XCTAssertEqual(elements, newArray)
     }
+    
+    func testFlatArray() {
+        let fa = FlatArray()
+        let a: [Any] = [1,2,3,[4,5],[6,7,[8,9,10]],11]
+        
+        XCTAssertEqual(fa.solution(a), [1,2,3,4,5,6,7,8,9,10,11])
+    }
 }
