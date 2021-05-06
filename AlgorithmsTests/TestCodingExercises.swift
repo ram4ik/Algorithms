@@ -713,4 +713,12 @@ class TestCodingExercises: XCTestCase {
         XCTAssertEqual(l.lessThan(22, 42), true)
         XCTAssertEqual(l.lessThan(99, 2), false)
     }
+    
+    func testTwoNumberSum() {
+        let tns = TwoNumberSum()
+        let arr = [3, 5, -4, 8, 11, 1, -1, 6]
+        let sum = 10
+        
+        XCTAssertEqual(tns.contains(arr: arr, sum: sum), [11, -1])
+    }
 }
