@@ -20,6 +20,6 @@ class TwoNumberSum {
                 hashMap.append(num)
             }
         }
-        return hashMap
+        return []
     }
 }

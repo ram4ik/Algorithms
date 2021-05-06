@@ -717,8 +717,9 @@ class TestCodingExercises: XCTestCase {
     func testTwoNumberSum() {
         let tns = TwoNumberSum()
         let arr = [3, 5, -4, 8, 11, 1, -1, 6]
-        let sum = 10
         
-        XCTAssertEqual(tns.contains(arr: arr, sum: sum), [11, -1])
+        XCTAssertEqual(tns.contains(arr: arr, sum: 10), [11, -1])
+        XCTAssertEqual(tns.contains(arr: arr, sum: 14), [3, 11])
+        XCTAssertEqual(tns.contains(arr: arr, sum: 42), [])
     }
 }
