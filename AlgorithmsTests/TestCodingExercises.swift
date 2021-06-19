@@ -722,4 +722,12 @@ class TestCodingExercises: XCTestCase {
         XCTAssertEqual(tns.contains(arr: arr, sum: 14), [3, 11])
         XCTAssertEqual(tns.contains(arr: arr, sum: 42), [])
     }
+    
+    func testIsValidPalindrome() {
+        
+        let ipv = Palindrome()
+        let palindrome = "A man, a plan, a canal: Panama"
+        
+        XCTAssertTrue(ipv.isValid(palindrome))
+    }
 }

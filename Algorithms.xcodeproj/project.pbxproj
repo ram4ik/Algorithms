@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D10C20C267E3C4A00B971E3 /* Palindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D10C20B267E3C4A00B971E3 /* Palindrome.swift */; };
 		1D11DEBB25582239008C0695 /* BillDivision.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D11DEBA25582239008C0695 /* BillDivision.swift */; };
 		1D12575B25A5EDCD008A2262 /* SockPairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D12575A25A5EDCD008A2262 /* SockPairs.swift */; };
 		1D12575F25A651A5008A2262 /* LeftSideRightSide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D12575E25A651A5008A2262 /* LeftSideRightSide.swift */; };
@@ -179,6 +180,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D10C20B267E3C4A00B971E3 /* Palindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palindrome.swift; sourceTree = "<group>"; };
 		1D11DEBA25582239008C0695 /* BillDivision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillDivision.swift; sourceTree = "<group>"; };
 		1D12575A25A5EDCD008A2262 /* SockPairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SockPairs.swift; sourceTree = "<group>"; };
 		1D12575E25A651A5008A2262 /* LeftSideRightSide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSideRightSide.swift; sourceTree = "<group>"; };
@@ -438,6 +440,7 @@
 				1D3E81D625B384AA00E1E732 /* ComparingStringsByCountingOfCharacters.swift */,
 				1D3E81DA25B4513D00E1E732 /* LessThan100.swift */,
 				95468ADF26443B7B003563FB /* TwoNumberSum.swift */,
+				1D10C20B267E3C4A00B971E3 /* Palindrome.swift */,
 			);
 			path = CodingExercises;
 			sourceTree = "<group>";
@@ -870,6 +873,7 @@
 				1D28932425AED66900139F38 /* FindThePerimeterOfARectangle.swift in Sources */,
 				1DF1A79425CBD74300B347C8 /* LinkedList.swift in Sources */,
 				1D784CC625AAE7760038EA3A /* ArrayOfMultiples.swift in Sources */,
+				1D10C20C267E3C4A00B971E3 /* Palindrome.swift in Sources */,
 				95E50367256518E700DDD45F /* HalloweenSale.swift in Sources */,
 				1DE140BC255C55E700C415E6 /* FindDigits.swift in Sources */,
 				1D3E81BF25B3761600E1E732 /* EliminateOddNumbersWithinAnArray.swift in Sources */,
