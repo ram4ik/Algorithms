@@ -157,6 +157,8 @@
 		95A222A12578FD3E002FCA87 /* ElectronicsShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A222A02578FD3E002FCA87 /* ElectronicsShop.swift */; };
 		95A222C6257A2AEC002FCA87 /* DrawingBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A222C5257A2AEC002FCA87 /* DrawingBook.swift */; };
 		95A222CA257CC33D002FCA87 /* SequenceEquation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A222C9257CC33D002FCA87 /* SequenceEquation.swift */; };
+		95C16F54277F8BBC004000B1 /* SpiralTraverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C16F53277F8BBC004000B1 /* SpiralTraverse.swift */; };
+		95C16F56277F8E54004000B1 /* TestMeta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C16F55277F8E54004000B1 /* TestMeta.swift */; };
 		95D5511525AC4183003E903A /* Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D5511425AC4183003E903A /* Intro.swift */; };
 		95D5511D25AC42EB003E903A /* TestAlgorithmsDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D5511C25AC42EB003E903A /* TestAlgorithmsDesign.swift */; };
 		95D5512125AC4D01003E903A /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D5512025AC4D01003E903A /* Logger.swift */; };
@@ -334,6 +336,8 @@
 		95A222A02578FD3E002FCA87 /* ElectronicsShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectronicsShop.swift; sourceTree = "<group>"; };
 		95A222C5257A2AEC002FCA87 /* DrawingBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingBook.swift; sourceTree = "<group>"; };
 		95A222C9257CC33D002FCA87 /* SequenceEquation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceEquation.swift; sourceTree = "<group>"; };
+		95C16F53277F8BBC004000B1 /* SpiralTraverse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiralTraverse.swift; sourceTree = "<group>"; };
+		95C16F55277F8E54004000B1 /* TestMeta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMeta.swift; sourceTree = "<group>"; };
 		95D5511425AC4183003E903A /* Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intro.swift; sourceTree = "<group>"; };
 		95D5511C25AC42EB003E903A /* TestAlgorithmsDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAlgorithmsDesign.swift; sourceTree = "<group>"; };
 		95D5512025AC4D01003E903A /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
@@ -474,6 +478,7 @@
 		1DBB78A4254DF36B00DD4CAA /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				95C16F52277F8B9A004000B1 /* Meta */,
 				951C817F26287AE60098038C /* MasteringGenerics */,
 				1DF1A79225CBD72200B347C8 /* Book */,
 				1D8F252A25C6A2E000B256C5 /* Arcade */,
@@ -557,6 +562,7 @@
 				1D8F253125C6C30300B256C5 /* TestRecursionInTheWorkplace.swift */,
 				1DF1A79725CBD80500B347C8 /* TestLinkedList.swift */,
 				951C818426287BEB0098038C /* TestMasteringGenerics.swift */,
+				95C16F55277F8E54004000B1 /* TestMeta.swift */,
 			);
 			path = AlgorithmsTests;
 			sourceTree = "<group>";
@@ -612,6 +618,14 @@
 				95EA15BB25C0118F006CEBF7 /* Queue.swift */,
 			);
 			path = DataStructures;
+			sourceTree = "<group>";
+		};
+		95C16F52277F8B9A004000B1 /* Meta */ = {
+			isa = PBXGroup;
+			children = (
+				95C16F53277F8BBC004000B1 /* SpiralTraverse.swift */,
+			);
+			path = Meta;
 			sourceTree = "<group>";
 		};
 		95D5511325AC4166003E903A /* AlgorithmsDesign */ = {
@@ -857,6 +871,7 @@
 				1D672B58255A7BEF007F998D /* HurdleRace.swift in Sources */,
 				1D12576325A656EF008A2262 /* ClosestPalindromeNumber.swift in Sources */,
 				1D784CCE25AB76EF0038EA3A /* ATMPINCodeValidation.swift in Sources */,
+				95C16F54277F8BBC004000B1 /* SpiralTraverse.swift in Sources */,
 				951C81972628884F0098038C /* Truck.swift in Sources */,
 				1D784CFE25ADDC040038EA3A /* XandYCoordinates.swift in Sources */,
 				1D784CAE25A9AF3E0038EA3A /* ProfitableGamble.swift in Sources */,
@@ -887,6 +902,7 @@
 			files = (
 				1DBB78C0254DF60F00DD4CAA /* AlgorithmsTests.swift in Sources */,
 				95EA15C225C01311006CEBF7 /* TestQueue&Stack.swift in Sources */,
+				95C16F56277F8E54004000B1 /* TestMeta.swift in Sources */,
 				1DF1A79825CBD80500B347C8 /* TestLinkedList.swift in Sources */,
 				95EA15B625C000C5006CEBF7 /* TestStack.swift in Sources */,
 				1D386C2C25A3AD9F004A457B /* TestCodingExercises.swift in Sources */,
