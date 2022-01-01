@@ -144,6 +144,7 @@
 		953402CF25AC823500A854DA /* ContainsDuplicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953402CE25AC823500A854DA /* ContainsDuplicate.swift */; };
 		95340AF326309CF700C2F124 /* FlatArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95340AF226309CF700C2F124 /* FlatArray.swift */; };
 		95468AE026443B7B003563FB /* TwoNumberSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95468ADF26443B7B003563FB /* TwoNumberSum.swift */; };
+		9551BDE52780B78700370D49 /* CountIslands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9551BDE42780B78700370D49 /* CountIslands.swift */; };
 		9570677825B6FEE500657E66 /* Bubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9570677725B6FEE500657E66 /* Bubble.swift */; };
 		9570677C25B7004700657E66 /* TestEdu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9570677B25B7004700657E66 /* TestEdu.swift */; };
 		9570678025B7025500657E66 /* Selection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9570677F25B7025500657E66 /* Selection.swift */; };
@@ -323,6 +324,7 @@
 		953402CE25AC823500A854DA /* ContainsDuplicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainsDuplicate.swift; sourceTree = "<group>"; };
 		95340AF226309CF700C2F124 /* FlatArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlatArray.swift; sourceTree = "<group>"; };
 		95468ADF26443B7B003563FB /* TwoNumberSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoNumberSum.swift; sourceTree = "<group>"; };
+		9551BDE42780B78700370D49 /* CountIslands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountIslands.swift; sourceTree = "<group>"; };
 		9570677725B6FEE500657E66 /* Bubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bubble.swift; sourceTree = "<group>"; };
 		9570677B25B7004700657E66 /* TestEdu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestEdu.swift; sourceTree = "<group>"; };
 		9570677F25B7025500657E66 /* Selection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Selection.swift; sourceTree = "<group>"; };
@@ -624,6 +626,7 @@
 			isa = PBXGroup;
 			children = (
 				95C16F53277F8BBC004000B1 /* SpiralTraverse.swift */,
+				9551BDE42780B78700370D49 /* CountIslands.swift */,
 			);
 			path = Meta;
 			sourceTree = "<group>";
@@ -795,6 +798,7 @@
 				951C81BB2629A6530098038C /* Location.swift in Sources */,
 				1D784CAA25A9ADC70038EA3A /* HurdleJump.swift in Sources */,
 				951C819B2628885D0098038C /* Tractor.swift in Sources */,
+				9551BDE52780B78700370D49 /* CountIslands.swift in Sources */,
 				95D5512525AC564F003E903A /* UniqueEmailAddresses.swift in Sources */,
 				1D3E819725B1948700E1E732 /* ReturnSomethingToMe.swift in Sources */,
 				1DD954E92573BD1D0096FB3B /* AngryProfessor .swift in Sources */,

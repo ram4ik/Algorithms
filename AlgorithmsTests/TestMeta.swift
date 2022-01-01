@@ -20,5 +20,29 @@ class TestMeta: XCTestCase {
         let st = SpiralTraverse()
         XCTAssertEqual(st.spiralTraverse(matrix), [1, 2, 3, 6, 9, 8, 7, 4, 5])
     }
+    
+    let grid = [
+        ["1", "1", "1", "1", "0"],
+        ["1", "1", "0", "1", "0"],
+        ["1", "1", "0", "0", "0"],
+        ["0", "0", "0", "0", "0"],
+    ]
+    
+    func testCountIsland() {
+        let ci = CountIslands()
+        XCTAssertEqual(ci.countIslands(grid), 1)
+    }
+    
+    let grid2 = [
+        ["1", "1", "1", "1", "0"],
+        ["1", "1", "0", "1", "0"],
+        ["1", "1", "0", "0", "1"],
+        ["0", "0", "1", "0", "1"],
+    ]
+    
+    func testCountIsland2() {
+        let ci = CountIslands()
+        XCTAssertEqual(ci.countIslands(grid2), 3)
+    }
 
 }
