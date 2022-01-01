@@ -44,5 +44,20 @@ class TestMeta: XCTestCase {
         let ci = CountIslands()
         XCTAssertEqual(ci.countIslands(grid2), 3)
     }
+    
+    let triangle = [
+        [1],
+        [1, 1],
+        [1, 2, 1],
+        [1, 3, 3, 1],
+        [1, 4, 6, 4, 1]
+    ]
+    
+    func testPascalTriangle() {
+        
+        let pt = PascalsTriangle()
+        
+        XCTAssertEqual(pt.solve(5), triangle)
+    }
 
 }
