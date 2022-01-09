@@ -60,4 +60,12 @@ class TestMeta: XCTestCase {
         XCTAssertEqual(pt.solve(5), triangle)
     }
 
+    func testMergeInvervals() {
+        
+        let intervals = [[1, 3], [2, 6], [8, 10], [15, 18]]
+        let output = [[1, 6], [8, 10], [15, 18]]
+        
+        let mi = MergeInvervals()
+        XCTAssertEqual(mi.solve(intervals), output)
+    }
 }

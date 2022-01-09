@@ -135,6 +135,7 @@
 		951C81BF2629A7620098038C /* GenLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951C81BE2629A7620098038C /* GenLocation.swift */; };
 		951C81C32629A7B60098038C /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951C81C22629A7B60098038C /* Address.swift */; };
 		951C81C72629A8840098038C /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951C81C62629A8840098038C /* Coordinate.swift */; };
+		951CECA9278B49530048150E /* MergeInvervals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951CECA8278B49530048150E /* MergeInvervals.swift */; };
 		9522EBEB2588DC4100E5C4C1 /* QueueUsingStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9522EBEA2588DC4100E5C4C1 /* QueueUsingStack.swift */; };
 		953402BB25AC62A300A854DA /* BuildQueueUsingStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953402BA25AC62A300A854DA /* BuildQueueUsingStack.swift */; };
 		953402BF25AC6BEA00A854DA /* MajorityElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953402BE25AC6BEA00A854DA /* MajorityElement.swift */; };
@@ -316,6 +317,7 @@
 		951C81BE2629A7620098038C /* GenLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenLocation.swift; sourceTree = "<group>"; };
 		951C81C22629A7B60098038C /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
 		951C81C62629A8840098038C /* Coordinate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinate.swift; sourceTree = "<group>"; };
+		951CECA8278B49530048150E /* MergeInvervals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeInvervals.swift; sourceTree = "<group>"; };
 		9522EBEA2588DC4100E5C4C1 /* QueueUsingStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueUsingStack.swift; sourceTree = "<group>"; };
 		953402BA25AC62A300A854DA /* BuildQueueUsingStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildQueueUsingStack.swift; sourceTree = "<group>"; };
 		953402BE25AC6BEA00A854DA /* MajorityElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajorityElement.swift; sourceTree = "<group>"; };
@@ -630,6 +632,7 @@
 				95C16F53277F8BBC004000B1 /* SpiralTraverse.swift */,
 				9551BDE42780B78700370D49 /* CountIslands.swift */,
 				9569D8662780E0BE00BFCAC6 /* PascalsTriangle.swift */,
+				951CECA8278B49530048150E /* MergeInvervals.swift */,
 			);
 			path = Meta;
 			sourceTree = "<group>";
@@ -889,6 +892,7 @@
 				951C81AB26288D240098038C /* Bookcase.swift in Sources */,
 				1D265A5E2569C2BE0073C85E /* ServiceLane.swift in Sources */,
 				9586FFE4256BEC210060DC91 /* LibraryFine.swift in Sources */,
+				951CECA9278B49530048150E /* MergeInvervals.swift in Sources */,
 				1D784CD225AB78D10038EA3A /* SliceOfPie.swift in Sources */,
 				1D3BC1FC2568441400E53B15 /* MinimumDistance.swift in Sources */,
 				1D12577F25A704C8008A2262 /* EvenOddPartition.swift in Sources */,
