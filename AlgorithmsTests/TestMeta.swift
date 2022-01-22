@@ -68,4 +68,14 @@ class TestMeta: XCTestCase {
         let mi = MergeInvervals()
         XCTAssertEqual(mi.solve(intervals), output)
     }
+    
+    func testContainerWithMostWater() {
+        
+        let cwmw = ContainerWithMostWater()
+        
+        let input = [1, 8, 6, 2, 5, 4, 8, 3, 7]
+        let output = 49
+        
+        XCTAssertEqual(cwmw.getMaxArea(input), output)
+    }
 }

@@ -156,6 +156,7 @@
 		95860012256CF3060060DC91 /* SherlockAndSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95860011256CF3060060DC91 /* SherlockAndSquare.swift */; };
 		9586FFE4256BEC210060DC91 /* LibraryFine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9586FFE3256BEC210060DC91 /* LibraryFine.swift */; };
 		958B036B255EA7B7005B4538 /* TaumAndBDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958B036A255EA7B7005B4538 /* TaumAndBDay.swift */; };
+		959FBA3B279C7E5500977EA5 /* ContainerWithMostWater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959FBA3A279C7E5500977EA5 /* ContainerWithMostWater.swift */; };
 		95A222942577810A002FCA87 /* PickingNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A222932577810A002FCA87 /* PickingNumbers.swift */; };
 		95A222A12578FD3E002FCA87 /* ElectronicsShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A222A02578FD3E002FCA87 /* ElectronicsShop.swift */; };
 		95A222C6257A2AEC002FCA87 /* DrawingBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A222C5257A2AEC002FCA87 /* DrawingBook.swift */; };
@@ -338,6 +339,7 @@
 		95860011256CF3060060DC91 /* SherlockAndSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SherlockAndSquare.swift; sourceTree = "<group>"; };
 		9586FFE3256BEC210060DC91 /* LibraryFine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryFine.swift; sourceTree = "<group>"; };
 		958B036A255EA7B7005B4538 /* TaumAndBDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaumAndBDay.swift; sourceTree = "<group>"; };
+		959FBA3A279C7E5500977EA5 /* ContainerWithMostWater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerWithMostWater.swift; sourceTree = "<group>"; };
 		95A222932577810A002FCA87 /* PickingNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickingNumbers.swift; sourceTree = "<group>"; };
 		95A222A02578FD3E002FCA87 /* ElectronicsShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectronicsShop.swift; sourceTree = "<group>"; };
 		95A222C5257A2AEC002FCA87 /* DrawingBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingBook.swift; sourceTree = "<group>"; };
@@ -633,6 +635,7 @@
 				9551BDE42780B78700370D49 /* CountIslands.swift */,
 				9569D8662780E0BE00BFCAC6 /* PascalsTriangle.swift */,
 				951CECA8278B49530048150E /* MergeInvervals.swift */,
+				959FBA3A279C7E5500977EA5 /* ContainerWithMostWater.swift */,
 			);
 			path = Meta;
 			sourceTree = "<group>";
@@ -878,6 +881,7 @@
 				1DB426742561C20800647529 /* BeautifulTriplets.swift in Sources */,
 				9515CF3825666A310061796F /* ChocolateFeast.swift in Sources */,
 				953402BF25AC6BEA00A854DA /* MajorityElement.swift in Sources */,
+				959FBA3B279C7E5500977EA5 /* ContainerWithMostWater.swift in Sources */,
 				1D672B58255A7BEF007F998D /* HurdleRace.swift in Sources */,
 				1D12576325A656EF008A2262 /* ClosestPalindromeNumber.swift in Sources */,
 				1D784CCE25AB76EF0038EA3A /* ATMPINCodeValidation.swift in Sources */,
