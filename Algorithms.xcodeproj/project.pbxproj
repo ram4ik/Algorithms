@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -116,6 +116,8 @@
 		1DF1A79825CBD80500B347C8 /* TestLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF1A79725CBD80500B347C8 /* TestLinkedList.swift */; };
 		1DF44EBF2570263000232DD4 /* SaveThePrisoner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF44EBE2570263000232DD4 /* SaveThePrisoner.swift */; };
 		1DF44EFB25725FA900232DD4 /* BeautifulDaysAtTheMovies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF44EFA25725FA900232DD4 /* BeautifulDaysAtTheMovies.swift */; };
+		5EAF56272AA3B10300CD1D03 /* LeetcodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAF56262AA3B10300CD1D03 /* LeetcodeTests.swift */; };
+		5EAF56292AA3B12B00CD1D03 /* Leetcode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAF56282AA3B12B00CD1D03 /* Leetcode.swift */; };
 		9515CF3825666A310061796F /* ChocolateFeast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9515CF3725666A310061796F /* ChocolateFeast.swift */; };
 		951C818126287B020098038C /* MasteringGenerics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951C818026287B020098038C /* MasteringGenerics.swift */; };
 		951C818526287BEB0098038C /* TestMasteringGenerics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951C818426287BEB0098038C /* TestMasteringGenerics.swift */; };
@@ -299,6 +301,8 @@
 		1DF1A79725CBD80500B347C8 /* TestLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLinkedList.swift; sourceTree = "<group>"; };
 		1DF44EBE2570263000232DD4 /* SaveThePrisoner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveThePrisoner.swift; sourceTree = "<group>"; };
 		1DF44EFA25725FA900232DD4 /* BeautifulDaysAtTheMovies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeautifulDaysAtTheMovies.swift; sourceTree = "<group>"; };
+		5EAF56262AA3B10300CD1D03 /* LeetcodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetcodeTests.swift; sourceTree = "<group>"; };
+		5EAF56282AA3B12B00CD1D03 /* Leetcode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leetcode.swift; sourceTree = "<group>"; };
 		9515CF3725666A310061796F /* ChocolateFeast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChocolateFeast.swift; sourceTree = "<group>"; };
 		951C818026287B020098038C /* MasteringGenerics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasteringGenerics.swift; sourceTree = "<group>"; };
 		951C818426287BEB0098038C /* TestMasteringGenerics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMasteringGenerics.swift; sourceTree = "<group>"; };
@@ -486,6 +490,7 @@
 		1DBB78A4254DF36B00DD4CAA /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				5EAF56252AA3B0E600CD1D03 /* Leetcode */,
 				95C16F52277F8B9A004000B1 /* Meta */,
 				951C817F26287AE60098038C /* MasteringGenerics */,
 				1DF1A79225CBD72200B347C8 /* Book */,
@@ -571,6 +576,7 @@
 				1DF1A79725CBD80500B347C8 /* TestLinkedList.swift */,
 				951C818426287BEB0098038C /* TestMasteringGenerics.swift */,
 				95C16F55277F8E54004000B1 /* TestMeta.swift */,
+				5EAF56262AA3B10300CD1D03 /* LeetcodeTests.swift */,
 			);
 			path = AlgorithmsTests;
 			sourceTree = "<group>";
@@ -581,6 +587,14 @@
 				1DF1A79325CBD74300B347C8 /* LinkedList.swift */,
 			);
 			path = Book;
+			sourceTree = "<group>";
+		};
+		5EAF56252AA3B0E600CD1D03 /* Leetcode */ = {
+			isa = PBXGroup;
+			children = (
+				5EAF56282AA3B12B00CD1D03 /* Leetcode.swift */,
+			);
+			path = Leetcode;
 			sourceTree = "<group>";
 		};
 		951C817F26287AE60098038C /* MasteringGenerics */ = {
@@ -700,8 +714,9 @@
 		1DBB789A254DF36B00DD4CAA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1210;
-				LastUpgradeCheck = 1210;
+				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					1DBB78A1254DF36B00DD4CAA = {
 						CreatedOnToolsVersion = 12.1;
@@ -876,6 +891,7 @@
 				95A222CA257CC33D002FCA87 /* SequenceEquation.swift in Sources */,
 				95D5512125AC4D01003E903A /* Logger.swift in Sources */,
 				1D12578325A7066E008A2262 /* TotalVolumeOfAllBoxes.swift in Sources */,
+				5EAF56292AA3B12B00CD1D03 /* Leetcode.swift in Sources */,
 				1DF44EFB25725FA900232DD4 /* BeautifulDaysAtTheMovies.swift in Sources */,
 				1DF44EBF2570263000232DD4 /* SaveThePrisoner.swift in Sources */,
 				1DB426742561C20800647529 /* BeautifulTriplets.swift in Sources */,
@@ -920,6 +936,7 @@
 				95EA15C225C01311006CEBF7 /* TestQueue&Stack.swift in Sources */,
 				95C16F56277F8E54004000B1 /* TestMeta.swift in Sources */,
 				1DF1A79825CBD80500B347C8 /* TestLinkedList.swift in Sources */,
+				5EAF56272AA3B10300CD1D03 /* LeetcodeTests.swift in Sources */,
 				95EA15B625C000C5006CEBF7 /* TestStack.swift in Sources */,
 				1D386C2C25A3AD9F004A457B /* TestCodingExercises.swift in Sources */,
 				951C818526287BEB0098038C /* TestMasteringGenerics.swift in Sources */,
